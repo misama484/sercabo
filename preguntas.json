@@ -1,0 +1,695 @@
+[
+  {
+    "pregunta": "¿Cuál es el objeto principal de la ley orgánica que regula los derechos y deberes de los miembros de las Fuerzas Armadas, según el Artículo 1 de '10derechos y deberes.pdf'?",
+    "opciones": {
+      "A": "Establecer el código penal militar.",
+      "B": "Regular el ejercicio de los derechos fundamentales y libertades públicas y los deberes de carácter profesional.",
+      "C": "Definir la estructura orgánica de las Fuerzas Armadas.",
+      "D": "Gestionar el sistema de ascensos y promociones."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[1]"
+  },
+  {
+    "pregunta": "¿Quiénes son los destinatarios de la Ley orgánica 9/2011, de 27 de julio, según el Artículo 2 de '10derechos y deberes.pdf'?",
+    "opciones": {
+      "A": "Solo los militares de carrera.",
+      "B": "Todos los miembros de las Fuerzas Armadas que adquieren la condición militar, reservistas y aspirantes a tal condición.",
+      "C": "Únicamente el personal civil al servicio de la Administración militar.",
+      "D": "Solo los militares en la reserva activa."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[1]"
+  },
+  {
+    "pregunta": "Según el Artículo 4 de '10derechos y deberes.pdf', ¿sobre qué aspectos no se puede discriminar en las Fuerzas Armadas?",
+    "opciones": {
+      "A": "Antigüedad, destino o empleo.",
+      "B": "Grado, especialidad o función.",
+      "C": "Razón de nacimiento, origen racial o étnico, género, sexo, orientación sexual, religión, convicciones, opinión o cualquier otra condición o circunstancia personal o social.",
+      "D": "Aptitud psicofísica."
+    },
+    "respuesta_correcta": "C",
+    "fuentes": "[1]"
+  },
+  {
+    "pregunta": "Una de las reglas esenciales que definen el comportamiento del militar, según el Artículo 6 de '10derechos y deberes.pdf', es la disposición permanente para defender a España. ¿Qué implica esto?",
+    "opciones": {
+      "A": "Realizar únicamente misiones en territorio nacional.",
+      "B": "Ofrecer su vida si fuera necesario, constituyendo su primer y más fundamental deber.",
+      "C": "Apoyar solo a las fuerzas de seguridad nacionales.",
+      "D": "Participar en operaciones internacionales exclusivamente."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[2]"
+  },
+  {
+    "pregunta": "¿Qué principio debe orientar el comportamiento del militar en el ejercicio del mando, según el Artículo 6 de '10derechos y deberes.pdf'?",
+    "opciones": {
+      "A": "Independencia de las normas.",
+      "B": "Estricto respeto al orden jerárquico militar.",
+      "C": "Priorización de la iniciativa personal.",
+      "D": "Actuación discrecional en todo momento."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[2]"
+  },
+  {
+    "pregunta": "Según el Artículo 7 de '10derechos y deberes.pdf', ¿está permitido a los militares afiliarse a partidos políticos?",
+    "opciones": {
+      "A": "Sí, siempre que no ejerzan cargos directivos.",
+      "B": "No, el militar está sujeto al deber de neutralidad política.",
+      "C": "Sí, siempre que no manifiesten públicamente sus opiniones.",
+      "D": "Solo los reservistas pueden afiliarse."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[3]"
+  },
+  {
+    "pregunta": "¿Puede un militar ejercer el derecho de sindicación según el Artículo 7 de '10derechos y deberes.pdf'?",
+    "opciones": {
+      "A": "Sí, sin restricciones.",
+      "B": "No, pero pueden crear asociaciones profesionales.",
+      "C": "Sí, pero solo dentro de asociaciones profesionales militares.",
+      "D": "No, no podrá ejercer el derecho de sindicación."
+    },
+    "respuesta_correcta": "D",
+    "fuentes": "[3]"
+  },
+  {
+    "pregunta": "Según el Artículo 8 de '10derechos y deberes.pdf', ¿la libertad de expresión de los miembros de las Fuerzas Armadas es ilimitada?",
+    "opciones": {
+      "A": "Sí, es ilimitada como para cualquier ciudadano.",
+      "B": "No, solo podrán ser privados de su libertad en los casos previstos por las leyes y en la forma que éstas dispongan.",
+      "C": "Sí, excepto en lo que afecte a la seguridad nacional.",
+      "D": "No, está sujeta a las leyes penales y disciplinarias militares."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[4]"
+  },
+  {
+    "pregunta": "¿Qué derecho tienen los miembros de las Fuerzas Armadas respecto a la intimidad personal, según el Artículo 10 de '10derechos y deberes.pdf'?",
+    "opciones": {
+      "A": "Su intimidad personal puede ser investigada sin restricciones.",
+      "B": "Tienen derecho a la intimidad personal en el ejercicio y salvaguarda de este derecho en las circunstancias que tengan lugar las operaciones.",
+      "C": "No tienen derecho a la intimidad personal en las instalaciones militares.",
+      "D": "Solo se respeta su intimidad fuera del servicio."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[4]"
+  },
+  {
+    "pregunta": "Según el Artículo 11 de '10derechos y deberes.pdf', ¿bajo qué condición un militar puede desplazarse libremente por el territorio nacional?",
+    "opciones": {
+      "A": "Siempre, sin ninguna restricción.",
+      "B": "Sin perjuicio de las limitaciones derivadas de las exigencias del deber de disponibilidad permanente a que se refiere el artículo 22.",
+      "C": "Solo con autorización expresa de su superior.",
+      "D": "Únicamente durante los periodos de vacaciones."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[4]"
+  },
+  {
+    "pregunta": "El derecho de reunión y manifestación en las Fuerzas Armadas, según el Artículo 13 de '10derechos y deberes.pdf', ¿puede ser ejercido libremente?",
+    "opciones": {
+      "A": "Sí, siempre que no sea en instalaciones militares.",
+      "B": "No, los miembros de las Fuerzas Armadas no podrán organizar ni participar en reuniones o manifestaciones de carácter político o sindical.",
+      "C": "Sí, siempre que se comunique previamente.",
+      "D": "Solo se permite en actos oficiales."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[5]"
+  },
+  {
+    "pregunta": "¿Pueden los miembros de las Fuerzas Armadas afiliarse a asociaciones profesionales según el Artículo 14 de '10derechos y deberes.pdf'?",
+    "opciones": {
+      "A": "Sí, sin restricciones.",
+      "B": "No, está prohibido cualquier tipo de asociación.",
+      "C": "Sí, siempre que tengan como fin la defensa de sus intereses profesionales y los derechos establecidos en esta ley orgánica.",
+      "D": "Solo pueden afiliarse a sindicatos."
+    },
+    "respuesta_correcta": "C",
+    "fuentes": "[5]"
+  },
+  {
+    "pregunta": "Según el Artículo 15 de '10derechos y deberes.pdf', ¿quién establece los procedimientos y medios necesarios para facilitar el voto de los militares en cualquier destino o misión?",
+    "opciones": {
+      "A": "Las juntas de personal.",
+      "B": "Las autoridades competentes y los mandos militares.",
+      "C": "El Ministerio del Interior.",
+      "D": "La Junta Electoral Central."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[5]"
+  },
+  {
+    "pregunta": "El derecho de petición de los miembros de las Fuerzas Armadas se ejerce, según el Artículo 16 de '10derechos y deberes.pdf', ¿de qué forma?",
+    "opciones": {
+      "A": "Colectivamente, por medio de asociaciones.",
+      "B": "Individualmente y por escrito, de acuerdo con las formalidades que señala la Ley Orgánica 4/2001, de 12 de noviembre, reguladora del Derecho de Petición.",
+      "C": "Verbalmente, ante cualquier superior.",
+      "D": "A través de los cauces sindicales."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[5]"
+  },
+  {
+    "pregunta": "¿Cuál es el principal órgano de interlocución colectiva de los miembros de las Fuerzas Armadas con el Ministerio de Defensa, según el Artículo 55 de '10derechos y deberes.pdf'?",
+    "opciones": {
+      "A": "Las asociaciones profesionales.",
+      "B": "El Congreso de los Diputados.",
+      "C": "El Observatorio de la vida militar.",
+      "D": "El Consejo de Personal de las Fuerzas Armadas."
+    },
+    "respuesta_correcta": "D",
+    "fuentes": "[6]"
+  },
+  {
+    "pregunta": "Según el Artículo 56 de '10derechos y deberes.pdf', ¿quién preside el Consejo de Personal de las Fuerzas Armadas?",
+    "opciones": {
+      "A": "El Jefe de Estado Mayor de la Defensa.",
+      "B": "El Ministro de Defensa o la persona en quien delegue.",
+      "C": "Un representante de las asociaciones profesionales.",
+      "D": "El Director General de Personal."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[6]"
+  },
+  {
+    "pregunta": "¿Qué tipo de normas se aplican a las infracciones disciplinarias cometidas por los miembros de las Fuerzas Armadas y de la Guardia Civil, según el Artículo 1 del Código Penal Militar [7]?",
+    "opciones": {
+      "A": "Solo las leyes ordinarias.",
+      "B": "Las disposiciones del Código Penal.",
+      "C": "El Reglamento Disciplinario.",
+      "D": "El Código Civil."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[7]"
+  },
+  {
+    "pregunta": "¿A quiénes se aplicará el Código Penal Militar según el Artículo 2 [7]?",
+    "opciones": {
+      "A": "Únicamente al personal militar en activo.",
+      "B": "Solo a los alumnos de los centros docentes militares de formación.",
+      "C": "A los militares profesionales con las Fuerzas Armadas o con la Guardia Civil que tengan su condición en suspenso, a los reservistas y a los alumnos de centros militares de formación.",
+      "D": "Al personal civil al servicio de la Defensa."
+    },
+    "respuesta_correcta": "C",
+    "fuentes": "[7]"
+  },
+  {
+    "pregunta": "Según el Artículo 11 del Código Penal Militar [8], ¿cuál es la pena de privación de libertad más grave aplicable?",
+    "opciones": {
+      "A": "Un mes.",
+      "B": "Dos meses y un día.",
+      "C": "Seis meses.",
+      "D": "Dos meses y un día a dos años."
+    },
+    "respuesta_correcta": "D",
+    "fuentes": "[8]"
+  },
+  {
+    "pregunta": "El delito de traición, según el Artículo 24 del Código Penal Militar [9], ¿conlleva alguna pena de prisión específica para el militar que, con propósito de favorecer al enemigo, ejercite la fuerza o cometa actos de hostilidad?",
+    "opciones": {
+      "A": "Sí, de quince a veinticinco años.",
+      "B": "No, solo una reprimenda.",
+      "C": "Sí, de seis meses a dos años.",
+      "D": "Solo la pérdida de empleo."
+    },
+    "respuesta_correcta": "A",
+    "fuentes": "[9]"
+  },
+  {
+    "pregunta": "¿Cuál es la pena de prisión para el delito de espionaje cometido por un extranjero, según el Artículo 25 del Código Penal Militar [9]?",
+    "opciones": {
+      "A": "De seis meses a un año.",
+      "B": "De diez a veinte años.",
+      "C": "Una multa económica.",
+      "D": "Pérdida de empleo."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[9]"
+  },
+  {
+    "pregunta": "Según el Artículo 36 del Código Penal Militar [10], ¿qué pena se impone al militar que ofendiere o ultrajare a España, su Bandera, Himno o alguno de sus símbolos o emblemas?",
+    "opciones": {
+      "A": "Una multa.",
+      "B": "Tres meses y un día a seis meses de prisión.",
+      "C": "Una reprimenda.",
+      "D": "Pérdida de empleo."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[10]"
+  },
+  {
+    "pregunta": "El delito de sedición militar, según el Artículo 40 del Código Penal Militar [11], ¿con qué pena se castiga a quienes depusieren su actitud a la primera intimación?",
+    "opciones": {
+      "A": "Con la pena en grado superior.",
+      "B": "Con la pena en grado inferior en uno o dos grados.",
+      "C": "Con la pena máxima.",
+      "D": "No tiene pena."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[11]"
+  },
+  {
+    "pregunta": "Según el Artículo 48 del Código Penal Militar [12], ¿cómo se castigan los actos que supongan discriminación por razón de nacimiento, origen racial o étnico, género, sexo, orientación sexual, religión, convicciones, opinión o cualquier otra condición o circunstancia personal o social?",
+    "opciones": {
+      "A": "Con una reprimenda.",
+      "B": "Con pena de seis meses a cuatro años de prisión, pudiendo imponerse, además, la pena de pérdida de empleo.",
+      "C": "Con una multa económica.",
+      "D": "Solo con la pérdida de destino."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[12]"
+  },
+  {
+    "pregunta": "¿Cuál es el objeto de la Ley Orgánica 5/2005, de 17 de noviembre, de la Defensa Nacional, según el Artículo 1 de '8_ORGANIZACION FAS.pdf'?",
+    "opciones": {
+      "A": "Establecer los derechos y deberes de los militares.",
+      "B": "Regular las bases de la organización militar conforme a los principios de la presente Constitución.",
+      "C": "Definir los delitos militares.",
+      "D": "Establecer el régimen disciplinario."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[13]"
+  },
+  {
+    "pregunta": "Según el Artículo 8 de '8_ORGANIZACION FAS.pdf', ¿quién ostenta la Dirección política de la Defensa?",
+    "opciones": {
+      "A": "El Rey.",
+      "B": "El Jefe de Estado Mayor de la Defensa (JEMAD).",
+      "C": "El Presidente del Gobierno.",
+      "D": "El Ministro de Defensa."
+    },
+    "respuesta_correcta": "D",
+    "fuentes": "[13]"
+  },
+  {
+    "pregunta": "La estructura de las Fuerzas Armadas se organiza en tres niveles, según el Artículo 8 de '8_ORGANIZACION FAS.pdf'. ¿Cuáles son?",
+    "opciones": {
+      "A": "Nivel Político, Nivel Social y Nivel Militar.",
+      "B": "Nivel Estratégico, Nivel Operacional y Nivel Táctico.",
+      "C": "Nivel Terrestre, Nivel Naval y Nivel Aéreo.",
+      "D": "Nivel Central, Nivel Regional y Nivel Local."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[14]"
+  },
+  {
+    "pregunta": "¿De quién depende orgánicamente la Unidad Militar de Emergencias (UME) según el Artículo 8 de '8_ORGANIZACION FAS.pdf'?",
+    "opciones": {
+      "A": "Del Jefe de Estado Mayor de la Defensa (JEMAD).",
+      "B": "Del Ministro del Interior.",
+      "C": "Directamente del Presidente del Gobierno.",
+      "D": "Del Jefe de Estado Mayor del Ejército de Tierra."
+    },
+    "respuesta_correcta": "C",
+    "fuentes": "[14]"
+  },
+  {
+    "pregunta": "Según el Artículo 8 de '8_ORGANIZACION FAS.pdf', ¿cuáles son los tres Ejércitos que componen la estructura orgánica de las Fuerzas Armadas?",
+    "opciones": {
+      "A": "Ejército de Tierra, Armada y Ejército del Aire.",
+      "B": "Ejército de Tierra, Guardia Civil y Ejército del Aire.",
+      "C": "Ejército de Tierra, Armada y Guardia Real.",
+      "D": "Ejército de Tierra, Ejército del Aire y la UME."
+    },
+    "respuesta_correcta": "A",
+    "fuentes": "[15]"
+  },
+  {
+    "pregunta": "El Cuartel General del Ejército de Tierra, según '9_ejercito de tierra.pdf', ¿a quién asesora y apoya directamente?",
+    "opciones": {
+      "A": "Al Ministro de Defensa.",
+      "B": "Al Jefe de Estado Mayor de la Defensa (JEMAD).",
+      "C": "Al Jefe de Estado Mayor del Ejército de Tierra (JEME).",
+      "D": "Al Presidente del Gobierno."
+    },
+    "respuesta_correcta": "C",
+    "fuentes": "[16, 17]"
+  },
+  {
+    "pregunta": "¿Cuál es el propósito principal de la Fuerza Terrestre del Ejército de Tierra según '9_ejercito de tierra.pdf'?",
+    "opciones": {
+      "A": "La gestión de personal.",
+      "B": "La preparación y realización de operaciones militares.",
+      "C": "El apoyo a la logística.",
+      "D": "La administración económica."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[18, 19]"
+  },
+  {
+    "pregunta": "El Apoyo a la Fuerza en el Ejército de Tierra, según '9_ejercito de tierra.pdf', ¿a qué tipo de recursos se refiere principalmente?",
+    "opciones": {
+      "A": "Recursos humanos y financieros.",
+      "B": "Recursos materiales, técnicos y logísticos.",
+      "C": "Recursos de inteligencia.",
+      "D": "Recursos de formación."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[20-22]"
+  },
+  {
+    "pregunta": "La División Castillejos del Ejército de Tierra, según '9_ejercito de tierra.pdf', ¿qué tipo de unidades agrupa?",
+    "opciones": {
+      "A": "Unidades de Apoyo a la Fuerza.",
+      "B": "Unidades de Cuartel General.",
+      "C": "Unidades basadas en brigadas.",
+      "D": "Unidades administrativas."
+    },
+    "respuesta_correcta": "C",
+    "fuentes": "[23]"
+  },
+  {
+    "pregunta": "Según la Ley 39/2007 ('Carrera militar39_2007.pdf'), ¿qué documento regula los principios y reglas de comportamiento del militar?",
+    "opciones": {
+      "A": "El Código Penal Militar.",
+      "B": "Las Reales Ordenanzas para las Fuerzas Armadas.",
+      "C": "El Reglamento Disciplinario.",
+      "D": "La Ley de Derechos y Deberes."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[24, 25]"
+  },
+  {
+    "pregunta": "¿Cuál es el acto formal por el que se adquiere la condición de militar, según la Ley 39/2007 ('Carrera militar39_2007.pdf')?",
+    "opciones": {
+      "A": "La firma del contrato.",
+      "B": "El juramento o promesa ante la Bandera de España.",
+      "C": "La superación del periodo de formación.",
+      "D": "La obtención de un empleo militar."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[24]"
+  },
+  {
+    "pregunta": "Según la Ley 39/2007 ('Carrera militar39_2007.pdf'), ¿qué define la condición de militar de tropa y marinería?",
+    "opciones": {
+      "A": "El tiempo de servicio.",
+      "B": "Un compromiso de larga duración con las Fuerzas Armadas.",
+      "C": "La superación de la formación académica.",
+      "D": "La pertenencia a la escala de suboficiales."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[24, 26]"
+  },
+  {
+    "pregunta": "¿Cuál es el tiempo máximo de duración de un compromiso inicial para los militares de tropa y marinería, según la Ley 8/2006 ('tropa y marineria 08_2006.pdf')?",
+    "opciones": {
+      "A": "Dos años.",
+      "B": "Tres años.",
+      "C": "Máximo de 6 años.",
+      "D": "Cinco años."
+    },
+    "respuesta_correcta": "C",
+    "fuentes": "[26]"
+  },
+  {
+    "pregunta": "Según la Ley 8/2006 ('tropa y marineria 08_2006.pdf'), ¿hasta qué edad se podrá tener la condición de militar de tropa y marinería con un compromiso de larga duración?",
+    "opciones": {
+      "A": "Hasta los 45 años.",
+      "B": "Hasta los 58 años.",
+      "C": "Hasta los 60 años.",
+      "D": "Hasta los 55 años."
+    },
+    "respuesta_correcta": "A",
+    "fuentes": "[26, 27]"
+  },
+  {
+    "pregunta": "El Régimen Disciplinario de las Fuerzas Armadas, según 'REGIMEN DISCIPLINARIO.pdf', ¿qué regula?",
+    "opciones": {
+      "A": "Solo las faltas muy graves.",
+      "B": "Las acciones y omisiones dolosas o imprudentes previstas en esta ley.",
+      "C": "Las sanciones penales.",
+      "D": "Las normas de protocolo militar."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[28]"
+  },
+  {
+    "pregunta": "¿Quién es responsable de la iniciación, ordenación y resolución de los expedientes disciplinarios, según el Artículo 4 de 'REGIMEN DISCIPLINARIO.pdf'?",
+    "opciones": {
+      "A": "El juez militar.",
+      "B": "La autoridad con potestad disciplinaria.",
+      "C": "El Ministerio de Defensa.",
+      "D": "El defensor del pueblo."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[28]"
+  },
+  {
+    "pregunta": "Según el Artículo 6 de 'REGIMEN DISCIPLINARIO.pdf', ¿se considera falta leve emitir expresiones o realizar actos irrespetuosos contra la Constitución, la Corona y demás órganos, instituciones o poderes del Estado?",
+    "opciones": {
+      "A": "Sí, es una falta leve.",
+      "B": "No, constituye una falta muy grave.",
+      "C": "Solo si se hace en público.",
+      "D": "Solo si causa perjuicio al servicio."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[29]"
+  },
+  {
+    "pregunta": "¿Se considera falta la inexactitud en el cumplimiento de las obligaciones que correspondan en el ejercicio del mando, según el Artículo 6 de 'REGIMEN DISCIPLINARIO.pdf'?",
+    "opciones": {
+      "A": "No, solo es falta la desobediencia directa.",
+      "B": "Sí, es una falta leve.",
+      "C": "No, solo es falta la omisión total del cumplimiento.",
+      "D": "Depende del rango del militar."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[29]"
+  },
+  {
+    "pregunta": "La omisión del saludo a un superior, según el Artículo 6 de 'REGIMEN DISCIPLINARIO.pdf', ¿qué tipo de falta es?",
+    "opciones": {
+      "A": "Muy grave.",
+      "B": "Grave.",
+      "C": "Leve.",
+      "D": "No es una falta disciplinaria."
+    },
+    "respuesta_correcta": "C",
+    "fuentes": "[29]"
+  },
+  {
+    "pregunta": "¿Es falta disciplinaria la inexactitud en la tramitación reglamentaria de las iniciativas, peticiones, reclamaciones o quejas formuladas por subordinados, según el Artículo 6 de 'REGIMEN DISCIPLINARIO.pdf'?",
+    "opciones": {
+      "A": "Sí, es una falta leve.",
+      "B": "No, es una falta grave.",
+      "C": "Solo si causa un perjuicio considerable.",
+      "D": "No, es una falta administrativa."
+    },
+    "respuesta_correcta": "A",
+    "fuentes": "[29]"
+  },
+  {
+    "pregunta": "Según la Orden Ministerial sobre organización y régimen interior ('orden ministerial 3.pdf'), ¿qué son los 'Regímenes Interiores'?",
+    "opciones": {
+      "A": "Las normas de conducta personal.",
+      "B": "El conjunto de normas y procedimientos que regulan la vida en las unidades y del personal en el interior de las instalaciones.",
+      "C": "Las reglas para el uso de armamento.",
+      "D": "Los procedimientos de comunicación."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[30]"
+  },
+  {
+    "pregunta": "¿Qué se denomina 'Base' en la Orden Ministerial sobre organización y régimen interior ('orden ministerial 3.pdf')?",
+    "opciones": {
+      "A": "Un acuartelamiento de grandes dimensiones.",
+      "B": "Una propiedad o conjunto de propiedades adscritas al Ejército de Tierra por necesidad o con continuidad de servicio.",
+      "C": "Un punto de reunión para operaciones.",
+      "D": "Un centro de formación militar."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[31]"
+  },
+  {
+    "pregunta": "Según la Orden Ministerial sobre organización y régimen interior ('orden ministerial 3.pdf'), ¿qué objetivo tienen las 'Guardias'?",
+    "opciones": {
+      "A": "Mantener la disciplina.",
+      "B": "Asegurar la seguridad, permanencia y continuidad de ciertos servicios.",
+      "C": "Realizar operaciones de combate.",
+      "D": "Gestionar el personal de la unidad."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[32]"
+  },
+  {
+    "pregunta": "Las Reales Ordenanzas para las Fuerzas Armadas [25], ¿qué constituyen principalmente?",
+    "opciones": {
+      "A": "La estructura orgánica de las FAS.",
+      "B": "El código de conducta de los militares.",
+      "C": "Las normas de ascenso y promoción.",
+      "D": "La legislación sobre pensiones militares."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[25]"
+  },
+  {
+    "pregunta": "Según las Reales Ordenanzas [33], ¿cuál es el primer y más fundamental deber del militar?",
+    "opciones": {
+      "A": "La obediencia a sus superiores.",
+      "B": "La disposición permanente para defender a España, incluso con la entrega de la vida cuando fuera necesario.",
+      "C": "El mantenimiento de la disciplina.",
+      "D": "El servicio a la sociedad."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[33]"
+  },
+  {
+    "pregunta": "¿Qué deben fomentar los militares en su unidad según las Reales Ordenanzas [34]?",
+    "opciones": {
+      "A": "La competitividad individual.",
+      "B": "El espíritu de equipo, la cohesión de unidad y la convergencia de esfuerzos.",
+      "C": "La rivalidad profesional.",
+      "D": "El cumplimiento mínimo de tareas."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[34]"
+  },
+  {
+    "pregunta": "Según las Normas sobre seguridad en las FAS ('seguridad en las fas 2.pdf'), ¿qué es la 'seguridad' en el contexto militar?",
+    "opciones": {
+      "A": "La protección del personal solamente.",
+      "B": "El conjunto de medidas encaminadas a prevenir y neutralizar las amenazas a la integridad y disponibilidad del personal, así como a la actividad y recursos de las unidades.",
+      "C": "La vigilancia de las instalaciones únicamente.",
+      "D": "La gestión de armamento."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[35]"
+  },
+  {
+    "pregunta": "¿Quién aprueba las normas sobre seguridad en las Fuerzas Armadas, según el Real Decreto 194/2010 ('seguridad en las fas 2.pdf')?",
+    "opciones": {
+      "A": "El Jefe de Estado Mayor de la Defensa.",
+      "B": "El Presidente del Gobierno.",
+      "C": "El Ministro de Defensa.",
+      "D": "El Jefe de Estado Mayor del Ejército de Tierra."
+    },
+    "respuesta_correcta": "C",
+    "fuentes": "[35]"
+  },
+  {
+    "pregunta": "Las 'Guardias de seguridad' en las FAS, según 'seguridad en las fas 2.pdf', ¿qué tipo de servicio son?",
+    "opciones": {
+      "A": "Servicios operativos.",
+      "B": "Servicios de apoyo a la fuerza.",
+      "C": "Servicios para dar protección a las unidades, al personal, armamento y material.",
+      "D": "Servicios administrativos."
+    },
+    "respuesta_correcta": "C",
+    "fuentes": "[36]"
+  },
+  {
+    "pregunta": "Según el Artículo 24 de las Normas sobre seguridad ('seguridad en las fas 2.pdf'), ¿qué función principal tiene un 'centinela'?",
+    "opciones": {
+      "A": "Realizar tareas administrativas.",
+      "B": "Proporcionar instrucción al personal.",
+      "C": "Ser el componente de la guardia de seguridad que, en acto de servicio y cumpliendo una consigna, guardan un puesto confiado a su responsabilidad.",
+      "D": "Gestionar los recursos financieros."
+    },
+    "respuesta_correcta": "C",
+    "fuentes": "[37]"
+  },
+  {
+    "pregunta": "Los servicios de Policía Militar, Naval o Aérea, según 'seguridad en las fas 2.pdf', ¿qué acreditan mediante un documento?",
+    "opciones": {
+      "A": "Su rango militar.",
+      "B": "Una tarjeta de identificación que los acredite como tales.",
+      "C": "Su especialidad.",
+      "D": "Su destino."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[38]"
+  },
+  {
+    "pregunta": "¿Qué pueden hacer los miembros de las asociaciones profesionales de las Fuerzas Armadas, según el Artículo 45 de '10derechos y deberes.pdf'?",
+    "opciones": {
+      "A": "Plantear propuestas o sugerencias en materias relacionadas con su estatuto y condición de militar.",
+      "B": "Convocar manifestaciones políticas.",
+      "C": "Afiliarse a sindicatos militares.",
+      "D": "Ejercer el derecho de huelga."
+    },
+    "respuesta_correcta": "A",
+    "fuentes": "[39]"
+  },
+  {
+    "pregunta": "¿Cuál es el objeto del Observatorio de la vida militar, según el Artículo 53 de '10derechos y deberes.pdf'?",
+    "opciones": {
+      "A": "Gestionar los ascensos del personal militar.",
+      "B": "Analizar la evolución de la calidad de vida de los miembros de las Fuerzas Armadas.",
+      "C": "Tramitar las quejas de los militares.",
+      "D": "Establecer las normas disciplinarias."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[6]"
+  },
+  {
+    "pregunta": "Según el Artículo 55 de '10derechos y deberes.pdf', ¿cuántos miembros del Congreso de los Diputados y cuántos del Senado componen el Observatorio de la vida militar?",
+    "opciones": {
+      "A": "Cinco miembros de cada cámara.",
+      "B": "Cuatro del Congreso y cuatro del Senado.",
+      "C": "Cinco del Congreso y cinco del Senado.",
+      "D": "Tres del Congreso y tres del Senado."
+    },
+    "respuesta_correcta": "C",
+    "fuentes": "[6]"
+  },
+  {
+    "pregunta": "Según el Artículo 1 de '11iniciativas y quejas.pdf', ¿qué derecho real se establece para que el militar pueda plantear iniciativas y quejas?",
+    "opciones": {
+      "A": "El derecho de manifestación.",
+      "B": "El derecho de huelga.",
+      "C": "El derecho a plantear iniciativas y quejas relativas al régimen de personal y a las condiciones de vida y su tramitación.",
+      "D": "El derecho de afiliación sindical."
+    },
+    "respuesta_correcta": "C",
+    "fuentes": "[40]"
+  },
+  {
+    "pregunta": "El militar que tenga quejas relacionadas con su disconformidad con cualquier aspecto del régimen de personal y las condiciones de vida, ¿cómo debe presentarlas según el Artículo 2 de '11iniciativas y quejas.pdf'?",
+    "opciones": {
+      "A": "Verbalmente a su superior inmediato.",
+      "B": "Por escrito, identificando la unidad donde presta servicio.",
+      "C": "Mediante un representante sindical.",
+      "D": "Directamente al Ministro de Defensa."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[40]"
+  },
+  {
+    "pregunta": "¿Cuál es el plazo para que la autoridad competente, que recibe una queja, la resuelva, según el Artículo 12 de '11iniciativas y quejas.pdf'?",
+    "opciones": {
+      "A": "Diez días.",
+      "B": "Un mes.",
+      "C": "Seis meses.",
+      "D": "Veinte días."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[41]"
+  },
+  {
+    "pregunta": "El delito de deslealtad consistente en saber falsa o expidiere certificado en sentido distinto al que le constare será castigado con la pena de prisión, según el Artículo 55 del Código Penal Militar [42]. ¿Cuál es el rango de la pena?",
+    "opciones": {
+      "A": "Tres meses y un día a cuatro años.",
+      "B": "Seis meses y un día a seis años.",
+      "C": "De cuatro meses a cuatro años y diez días.",
+      "D": "De tres meses y un día a dos años."
+    },
+    "respuesta_correcta": "C",
+    "fuentes": "[42]"
+  },
+  {
+    "pregunta": "Según el Artículo 111 de 'REGIMEN DISCIPLINARIO.pdf', ¿cuál es el plazo máximo para resolver el recurso de alzada interpuesto contra una resolución disciplinaria?",
+    "opciones": {
+      "A": "Un mes.",
+      "B": "Dos meses.",
+      "C": "Tres meses.",
+      "D": "Seis meses."
+    },
+    "respuesta_correcta": "B",
+    "fuentes": "[43]"
+  }
+]
