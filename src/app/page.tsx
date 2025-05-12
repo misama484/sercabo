@@ -20,7 +20,7 @@ export default function Home() {
           height={300}
         />
         <p className="text-lg text-center">
-          Plataforma de estudio para la oposición de Cabo del Ejército Español.
+          Plataforma de estudio para la oposición de Cabo del Ejército de Tierra.
         </p>
       </div>
       <div className="flex flex-col items-center gap-4">

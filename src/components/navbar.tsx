@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Navbar: React.FC = () => {
   return (
@@ -6,7 +7,7 @@ const Navbar: React.FC = () => {
       {/* Logo a la izquierda */}
       <div className="flex items-center mr-3">
         <img src="/img/EjercitoTierraLogo.jpg" alt="Logo" className="h-10" />
-        <h1 className='mx-3'>Ser Cabo</h1>
+        <h1 className="mx-3">Ser Cabo</h1>
       </div>
 
       {/* Items en el centro */}
@@ -17,9 +18,9 @@ const Navbar: React.FC = () => {
           </a>
         </li>
         <li>
-          <a href="#about" className="hover:underline">
+          <Link href="/test" className="hover:underline">
             Test
-          </a>
+          </Link>
         </li>
         <li>
           <a href="#services" className="hover:underline">
