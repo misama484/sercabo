@@ -1,26 +1,34 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import TestQuestionOption from "@/components/testQuestionOption";
 
 interface TestQuestionCardProps {
-  question: string;
-  options: string[];
-  correctAnswer: string;
+  pregunta: string;
+  opciones: { [key: string]: string };
+  respuesta_correcta: string;
   onAnswer: (isCorrect: boolean) => void;
+  resetStateOnChange: any; // Prop para reiniciar estados al cambiar de pregunta
 }
 
 const TestQuestionCard: React.FC<TestQuestionCardProps> = ({
-  question,
-  options,
-  correctAnswer,
+  pregunta,
+  opciones,
+  respuesta_correcta,
   onAnswer,
+  resetStateOnChange,
 }) => {
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
 
-  const handleOptionClick = (option: string) => {
+  // Reinicia los estados cuando cambie la pregunta
+  useEffect(() => {
+    setSelectedOption(null);
+    setShowCorrectAnswer(false);
+  }, [resetStateOnChange]);
+
+  const handleOptionClick = (optionKey: string) => {
     if (selectedOption === null) {
-      setSelectedOption(option);
-      const isCorrect = option === correctAnswer;
+      setSelectedOption(optionKey);
+      const isCorrect = optionKey === respuesta_correcta;
       onAnswer(isCorrect);
     }
   };
@@ -28,16 +36,16 @@ const TestQuestionCard: React.FC<TestQuestionCardProps> = ({
   return (
     <div className="w-2/5 p-6 bg-white shadow-lg rounded-lg border border-gray-200">
       <h2 className="text-xl font-semibold text-gray-800 mb-4">Pregunta</h2>
-      <p className="text-gray-700 mb-6">{question}</p>
+      <p className="text-gray-700 mb-6">{pregunta}</p>
       <div className="flex flex-col gap-4">
-        {options.map((option, index) => (
+        {Object.entries(opciones).map(([key, value]) => (
           <TestQuestionOption
-            key={index}
-            option={option}
-            isSelected={selectedOption === option}
-            isCorrect={option === correctAnswer}
+            key={key}
+            option={value}
+            isSelected={selectedOption === key}
+            isCorrect={key === respuesta_correcta}
             showCorrectAnswer={showCorrectAnswer}
-            onClick={() => handleOptionClick(option)}
+            onClick={() => handleOptionClick(key)}
           />
         ))}
       </div>
