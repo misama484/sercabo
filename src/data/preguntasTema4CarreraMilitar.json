@@ -1,0 +1,512 @@
+[
+  {
+    "pregunta": "¿Qué ley regula la condición militar, los derechos y deberes, el régimen de personal y la planificación de la carrera profesional de los militares?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "La Ley 39/2007, de 19 de noviembre, de la carrera militar.",
+      "B": "Las Reales Ordenanzas para las Fuerzas Armadas.",
+      "C": "El Código Penal Militar.",
+      "D": "La Ley Orgánica 5/2005 de la Defensa Nacional."
+    }
+  },
+  {
+    "pregunta": "¿Quiénes son los destinatarios de la Ley 39/2007?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Solo los militares profesionales.",
+      "B": "Los militares profesionales y los reservistas.",
+      "C": "Los militares profesionales, los reservistas y los aspirantes a tal condición.",
+      "D": "Todos los miembros de las Fuerzas Armadas que adquieren la condición militar según lo establecido en la Ley 39/2007, y los alumnos de la enseñanza militar de formación, reservistas y aspirantes a militar profesional cuando se incorporen a las Fuerzas Armadas."
+    }
+  },
+  {
+    "pregunta": "¿Qué constituye el código de conducta, define los principios rectores y las normas de comportamiento de acuerdo con la Constitución en las Fuerzas Armadas?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La Ley de Régimen Disciplinario.",
+      "B": "Las Reales Ordenanzas para las Fuerzas Armadas.",
+      "C": "El Código Penal Militar.",
+      "D": "La Ley de la Carrera Militar."
+    }
+  },
+  {
+    "pregunta": "¿Cómo se adquiere la condición de militar profesional de tropa y marinería?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Al firmar el compromiso inicial.",
+      "B": "Al jurar o prometer fidelidad a la Bandera.",
+      "C": "Al superar el período de formación.",
+      "D": "Al ser nombrado soldado o marinero."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el compromiso de larga duración en la tropa y marinería, según el documento?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Hasta los 40 años de edad.",
+      "B": "Hasta los 45 años de edad.",
+      "C": "Hasta los 50 años de edad.",
+      "D": "Un periodo mínimo de 10 años."
+    }
+  },
+  {
+    "pregunta": "¿Cuándo finaliza la relación de servicios de los militares de tropa y marinería que no renueven su compromiso al cumplir la edad máxima establecida?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Al cumplir la edad máxima establecida en esta Ley.",
+      "B": "Al cumplir 20 años de servicio.",
+      "C": "Al pasar a la situación de reserva.",
+      "D": "Al ser declarados no aptos."
+    }
+  },
+  {
+    "pregunta": "¿Cómo se estructuran los cuerpos y escalas de los militares profesionales de las Fuerzas Armadas?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "En Cuerpo General, Cuerpo de Intendencia y Cuerpo de Ingenieros.",
+      "B": "En Oficiales, Suboficiales y Tropa y Marinería.",
+      "C": "En cuerpos específicos, que se agrupan en una o varias escalas de oficiales, de suboficiales y, en su caso, de tropa o de marinería.",
+      "D": "Según el Ejército, la Armada y el Ejército del Aire."
+    }
+  },
+  {
+    "pregunta": "¿Qué tipo de cuerpo específico existe en el Ejército de Tierra?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Cuerpo General del Ejército de Tierra.",
+      "B": "Cuerpo de Ingenieros de la Armada.",
+      "C": "Cuerpo General del Ejército del Aire.",
+      "D": "Cuerpo de Sanidad Militar."
+    }
+  },
+  {
+    "pregunta": "¿Qué constituye la formación en las Fuerzas Armadas?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Un factor fundamental para la adquisición de los conocimientos, habilidades y aptitudes necesarios para el ejercicio profesional.",
+      "B": "Exclusivamente el período en los centros docentes militares.",
+      "C": "Principalmente el adiestramiento físico y técnico.",
+      "D": "Solo la especialización en un arma o servicio."
+    }
+  },
+  {
+    "pregunta": "¿Quiénes pueden acceder a la enseñanza militar de formación para incorporarse a las escalas de oficiales o de suboficiales?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Solo personal civil con titulación universitaria.",
+      "B": "Tanto personal civil como militar, cumpliendo los requisitos específicos para cada vía de acceso.",
+      "C": "Exclusivamente militares de tropa y marinería.",
+      "D": "Solo personal que haya servido previamente en la reserva."
+    }
+  },
+  {
+    "pregunta": "¿Qué garantiza el principio de igualdad en la enseñanza militar?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "El acceso exclusivo por oposición.",
+      "B": "La promoción automática al finalizar la formación.",
+      "C": "Que los requisitos para el acceso a la enseñanza y a la carrera militar sean los mismos para todos los aspirantes en igualdad de condiciones.",
+      "D": "La asignación de destino según el mérito académico."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es uno de los principios que rige el régimen de ascensos?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Antigüedad exclusivamente.",
+      "B": "Combinación de antigüedad y selección, o solo selección.",
+      "C": "Mérito académico únicamente.",
+      "D": "Discrecionalidad del mando superior."
+    }
+  },
+  {
+    "pregunta": "¿Cómo se clasifican los destinos para el personal militar profesional?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Solo en atención al tipo de unidad.",
+      "B": "En función de su ubicación geográfica.",
+      "C": "En clasificados y no clasificados, según la publicidad de la información sobre ellos.",
+      "D": "Según la escala a la que pertenezcan."
+    }
+  },
+  {
+    "pregunta": "¿Qué es la adscripción a un destino?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La asignación temporal a una unidad.",
+      "B": "La unión de un militar a un puesto de trabajo dentro de la estructura orgánica de una unidad, centro u organismo.",
+      "C": "La realización de una misión internacional.",
+      "D": "El cambio de especialidad de un militar."
+    }
+  },
+  {
+    "pregunta": "¿Cuáles son algunas de las situaciones administrativas en las que puede encontrarse el personal militar profesional?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Servicio activo, servicios especiales, excedencia, suspenso de empleo y reserva.",
+      "B": "Comisión de servicio, disponible y baja temporal.",
+      "C": "Enseñanza militar de formación y disponible.",
+      "D": "En servicio activo y en la reserva activa."
+    }
+  },
+  {
+    "pregunta": "¿En qué situación administrativa se encuentra el militar que se halle prestando servicios en organismos internacionales o entidades públicas ajenas al Ministerio de Defensa?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Servicio activo.",
+      "B": "Servicios especiales.",
+      "C": "Excedencia.",
+      "D": "Reserva."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la duración máxima del compromiso inicial para acceder a la condición de militar de tropa y marinería?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Un máximo de 6 años.",
+      "B": "Un máximo de 10 años.",
+      "C": "Un máximo de 5 años.",
+      "D": "Indefinido."
+    }
+  },
+  {
+    "pregunta": "¿Qué requisito de edad existe para poder adquirir la condición de militar de tropa y marinería?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "No alcanzar la edad de 29 años.",
+      "B": "No alcanzar la edad de 35 años.",
+      "C": "Tener entre 18 y 25 años.",
+      "D": "No haber cumplido 40 años."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la edad límite para finalizar la relación de servicios para los militares de tropa y marinería con compromiso de larga duración?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "40 años.",
+      "B": "45 años.",
+      "C": "58 años.",
+      "D": "60 años."
+    }
+  },
+  {
+    "pregunta": "¿Qué es el Compromiso de Larga Duración (CLD) para la tropa y marinería?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "El primer compromiso que firman al ingresar.",
+      "B": "Un compromiso que les permite alcanzar la permanencia.",
+      "C": "Una ampliación del compromiso inicial que les permite servir hasta los 45 años de edad.",
+      "D": "El compromiso que firman al ascender a Cabo."
+    }
+  },
+  {
+    "pregunta": "¿Cómo se denomina la situación administrativa del militar profesional que cesa en un destino por libre decisión o al finalizar el periodo máximo de permanencia en él?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Servicio activo.",
+      "B": "Servicios especiales.",
+      "C": "Disponible.",
+      "D": "Excedencia."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es uno de los principios fundamentales de la estructura de la organización de las Fuerzas Armadas, según el Artículo 19?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Jerarquía.",
+      "B": "Antigüedad.",
+      "C": "Especialización.",
+      "D": "Territorialidad."
+    }
+  },
+  {
+    "pregunta": "¿Qué cuerpos existen dentro de la categoría de Oficiales, según el Artículo 25?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Cuerpo General, Cuerpo de Intendencia, Cuerpo de Ingenieros y Cuerpos Comunes.",
+      "B": "Cuerpo General, Cuerpo de Músicas Militares y Cuerpo Jurídico Militar.",
+      "C": "Cuerpo de Sanidad y Cuerpo de Intervención.",
+      "D": "Cuerpo de tropa y marinería y Cuerpo de Suboficiales."
+    }
+  },
+  {
+    "pregunta": "¿Qué escala forma parte del Cuerpo General del Ejército de Tierra?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Escala Técnica.",
+      "B": "Escala de Oficiales.",
+      "C": "Escala de Ingenieros Politécnicos.",
+      "D": "Escala de Músicas Militares."
+    }
+  },
+  {
+    "pregunta": "¿Qué requisito es indispensable para la adquisición de cualquier condición militar?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Jurar o prometer fidelidad a la Bandera de España.",
+      "B": "Superar un reconocimiento médico.",
+      "C": "Tener un título universitario.",
+      "D": "Haber cumplido 18 años."
+    }
+  },
+  {
+    "pregunta": "¿Quién realiza el juramento o promesa ante la Bandera?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "El Ministro de Defensa.",
+      "B": "El Jefe de la Unidad donde se celebra el acto.",
+      "C": "El Jefe de Estado Mayor de la Defensa.",
+      "D": "El Rey."
+    }
+  },
+  {
+    "pregunta": "¿Qué habilita el juramento o promesa ante la Bandera?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "El ascenso al empleo superior.",
+      "B": "La firma del compromiso inicial.",
+      "C": "La adquisición, en su caso, de la condición de militar profesional o la condición de reservista voluntario.",
+      "D": "La obtención de un destino."
+    }
+  },
+  {
+    "pregunta": "¿Quiénes son los destinatarios de las evaluaciones para el ascenso y otros efectos de la carrera?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "El personal militar profesional de carrera.",
+      "B": "Todos los miembros de las Fuerzas Armadas.",
+      "C": "Solo los Oficiales.",
+      "D": "Los militares de tropa y marinería."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es una de las aptitudes que se evalúan para el ascenso?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La antigüedad en el empleo.",
+      "B": "Las aptitudes profesionales y personales.",
+      "C": "La titulación civil.",
+      "D": "El conocimiento de idiomas extranjeros."
+    }
+  },
+  {
+    "pregunta": "¿A qué empleo se asciende desde el empleo de Soldado o Marinero en el acceso a la escala de Cabos y Guardias del Cuerpo General del Ejército de Tierra?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Cabo Primero.",
+      "B": "Sargento.",
+      "C": "Brigada.",
+      "D": "Cabo."
+    }
+  },
+  {
+    "pregunta": "¿Qué condición se requiere para el ascenso al empleo de Cabo Primero, según el Artículo 90?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Tener 5 años de servicio en el empleo de Cabo.",
+      "B": "Ser propuesto por el Jefe de su Unidad.",
+      "C": "Cumplir las condiciones para el ascenso a Cabo.",
+      "D": "Superar un concurso-oposición específico."
+    }
+  },
+  {
+    "pregunta": "¿Cómo se denominan las vías principales de acceso al empleo, según el Artículo 88?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Elección, Concurso-oposición y Antigüedad.",
+      "B": "Mérito, Capacidad y Antigüedad.",
+      "C": "Selección, Mérito y Antigüedad.",
+      "D": "Concurso, Oposición y Discrecionalidad."
+    }
+  },
+  {
+    "pregunta": "¿Qué criterio se utiliza para el ascenso en la vía de Antigüedad?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La edad del militar.",
+      "B": "La fecha de antigüedad en el empleo anterior.",
+      "C": "La clasificación obtenida en la evaluación.",
+      "D": "El tiempo de servicio en unidades operativas."
+    }
+  },
+  {
+    "pregunta": "¿Qué ocurre si un militar profesional es evaluado como 'no apto' para el ascenso en vía de Selección?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Ascenderá por Antigüedad.",
+      "B": "Será destinado a otro empleo.",
+      "C": "Cesará en el servicio activo al finalizar el plazo máximo de permanencia establecido para el empleo que tenga.",
+      "D": "Tendrá una nueva oportunidad de ser evaluado inmediatamente."
+    }
+  },
+  {
+    "pregunta": "¿Quién propone los destinos clasificados?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "El Jefe de Estado Mayor del Ejército de Tierra.",
+      "B": "La Dirección General de Personal.",
+      "C": "El Jefe de Estado Mayor de la Defensa.",
+      "D": "El Ministro de Defensa."
+    }
+  },
+  {
+    "pregunta": "¿Cómo se adquiere la condición de reservista de especial disponibilidad?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Al cumplir 45 años de edad.",
+      "B": "Al finalizar el compromiso de larga duración, si han cumplido un mínimo de 18 años de servicio y lo solicitan.",
+      "C": "Por decisión del Ministro de Defensa.",
+      "D": "Por haber participado en misiones internacionales."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la edad límite para mantener la condición de reservista de especial disponibilidad?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "45 años.",
+      "B": "55 años.",
+      "C": "65 años.",
+      "D": "No hay límite de edad."
+    }
+  },
+  {
+    "pregunta": "¿Qué situación administrativa implica el cese con carácter temporal o definitivo en la prestación de servicios?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Disponible.",
+      "B": "Servicios especiales.",
+      "C": "Servicio activo.",
+      "D": "Suspenso de empleo."
+    }
+  },
+  {
+    "pregunta": "¿Quién propone la resolución de la situación administrativa de suspenso de empleo?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "La autoridad competente para la resolución del expediente disciplinario o judicial.",
+      "B": "El Ministro de Defensa.",
+      "C": "El Jefe de Estado Mayor de la Defensa.",
+      "D": "El interesado."
+    }
+  },
+  {
+    "pregunta": "¿Qué procedimiento se sigue para determinar la insuficiencia de condiciones psicofísicas?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Una evaluación por su Jefe de Unidad.",
+      "B": "La iniciación de un expediente por el órgano médico pericial competente.",
+      "C": "La superación de pruebas físicas anuales.",
+      "D": "La presentación de un informe médico privado."
+    }
+  },
+  {
+    "pregunta": "¿Quién valora la evaluación de las condiciones psicofísicas del militar?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "El Jefe de Personal.",
+      "B": "Un tribunal militar.",
+      "C": "El expediente, en el que constará el dictamen del órgano médico pericial competente, será valorado por un órgano de evaluación en cada Ejército y elevado al Ministro de Defensa.",
+      "D": "El propio militar interesado."
+    }
+  },
+  {
+    "pregunta": "¿En qué situación administrativa se encuentran los militares que han cumplido la edad máxima para permanecer en el servicio activo?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Excedencia.",
+      "B": "Servicios especiales.",
+      "C": "Suspenso de empleo.",
+      "D": "Reserva."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la finalidad de la enseñanza de perfeccionamiento?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Acceder a una nueva escala.",
+      "B": "Ampliar o actualizar los conocimientos para el desempeño de sus cometidos.",
+      "C": "Obtener un título universitario civil.",
+      "D": "Prepararse para el ascenso por antigüedad."
+    }
+  },
+  {
+    "pregunta": "¿A qué empleo ascienden los Sargentos Primeros por el sistema de selección?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Brigada.",
+      "B": "Subteniente.",
+      "C": "Teniente.",
+      "D": "Sargento Mayor."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la edad límite para el personal de tropa y marinería con compromiso inicial que no adquiere el CLD?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Un máximo de 6 años desde su incorporación a las Fuerzas Armadas, si no han cumplido 29 años.",
+      "B": "Un máximo de 5 años desde su incorporación.",
+      "C": "Hasta los 29 años de edad.",
+      "D": "Hasta los 33 años de edad."
+    }
+  },
+  {
+    "pregunta": "¿Quién propone al Ministro de Defensa la oferta de empleo público militar?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "El Jefe de Estado Mayor del Ejército.",
+      "B": "La Dirección General de Personal.",
+      "C": "El Subsecretario de Defensa o el Jefe de Estado Mayor del Ejército correspondiente.",
+      "D": "El Consejo de Personal de las Fuerzas Armadas."
+    }
+  },
+  {
+    "pregunta": "¿Qué tipo de evaluación se realiza para el ascenso por el sistema de Selección?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Solo antigüedad.",
+      "B": "Antigüedad y mérito.",
+      "C": "Una evaluación de las aptitudes profesionales y personales.",
+      "D": "Una prueba teórica sobre conocimientos militares."
+    }
+  },
+  {
+    "pregunta": "¿Qué establece el Artículo 100 de la Ley sobre los destinos?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Solo la clasificación de los destinos.",
+      "B": "La duración máxima de cada destino.",
+      "C": "Los requisitos para acceder a destinos en el extranjero.",
+      "D": "La clasificación de los destinos en clasificados y no clasificados y los criterios para su provisión."
+    }
+  },
+  {
+    "pregunta": "¿Qué ocurre con los militares que al cumplir la edad máxima de permanencia en el servicio activo no tienen el tiempo de servicios efectivo mínimo para pasar a la reserva?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Pasan directamente a retiro.",
+      "B": "Cesarán en su relación de servicios y no tendrán derecho a la retribución de la reserva.",
+      "C": "Se les prolongará el servicio activo hasta cumplir el tiempo mínimo.",
+      "D": "Pasan a la situación de excedencia."
+    }
+  },
+  {
+    "pregunta": "¿Qué órgano es competente para realizar las evaluaciones de las condiciones psicofísicas, según el Artículo 120?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "El órgano médico pericial competente.",
+      "B": "El Consejo de Personal de las Fuerzas Armadas.",
+      "C": "El Ministro de Defensa.",
+      "D": "Un tribunal militar."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es uno de los criterios que se tienen en cuenta en la evaluación para determinar la insuficiencia de condiciones psicofísicas, según el Artículo 120?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Las exigencias que figuren en las relaciones de puestos militares o de trabajo de los destinos a los que puedan acceder.",
+      "B": "La antigüedad en el empleo.",
+      "C": "El historial de misiones internacionales.",
+      "D": "Los años de servicio prestados."
+    }
+  }
+]

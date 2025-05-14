@@ -1,0 +1,632 @@
+[
+  {
+    "pregunta": "¿Cuál es el objeto de la Ley Orgánica 5/2005, de 17 de noviembre, de la Defensa Nacional (LODN) según el Artículo 8 de la fuente?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Establecer las bases de la organización militar conforme a los principios establecidos en la Constitución.",
+      "B": "Regular el régimen disciplinario de las Fuerzas Armadas.",
+      "C": "Definir los derechos fundamentales y libertades públicas de los militares.",
+      "D": "Determinar el proceso de ascenso y promoción profesional."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el fin principal de la política de defensa según el Artículo 8 de la fuente?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "El mantenimiento del orden interno del Estado.",
+      "B": "La protección del conjunto de la sociedad española, de su Constitución, de los valores superiores, principios e instituciones que en ésta se consagran, del Estado social y democrático de derecho, del pleno ejercicio de los derechos y libertades, y de la garantía, independencia e integridad territorial de España.",
+      "C": "La colaboración en misiones de paz internacionales.",
+      "D": "La gestión de crisis y emergencias nacionales."
+    }
+  },
+  {
+    "pregunta": "¿Quién ostenta el Mando Supremo de las Fuerzas Armadas según el Artículo 8 de la fuente?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "El Jefe del Estado Mayor de la Defensa (JEMAD).",
+      "B": "El Ministro de Defensa.",
+      "C": "El Presidente del Gobierno.",
+      "D": "El Rey."
+    }
+  },
+  {
+    "pregunta": "¿Qué Ley establece las bases de la organización militar conforme a los principios establecidos en la Constitución, según el Artículo 8 de la fuente?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "La Ley de la Carrera Militar.",
+      "B": "La Ley de Régimen Disciplinario.",
+      "C": "La Ley Orgánica 5/2005, de 17 de noviembre, de la Defensa Nacional (LODN).",
+      "D": "Las Reales Ordenanzas para las Fuerzas Armadas."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 8 de la fuente, ¿quién dirige la actuación de las Fuerzas Armadas bajo la autoridad del Presidente del Gobierno?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "El Ministro de Defensa.",
+      "B": "El Jefe del Estado Mayor de la Defensa (JEMAD).",
+      "C": "El Rey.",
+      "D": "El Jefe del Estado Mayor del Ejército de Tierra."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 8 de la fuente, ¿quién ejerce el Mando sobre la estructura operativa de las Fuerzas Armadas con el empleo de sus medios?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "El Ministro de Defensa.",
+      "B": "El Jefe del Estado Mayor de la Defensa (JEMAD).",
+      "C": "El Jefe del Estado Mayor del Ejército de Tierra.",
+      "D": "El Rey."
+    }
+  },
+  {
+    "pregunta": "¿Cuántas estructuras principales componen la Articulación básica de las FAS según la fuente?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Una: la estructura operativa.",
+      "B": "Dos: la estructura orgánica y la estructura de apoyo.",
+      "C": "Dos: la estructura orgánica y la estructura operativa.",
+      "D": "Tres: la estructura orgánica, la operativa y la de personal."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el propósito de la estructura orgánica de las Fuerzas Armadas según la fuente?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Preparar la Fuerza y conseguir, en la mayor medida posible, la eficacia y la disposición operativa.",
+      "B": "Planificar y conducir las operaciones militares.",
+      "C": "Garantizar el cumplimiento de las Reales Ordenanzas.",
+      "D": "Gestionar los recursos humanos y materiales."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el propósito de la estructura operativa de las Fuerzas Armadas según la fuente?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Gestionar los recursos financieros.",
+      "B": "Representar al Ministerio de Defensa.",
+      "C": "Establecer las bases de la organización militar.",
+      "D": "Facilitar, en cumplimiento de las misiones que se encomienden, la eficacia en la ejecución de las operaciones militares."
+    }
+  },
+  {
+    "pregunta": "La estructura orgánica de las Fuerzas Armadas se organiza en dos estructuras principales, que son:",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Una estructura básica homogénea y la estructura de los Ejércitos.",
+      "B": "Una estructura central y una estructura periférica.",
+      "C": "Una estructura de mando y una estructura de unidades.",
+      "D": "Una estructura de personal y una estructura de material."
+    }
+  },
+  {
+    "pregunta": "Según la fuente, ¿qué incluye la estructura básica homogénea de las Fuerzas Armadas?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Únicamente el Estado Mayor de la Defensa (EMAD).",
+      "B": "Los Ejércitos de Tierra, Armada y Ejército del Aire.",
+      "C": "El Estado Mayor de la Defensa (EMAD) y el Cuartel General del Mando de Operaciones (CMOPS).",
+      "D": "El Ministerio de Defensa y el JEMAD."
+    }
+  },
+  {
+    "pregunta": "¿En cuántos niveles se articula la estructura militar según la fuente?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Dos: Estratégico y Táctico.",
+      "B": "Dos: Orgánico y Operativo.",
+      "C": "Tres: Central, Regional y Local.",
+      "D": "Tres: Estratégico, Operacional y Táctico."
+    }
+  },
+  {
+    "pregunta": "¿Quién ejerce el mando en el nivel estratégico según el Artículo 8 de la fuente?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "El Jefe del Estado Mayor de la Defensa (JEMAD).",
+      "B": "El Ministro de Defensa.",
+      "C": "El Presidente del Gobierno.",
+      "D": "Los Jefes de Estado Mayor de cada Ejército."
+    }
+  },
+  {
+    "pregunta": "¿Quién ejerce el mando en el nivel operacional según el Artículo 8 de la fuente?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Los Jefes de Estado Mayor de cada Ejército.",
+      "B": "Los comandantes de aquellas organizaciones operacionales que determine el Jefe del Estado Mayor de la Defensa.",
+      "C": "Los Ministros de Defensa.",
+      "D": "Los Generales Jefes de unidades tácticas."
+    }
+  },
+  {
+    "pregunta": "¿Quién ejerce el mando en el nivel táctico según el Artículo 8 de la fuente?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "El Jefe del Estado Mayor de la Defensa (JEMAD).",
+      "B": "Los comandantes de las organizaciones operacionales.",
+      "C": "El Ministro de Defensa.",
+      "D": "Los comandantes de las organizaciones operativas que se generen."
+    }
+  },
+  {
+    "pregunta": "Según la fuente, ¿de quién depende la estructura operativa de las Fuerzas Armadas?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Directamente del Rey.",
+      "B": "Del Presidente del Gobierno.",
+      "C": "Del Jefe del Estado Mayor de la Defensa (JEMAD).",
+      "D": "Del Ministro de Defensa."
+    }
+  },
+  {
+    "pregunta": "¿Quién ejerce la autoridad sobre la estructura orgánica del Ejército de Tierra, la Armada y el Ejército del Aire, de acuerdo con la fuente?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "El Jefe del Estado Mayor de la Defensa (JEMAD).",
+      "B": "El Ministro de Defensa.",
+      "C": "El Presidente del Gobierno.",
+      "D": "Los Jefes de Estado Mayor de cada Ejército."
+    }
+  },
+  {
+    "pregunta": "¿Qué órgano colegiado asesora y apoya al Jefe del Estado Mayor de la Defensa según el Artículo 8 de la fuente?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "El Estado Mayor de la Defensa (EMAD).",
+      "B": "El Cuartel General del Mando de Operaciones (CMOPS).",
+      "C": "La Junta de Jefes de Estado Mayor.",
+      "D": "El Gabinete Técnico del JEMAD."
+    }
+  },
+  {
+    "pregunta": "¿De quién depende orgánicamente la Unidad Militar de Emergencias (UME)?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Del Ministerio del Interior.",
+      "B": "Del Ejército de Tierra.",
+      "C": "Del Ministerio de Defensa.",
+      "D": "Del Jefe del Estado Mayor de la Defensa (JEMAD)."
+    }
+  },
+  {
+    "pregunta": "¿De quién depende funcionalmente la Unidad Militar de Emergencias (UME)?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Del Ministerio del Interior.",
+      "B": "Del Presidente del Gobierno.",
+      "C": "Del Ministro de Defensa.",
+      "D": "Del Jefe del Estado Mayor de la Defensa (JEMAD)."
+    }
+  },
+  {
+    "pregunta": "Según la fuente, ¿quién propone al Ministro de Defensa la organización básica del Ejército de Tierra, Armada y Ejército del Aire?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "El Presidente del Gobierno.",
+      "B": "El Jefe del Estado Mayor del Ejército correspondiente.",
+      "C": "El Jefe del Estado Mayor de la Defensa (JEMAD).",
+      "D": "La Junta de Jefes de Estado Mayor."
+    }
+  },
+  {
+    "pregunta": "¿Cómo se denomina la estructura orgánica básica de los Ejércitos (Tierra, Armada, Aire) según la fuente?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Cuartel General, Fuerza y Apoyo a la Fuerza.",
+      "B": "Mando, Unidades y Servicios.",
+      "C": "Estado Mayor, Unidades Operativas y Apoyo Logístico.",
+      "D": "Alto Mando, Mandos Intermedios y Unidades Básicas."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el propósito de la Fuerza dentro de la estructura orgánica de cada Ejército?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Proporcionar asesoramiento jurídico.",
+      "B": "Gestionar los recursos humanos.",
+      "C": "Organizarse y prepararse para la realización de operaciones militares.",
+      "D": "Administrar el presupuesto."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el propósito del Cuartel General dentro de la estructura orgánica de cada Ejército?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Realizar operaciones militares.",
+      "B": "Gestionar el apoyo logístico.",
+      "C": "Integrar nuevas tecnologías.",
+      "D": "Asistir al Jefe del Estado Mayor del Ejército correspondiente y estar constituido por los órganos que le asisten."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el propósito del Apoyo a la Fuerza dentro de la estructura orgánica de cada Ejército?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Asistir al Jefe del Estado Mayor del Ejército correspondiente.",
+      "B": "Ser el conjunto de órganos responsables de la dirección, gestión, administración y control de los recursos humanos, materiales y financieros, asignados a los Ejércitos y a la Armada en su ámbito.",
+      "C": "Realizar operaciones militares.",
+      "D": "Gestionar las relaciones públicas."
+    }
+  },
+  {
+    "pregunta": "¿Qué órganos componen el Cuartel General de un Ejército según la fuente?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "El Estado Mayor, el Gabinete del JEME/AJEMA/JEMA, los órganos de asesoramiento y asistencia y los órganos de asistencia y servicios generales.",
+      "B": "La Fuerza, el Apoyo a la Fuerza y las Unidades de combate.",
+      "C": "El Mando Operativo y las Unidades Tácticas.",
+      "D": "El Ministro de Defensa y el JEMAD."
+    }
+  },
+  {
+    "pregunta": "¿De qué es responsable el Estado Mayor de un Ejército según la fuente?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "La gestión de personal.",
+      "B": "La ejecución de operaciones.",
+      "C": "Del planeamiento, coordinación y control general de las actividades de su Ejército o de la Armada.",
+      "D": "La administración financiera."
+    }
+  },
+  {
+    "pregunta": "¿De qué es responsable el Gabinete del Jefe del Estado Mayor de un Ejército según la fuente?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "B": "Del apoyo, asesoramiento y asistencia inmediatos al Jefe del Estado Mayor en aquellos asuntos que éste le encomiende.",
+      "A": "La dirección del personal.",
+      "C": "El control de las operaciones militares.",
+      "D": "La gestión logística."
+    }
+  },
+  {
+    "pregunta": "Los órganos de asistencia y servicios generales de un Ejército son responsables de:",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "El planeamiento estratégico.",
+      "B": "La realización de operaciones militares.",
+      "C": "Atender las necesidades del Cuartel General y de los órganos que el Jefe del Estado Mayor del Ejército o de la Armada determine, para su funcionamiento orgánico y funcional interno.",
+      "D": "La instrucción y adiestramiento de las tropas."
+    }
+  },
+  {
+    "pregunta": "Dentro del Apoyo a la Fuerza, ¿a qué ámbito corresponden los Recursos humanos?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Dirección, gestión, administración y control de personal y asistencia sanitaria.",
+      "B": "Dirección, gestión, administración y control de material y del apoyo logístico.",
+      "C": "Dirección, gestión, administración y control del presupuesto y la contratación.",
+      "D": "Dirección, gestión, administración y control de infraestructuras."
+    }
+  },
+  {
+    "pregunta": "Dentro del Apoyo a la Fuerza, ¿a qué ámbito corresponden los Recursos materiales?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Dirección, gestión, administración y control de personal.",
+      "B": "Dirección, gestión, administración y control de material y del apoyo logístico, y atenderán a la adquisición, el abastecimiento, el aprovisionamiento, el sostenimiento, el transporte, la infraestructura, los sistemas de armas y las construcciones.",
+      "C": "Dirección, gestión, administración y control del presupuesto.",
+      "D": "Dirección, gestión, administración y control de la instrucción."
+    }
+  },
+  {
+    "pregunta": "Dentro del Apoyo a la Fuerza, ¿a qué ámbito corresponden los Recursos financieros?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Dirección, gestión, administración y control de personal.",
+      "B": "Dirección, gestión, administración y control de material.",
+      "C": "Dirección, gestión, administración y control del presupuesto y la contratación, y corresponde la elaboración de los proyectos y la administración de los recursos financieros.",
+      "D": "La planificación de operaciones."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 8, la LODN establece con claridad la diferencia entre:",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "La estructura orgánica y la estructura operativa.",
+      "B": "El Ejército de Tierra y la Armada.",
+      "C": "Los Mandos y las Unidades.",
+      "D": "Los derechos y los deberes de los militares."
+    }
+  },
+  {
+    "pregunta": "La estructura operativa de las Fuerzas Armadas depende funcionalmente del:",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Ministro de Defensa.",
+      "B": "Jefe del Estado Mayor de la Defensa (JEMAD).",
+      "C": "Jefe del Estado Mayor del Ejército de Tierra.",
+      "D": "Presidente del Gobierno."
+    }
+  },
+  {
+    "pregunta": "La estructura orgánica de las Fuerzas Armadas depende orgánicamente del:",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Ministro de Defensa.",
+      "B": "Jefe del Estado Mayor de la Defensa (JEMAD).",
+      "C": "Jefe del Estado Mayor del Ejército de Tierra.",
+      "D": "Presidente del Gobierno."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 8, la estructura militar se adapta al ritmo acelerado de la evolución de sus formas de actuación, debiendo adoptar:",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Nuevos sistemas de armamento.",
+      "B": "Una estructura más centralizada.",
+      "C": "Una estructura jerárquica más rígida.",
+      "D": "De forma continua, las estructuras a las posibilidades crecientes de las nuevas tecnologías."
+    }
+  },
+  {
+    "pregunta": "¿Qué nivel de estructura militar corresponde a los comandantes de aquellas organizaciones operacionales que determine el Jefe del Estado Mayor de la Defensa?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Estratégico.",
+      "B": "Táctico.",
+      "C": "Operacional.",
+      "D": "Orgánico."
+    }
+  },
+  {
+    "pregunta": "¿Qué nivel de estructura militar corresponde al Jefe del Estado Mayor de la Defensa?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Estratégico.",
+      "B": "Operacional.",
+      "C": "Táctico.",
+      "D": "De Apoyo."
+    }
+  },
+  {
+    "pregunta": "¿Qué nivel de estructura militar corresponde a los comandantes de las organizaciones operativas que se generen?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Estratégico.",
+      "B": "Operacional.",
+      "C": "Táctico.",
+      "D": "De Base."
+    }
+  },
+  {
+    "pregunta": "Según la fuente, ¿qué incluye la estructura orgánica básica homogénea de las Fuerzas Armadas además del EMAD?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Los Cuerpos Comunes.",
+      "B": "El Cuartel General del Mando de Operaciones (CMOPS).",
+      "C": "Las Unidades de Apoyo a la Fuerza.",
+      "D": "Los Ejércitos de Tierra, Armada y Ejército del Aire."
+    }
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes NO es un componente de la estructura orgánica de cada Ejército según la fuente?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Cuartel General.",
+      "B": "Fuerza.",
+      "C": "Apoyo a la Fuerza.",
+      "D": "Mando Operativo Conjunto."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 8, ¿cuál es uno de los principios en los que se basa la organización militar establecida por la LODN?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "La Constitución.",
+      "B": "Los tratados internacionales.",
+      "C": "Las directivas de la OTAN.",
+      "D": "Las leyes autonómicas."
+    }
+  },
+  {
+    "pregunta": "El Artículo 8 de la fuente menciona que la LODN establece la estructura de la Defensa Nacional con sujeción a las reglas de comportamiento que se definen en esta Ley. ¿Qué reglas de comportamiento se definen en la LODN?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Las Normas de Procedimiento.",
+      "B": "Las Reales Ordenanzas para las Fuerzas Armadas.",
+      "C": "El Código Penal Militar.",
+      "D": "El Régimen Disciplinario."
+    }
+  },
+  {
+    "pregunta": "Según la fuente, ¿quién es el responsable de la preparación de la Fuerza?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "El Jefe del Estado Mayor del Ejército correspondiente (JEME/AJEMA/JEMA).",
+      "B": "El Jefe del Estado Mayor de la Defensa (JEMAD).",
+      "C": "El Ministro de Defensa.",
+      "D": "El Comandante Operacional."
+    }
+  },
+  {
+    "pregunta": "El Apoyo a la Fuerza en el ámbito de Recursos humanos se encarga, entre otras cosas, de:",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "La adquisición de material.",
+      "B": "El transporte logístico.",
+      "C": "La asistencia sanitaria.",
+      "D": "La elaboración del presupuesto."
+    }
+  },
+  {
+    "pregunta": "El Apoyo a la Fuerza en el ámbito de Recursos materiales se encarga, entre otras cosas, de:",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La gestión del personal.",
+      "B": "El abastecimiento y el aprovisionamiento.",
+      "C": "La contratación de servicios.",
+      "D": "La representación legal."
+    }
+  },
+  {
+    "pregunta": "El Apoyo a la Fuerza en el ámbito de Recursos financieros se encarga, entre otras cosas, de:",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "La elaboración de los proyectos de presupuesto.",
+      "B": "La gestión de las infraestructuras.",
+      "C": "El mantenimiento de los vehículos.",
+      "D": "La instrucción militar."
+    }
+  },
+  {
+    "pregunta": "Según la fuente, ¿quién ejerce la dirección, gestión, administración y control de los recursos humanos, materiales y financieros asignados a los Ejércitos y a la Armada en su ámbito?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "El Jefe del Estado Mayor del Ejército correspondiente.",
+      "B": "El Cuartel General.",
+      "C": "El Apoyo a la Fuerza.",
+      "D": "La Fuerza."
+    }
+  },
+  {
+    "pregunta": "La misión de la Unidad Militar de Emergencias (UME) es:",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Participar en operaciones militares en el exterior.",
+      "B": "Garantizar la seguridad de las bases militares.",
+      "C": "Proporcionar apoyo logístico a las unidades de combate.",
+      "D": "Intervenir en cualquier lugar del territorio nacional para contribuir a la seguridad y bienestar de los ciudadanos ante situaciones de grave riesgo, catástrofe, calamidad u otras necesidades públicas."
+    }
+  },
+  {
+    "pregunta": "Según la fuente, ¿quién aprueba la propuesta de organización básica de los Ejércitos (Tierra, Armada, Aire) elevada por el Jefe del Estado Mayor del Ejército correspondiente?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "El JEMAD.",
+      "B": "El Ministro de Defensa.",
+      "C": "El Rey.",
+      "D": "El Presidente del Gobierno."
+    }
+  },
+  {
+    "pregunta": "El Estado Mayor de la Defensa (EMAD) es un órgano:",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Colegiado.",
+      "B": "Unipersonal.",
+      "C": "De Base.",
+      "D": "Operativo."
+    }
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes órganos forma parte del JEMAD según la fuente?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La Fuerza.",
+      "B": "El Gabinete Técnico del JEMAD.",
+      "C": "El Cuartel General del Mando de Operaciones (CMOPS).",
+      "D": "La Unidad Militar de Emergencias (UME)."
+    }
+  },
+  {
+    "pregunta": "Según la fuente, ¿cuál de los siguientes órganos forma parte de la estructura orgánica básica homogénea?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "El Estado Mayor de la Defensa (EMAD).",
+      "B": "El Ejército de Tierra.",
+      "C": "La Armada.",
+      "D": "El Apoyo a la Fuerza."
+    }
+  },
+  {
+    "pregunta": "La estructura orgánica de los Ejércitos (Tierra, Armada, Aire) se organiza buscando garantizar:",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "La máxima especialización.",
+      "B": "La mínima inversión económica.",
+      "C": "Una organización homogénea de éstos, con la flexibilidad suficiente para garantizar la eficacia y economía de medios con arreglo al artículo 11 de la Ley Orgánica 5/2005.",
+      "D": "La autosuficiencia en todos los ámbitos."
+    }
+  },
+  {
+    "pregunta": "Según la fuente, el Cuartel General de un Ejército asiste a:",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "El Ministro de Defensa.",
+      "B": "El Jefe del Estado Mayor del Ejército correspondiente.",
+      "C": "El JEMAD.",
+      "D": "El Comandante Operacional."
+    }
+  },
+  {
+    "pregunta": "Los órganos de asesoramiento y asistencia del Cuartel General de un Ejército tienen como propósito:",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Dirigir las operaciones militares.",
+      "B": "Administrar el personal.",
+      "C": "Gestionar los recursos financieros.",
+      "D": "Asesorar y asistir al Jefe del Estado Mayor del Ejército correspondiente y a los órganos que éste determine."
+    }
+  },
+  {
+    "pregunta": "Según la fuente, la Fuerza de un Ejército se compone de:",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "El Cuartel General y el Apoyo a la Fuerza.",
+      "B": "Conjuntos de unidades que tienen por cometido principal prepararse para constituir, de forma rápida y eficaz, estructuras operativas terrestres, navales o aéreas, para la realización de operaciones militares.",
+      "C": "Los órganos de dirección y gestión.",
+      "D": "Únicamente las unidades de combate."
+    }
+  },
+  {
+    "pregunta": "Dentro del Apoyo a la Fuerza, el ámbito de Recursos humanos se encarga también de la dirección, gestión, administración y control de:",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "El material bélico.",
+      "B": "Las infraestructuras.",
+      "C": "El presupuesto.",
+      "D": "El personal."
+    }
+  },
+  {
+    "pregunta": "Dentro del Apoyo a la Fuerza, el ámbito de Recursos materiales se encarga también del control de:",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "El personal.",
+      "B": "El presupuesto.",
+      "C": "Los sistemas de armas y las construcciones.",
+      "D": "Los servicios jurídicos."
+    }
+  },
+  {
+    "pregunta": "Dentro del Apoyo a la Fuerza, el ámbito de Recursos financieros se encarga también de la:",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Gestión de infraestructuras.",
+      "B": "Dirección de personal.",
+      "C": "Planificación de operaciones.",
+      "D": "Contratación."
+    }
+  },
+  {
+    "pregunta": "Según la fuente, ¿quién es el órgano superior consultivo y de asistencia del Ministro de Defensa en la organización operativa de las Fuerzas Armadas?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "El Jefe del Estado Mayor de la Defensa (JEMAD).",
+      "B": "El Secretario de Estado de Defensa.",
+      "C": "La Junta de Jefes de Estado Mayor.",
+      "D": "El Cuartel General del Mando de Operaciones (CMOPS)."
+    }
+  },
+  {
+    "pregunta": "El Artículo 8 de la fuente establece que la LODN 5/2005 define la estructura de la Defensa Nacional con sujeción a:",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Las directivas del Presidente del Gobierno.",
+      "B": "Las reglas de comportamiento que se definen en esta Ley.",
+      "C": "Los tratados internacionales.",
+      "D": "Las leyes de cada Comunidad Autónoma."
+    }
+  },
+  {
+    "pregunta": "Según la fuente, la organización militar debe basarse en los principios establecidos en:",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Las directivas de la OTAN.",
+      "B": "Las leyes orgánicas sectoriales.",
+      "C": "La Constitución y en la Ley Orgánica 5/2005.",
+      "D": "Los reglamentos internos de cada Ejército."
+    }
+  }
+]

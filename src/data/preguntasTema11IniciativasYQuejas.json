@@ -1,0 +1,502 @@
+[
+  {
+    "pregunta": "¿Cuál es el objeto del Real Decreto según el Artículo 1 del documento '11_iniciativas y quejas.pdf'?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Establecer la forma en que el militar podrá plantear iniciativas y quejas relativas al régimen de personal y las condiciones de vida.",
+      "B": "Regular el procedimiento para ascensos en la carrera militar.",
+      "C": "Detallar el régimen disciplinario de las Fuerzas Armadas.",
+      "D": "Definir los requisitos para el ingreso en las Fuerzas Armadas."
+    }
+  },
+  {
+    "pregunta": "¿A quiénes se aplica el Real Decreto regulado en el documento '11_iniciativas y quejas.pdf'?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Solo al personal de Tropa y Marinería.",
+      "B": "Únicamente a los oficiales y suboficiales.",
+      "C": "A los miembros de las Fuerzas Armadas.",
+      "D": "Exclusivamente al personal civil al servicio de la Administración Militar."
+    }
+  },
+  {
+    "pregunta": "¿Según el Artículo 2, qué constituye una 'Iniciativa o propuesta'?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Una reclamación formal por un agravio sufrido.",
+      "B": "El derecho que tiene el militar de plantear a título individual cualquier tipo de actuación, incluida la modificación de normativa, relativa a su régimen de personal y condiciones de vida.",
+      "C": "Un informe de evaluación del desempeño individual.",
+      "D": "Una solicitud de cambio de unidad o destino."
+    }
+  },
+  {
+    "pregunta": "¿Qué tipo de modificación normativa puede incluir una iniciativa o propuesta?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "La modificación de normativa relativa al régimen de personal y las condiciones de vida.",
+      "B": "Modificaciones de la doctrina de empleo de las Fuerzas Armadas.",
+      "C": "Cambios en la estructura orgánica del Ministerio de Defensa.",
+      "D": "Propuestas para la creación de nuevas unidades militares."
+    }
+  },
+  {
+    "pregunta": "¿Qué se entiende por 'Queja' según la definición del Artículo 2?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Una sugerencia para mejorar un procedimiento existente.",
+      "B": "Una iniciativa para modificar un aspecto del servicio.",
+      "C": "Un informe sobre el comportamiento de otros militares.",
+      "D": "El derecho que tiene el militar a presentar a título individual quejas referidas a su disconformidad con cualquier aspecto del régimen de personal y las condiciones de vida."
+    }
+  },
+  {
+    "pregunta": "¿Qué se define como 'Unidad' a efectos del Real Decreto sobre iniciativas y quejas?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Solo el cuartel general principal.",
+      "B": "Únicamente las bases aéreas y navales.",
+      "C": "Cualquier unidad militar, base, centro, organismo o establecimiento.",
+      "D": "Solo las grandes unidades tipo División o Brigada."
+    }
+  },
+  {
+    "pregunta": "¿Cómo deben presentarse las iniciativas o propuestas según el Artículo 6?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Verbalmente al superior jerárquico.",
+      "B": "Por escrito.",
+      "C": "Mediante correo electrónico oficial.",
+      "D": "A través de un buzón de sugerencias anónimo."
+    }
+  },
+  {
+    "pregunta": "¿A quién se presentan las iniciativas o propuestas, además de al jefe de la unidad?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Al oficial, suboficial o tropa o marinería designado para ello.",
+      "B": "Directamente al Ministro de Defensa.",
+      "C": "Al Jefe de Estado Mayor del Ejército correspondiente.",
+      "D": "Al Observatorio de la vida militar."
+    }
+  },
+  {
+    "pregunta": "¿Qué información debe incluir obligatoriamente el documento que presenta una iniciativa?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Solo el contenido de la propuesta.",
+      "B": "El historial de servicios del proponente.",
+      "C": "La aprobación previa del superior inmediato.",
+      "D": "Nombre, identificación militar, empleo o puesto, fecha de presentación y firma del interesado."
+    }
+  },
+  {
+    "pregunta": "¿Dónde se publica la documentación que apoya una iniciativa o propuesta?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "En el tablón de anuncios de la unidad, base, centro u organismo.",
+      "B": "En el Boletín Oficial del Ministerio de Defensa.",
+      "C": "En la intranet corporativa de las Fuerzas Armadas.",
+      "D": "No se publica; se mantiene de forma confidencial."
+    }
+  },
+  {
+    "pregunta": "Si un militar presta servicio en una unidad integrada en una estructura extranjera, ¿cómo presenta sus iniciativas o propuestas?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Las presenta directamente a la autoridad extranjera al mando.",
+      "B": "Las remite a la Embajada de España en el país.",
+      "C": "Las remitirá a sus oficiales o suboficiales o tropa o marinería designados, que serán de la unidad militar española.",
+      "D": "Debe esperar a regresar a España para presentarlas."
+    }
+  },
+  {
+    "pregunta": "¿Cómo se presenta una queja en primera instancia según el Artículo 11?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Siguiendo el conducto regular en la estructura jerárquica de la unidad, iniciándose verbalmente y trasladándose por escrito.",
+      "B": "Siempre directamente por escrito al jefe de la unidad.",
+      "C": "Mediante un formulario oficial entregado en el registro.",
+      "D": "De forma anónima para garantizar la confidencialidad."
+    }
+  },
+  {
+    "pregunta": "En el procedimiento de queja en primera instancia, ¿qué debe hacer el superior inmediato al recibir una queja verbal?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Resolverla verbalmente en el acto.",
+      "B": "Registrarla y trasladarla por escrito al jefe de la unidad, base, centro u organismo.",
+      "C": "Desestimarla si considera que carece de fundamento.",
+      "D": "Remitirla directamente a la autoridad competente de segunda instancia."
+    }
+  },
+  {
+    "pregunta": "¿Quién es el responsable de tramitar y resolver la queja en primera instancia?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "El superior inmediato que recibió la queja verbal.",
+      "B": "La autoridad competente para la segunda instancia.",
+      "C": "El jefe de la unidad, base, centro u organismo.",
+      "D": "El personal de la Asesoría Jurídica."
+    }
+  },
+  {
+    "pregunta": "¿Cómo debe comunicarse la resolución de la queja en primera instancia al interesado?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "De forma verbal por el superior inmediato.",
+      "B": "Mediante publicación en el tablón de anuncios.",
+      "C": "Únicamente si la queja es estimada.",
+      "D": "Por escrito."
+    }
+  },
+  {
+    "pregunta": "¿Cuándo puede un interesado presentar una queja en segunda instancia?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Cuando la queja en primera instancia no haya sido suficientemente atendida o se muestre disconformidad con la resolución.",
+      "B": "Directamente, sin necesidad de presentarla en primera instancia.",
+      "C": "Solo si la queja se refiere a un acto muy grave.",
+      "D": "Transcurridos seis meses sin respuesta a la primera instancia."
+    }
+  },
+  {
+    "pregunta": "¿A quién se dirige la queja en segunda instancia?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Al Ministro de Defensa.",
+      "B": "Al jefe de la unidad, base, centro u organismo que resolvió la queja en primera instancia.",
+      "C": "A la autoridad militar superior en la cadena de mando.",
+      "D": "Al Presidente del Observatorio de la vida militar."
+    }
+  },
+  {
+    "pregunta": "¿Qué debe hacer el jefe de la unidad que resolvió la queja inicial al recibir la queja en segunda instancia?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Resolver nuevamente la queja en segunda instancia.",
+      "B": "Archivar la queja de segunda instancia por improcedente.",
+      "C": "Remitirá la queja junto con el expediente de primera instancia a la autoridad competente para la segunda instancia.",
+      "D": "Comunicar al interesado que no procede la segunda instancia."
+    }
+  },
+  {
+    "pregunta": "¿Quiénes son las autoridades competentes para la resolución de quejas en segunda instancia según el Artículo 11?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "El Jefe de Estado Mayor de la Defensa, el Subsecretario de Defensa y el Secretario de Estado Director del CNI.",
+      "B": "El Ministro de Defensa y los Jefes de Estado Mayor de los Ejércitos.",
+      "C": "Los Jefes de unidad o centro.",
+      "D": "El Observatorio de la vida militar."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el plazo máximo para resolver una queja en segunda instancia?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Un mes desde su presentación.",
+      "B": "Seis meses desde su recepción por la autoridad competente.",
+      "C": "Un año desde la resolución de primera instancia.",
+      "D": "Dos meses desde su recepción por el jefe de unidad."
+    }
+  },
+  {
+    "pregunta": "¿Qué ocurre si una queja en segunda instancia no se resuelve en el plazo establecido?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Se considera estimada por silencio administrativo.",
+      "B": "La queja se eleva automáticamente a la siguiente instancia superior.",
+      "C": "Se inicia un procedimiento para determinar las causas del retraso.",
+      "D": "Se considera desestimada por silencio administrativo."
+    }
+  },
+  {
+    "pregunta": "¿Cómo se comunica al interesado la resolución de la queja en segunda instancia?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Por escrito.",
+      "B": "Verbalmente por la autoridad competente.",
+      "C": "Mediante publicación en el Boletín Oficial de Defensa.",
+      "D": "A través de un intermediario."
+    }
+  },
+  {
+    "pregunta": "¿El Artículo 6 especifica si las iniciativas deben incluir documentación de apoyo?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Sí, toda la documentación que la apoye debe presentarse y publicarse.",
+      "B": "No, la documentación es opcional.",
+      "C": "Solo si la iniciativa implica un cambio normativo.",
+      "D": "La fuente no menciona la documentación de apoyo."
+    }
+  },
+  {
+    "pregunta": "¿En el proceso de primera instancia de una queja, ¿qué debe contener el escrito que traslada el superior inmediato al jefe de unidad?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "La queja registrada por escrito.",
+      "B": "Un informe del superior inmediato sobre la procedencia de la queja.",
+      "C": "La resolución propuesta por el superior inmediato.",
+      "D": "Un resumen de las conversaciones mantenidas con el interesado."
+    }
+  },
+  {
+    "pregunta": "¿Qué ley se menciona en la definición de 'Iniciativa o propuesta' como base de los derechos y deberes de los miembros de las Fuerzas Armadas?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Ley 39/2007, de la carrera militar.",
+      "B": "Ley Orgánica 9/2011, de 27 de julio.",
+      "C": "Ley Orgánica 5/2005, de la Defensa Nacional.",
+      "D": "Real Decreto Legislativo 1/2000, por el que se aprueba el texto refundido de la Ley sobre Seguridad Social de las Fuerzas Armadas."
+    }
+  },
+  {
+    "pregunta": "¿La definición de 'Unidad' en el documento '11_iniciativas y quejas.pdf' hace referencia a la estructura orgánica según qué Real Decreto?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Real Decreto 259/2013.",
+      "B": "Real Decreto 521/2020.",
+      "C": "Real Decreto 194/2010, de 26 de febrero.",
+      "D": "Real Decreto 86/2006."
+    }
+  },
+  {
+    "pregunta": "¿El derecho a plantear iniciativas y quejas aplica a qué tipo de asuntos?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Relativos al régimen de personal y las condiciones de vida del militar.",
+      "B": "Cualquier asunto relacionado con la operación militar.",
+      "C": "Asuntos políticos o sindicales.",
+      "D": "Decisiones de la cadena de mando en combate."
+    }
+  },
+  {
+    "pregunta": "¿Qué documento debe incluir el nombre del militar interesado, su identificación militar y su firma?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La resolución de la queja en primera instancia.",
+      "B": "El documento de presentación de la iniciativa o propuesta.",
+      "C": "El registro de la queja verbal por el superior inmediato.",
+      "D": "La comunicación de la resolución de segunda instancia."
+    }
+  },
+  {
+    "pregunta": "En la presentación de quejas en primera instancia, ¿cuál es el primer paso que debe dar el militar?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Presentar un escrito al jefe de la unidad.",
+      "B": "Acudir a la Asesoría Jurídica de la unidad.",
+      "C": "Publicar su queja en el tablón de anuncios.",
+      "D": "Comunicarla verbalmente a su superior inmediato."
+    }
+  },
+  {
+    "pregunta": "El jefe de la unidad, base, centro u organismo tiene la responsabilidad de ______ la queja en primera instancia.",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Archivar.",
+      "B": "Remitir a la segunda instancia.",
+      "C": "Tramitar y resolver.",
+      "D": "Ignorar si la considera leve."
+    }
+  },
+  {
+    "pregunta": "¿Si la queja no es resuelta en segunda instancia en el plazo de seis meses, se entiende que la queja ha sido...?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Desestimada.",
+      "B": "Estimada.",
+      "C": "Anulada.",
+      "D": "Suspendida a espera de nueva información."
+    }
+  },
+  {
+    "pregunta": "¿Qué ley se menciona en la definición de 'Queja' como base de los derechos y deberes de los miembros de las Fuerzas Armadas?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Real Decreto 194/2010.",
+      "B": "Ley de la Carrera Militar.",
+      "C": "Ley Orgánica 9/2011, de 27 de julio.",
+      "D": "Código Penal Militar."
+    }
+  },
+  {
+    "pregunta": "¿El Real Decreto cubre tanto las iniciativas como las quejas?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Sí, regula ambas.",
+      "B": "Solo regula las iniciativas.",
+      "C": "Solo regula las quejas.",
+      "D": "Regula otros aspectos, pero no iniciativas ni quejas."
+    }
+  },
+  {
+    "pregunta": "¿Qué debe acompañar a la queja de segunda instancia cuando el jefe de unidad la envía a la autoridad competente?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Un nuevo informe de los hechos.",
+      "B": "Testimonios de otros militares.",
+      "C": "Una propuesta de resolución.",
+      "D": "El expediente de primera instancia de la queja."
+    }
+  },
+  {
+    "pregunta": "El plazo para la resolución de la queja en segunda instancia se cuenta desde la fecha de:",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Presentación de la queja inicial.",
+      "B": "Recepción de la queja por la autoridad competente para la segunda instancia.",
+      "C": "Resolución de la queja en primera instancia.",
+      "D": "Publicación de la queja en el tablón de anuncios."
+    }
+  },
+  {
+    "pregunta": "¿Qué implica el término 'régimen de personal' a efectos de este Real Decreto?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "La organización de turnos de servicio.",
+      "B": "La distribución de uniformes y equipo.",
+      "C": "Asuntos que afectan al militar en su individualidad dentro de la unidad.",
+      "D": "El régimen de alimentación y alojamiento."
+    }
+  },
+  {
+    "pregunta": "¿La comunicación de la resolución de la queja en primera instancia siempre es por escrito?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Sí, el Artículo 11 indica que se comunicará al interesado por escrito.",
+      "B": "No, puede ser verbal si la queja fue verbal.",
+      "C": "Solo si la queja es desestimada.",
+      "D": "Depende de la gravedad de la queja."
+    }
+  },
+  {
+    "pregunta": "¿Si un militar no está conforme con la resolución de su queja en primera instancia, qué opción tiene según el Artículo 11?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Presentar la misma queja nuevamente en primera instancia.",
+      "B": "Presentar una queja en segunda instancia.",
+      "C": "Dirigirse directamente a un tribunal militar.",
+      "D": "Desistir de su queja y no hacer nada más."
+    }
+  },
+  {
+    "pregunta": "¿La queja en primera instancia se inicia verbalmente ante el superior inmediato, y éste la registra y la traslada por escrito a...?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "La autoridad competente de segunda instancia.",
+      "B": "El Jefe de Estado Mayor del Ejército.",
+      "C": "El Ministro de Defensa.",
+      "D": "El jefe de la unidad."
+    }
+  },
+  {
+    "pregunta": "El silencio administrativo en segunda instancia se produce si no hay resolución expresa en el plazo de:",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Seis meses.",
+      "B": "Un mes.",
+      "C": "Un año.",
+      "D": "Dos meses."
+    }
+  },
+  {
+    "pregunta": "¿Quién comunica la resolución de la queja en segunda instancia al interesado?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "El jefe de la unidad.",
+      "B": "El superior inmediato.",
+      "C": "El personal administrativo de la unidad.",
+      "D": "La autoridad competente para la segunda instancia."
+    }
+  },
+  {
+    "pregunta": "¿La definición de 'Queja' se refiere a la disconformidad del militar con algo específico relativo a...?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Las decisiones operativas en misiones.",
+      "B": "Su régimen de personal y las condiciones de vida.",
+      "C": "El resultado de una evaluación de aptitud.",
+      "D": "La concesión de permisos a otros compañeros."
+    }
+  },
+  {
+    "pregunta": "¿El superior inmediato, al recibir una queja verbal, ¿está autorizado a resolverla él mismo verbalmente?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Sí, si considera que es un asunto menor.",
+      "B": "Solo si el interesado acepta esa resolución.",
+      "C": "Depende de la normativa interna de la unidad.",
+      "D": "No, debe registrarla y trasladarla por escrito al jefe de la unidad."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el propósito principal de plantear una 'Iniciativa o propuesta'?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Proponer mejoras o cambios en el régimen de personal o condiciones de vida.",
+      "B": "Expresar disconformidad con una orden recibida.",
+      "C": "Solicitar un cambio de destino.",
+      "D": "Reclamar una sanción disciplinaria."
+    }
+  },
+  {
+    "pregunta": "¿Qué debe hacer el jefe de la unidad al recibir la queja por escrito del superior inmediato?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Archivarla.",
+      "B": "Remitirla directamente a segunda instancia.",
+      "C": "Tramitarla y resolverla en primera instancia.",
+      "D": "Devolverla al superior inmediato para que la resuelva."
+    }
+  },
+  {
+    "pregunta": "La queja en segunda instancia se presenta ante la misma autoridad que resolvió la queja en primera instancia, es decir...",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "El superior inmediato.",
+      "B": "El jefe de la unidad.",
+      "C": "La autoridad competente de segunda instancia.",
+      "D": "El Ministro de Defensa."
+    }
+  },
+  {
+    "pregunta": "¿Las iniciativas o propuestas pueden incluir la modificación de normativa?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Sí, siempre que se refiera al régimen de personal y las condiciones de vida.",
+      "B": "No, la modificación normativa no está dentro del ámbito de las iniciativas.",
+      "C": "Solo si la normativa a modificar es de carácter interno de la unidad.",
+      "D": "Únicamente si la iniciativa es aprobada por el Jefe de Estado Mayor de la Defensa."
+    }
+  },
+  {
+    "pregunta": "¿El procedimiento de queja en primera instancia comienza siempre de forma...?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Verbal ante el superior inmediato.",
+      "B": "Escrita ante el jefe de la unidad.",
+      "C": "Electrónica a través de la intranet.",
+      "D": "Formal mediante instancia registrada."
+    }
+  },
+  {
+    "pregunta": "La autoridad competente para la segunda instancia recibe la queja y el expediente de primera instancia de parte de:",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "El superior inmediato.",
+      "B": "El interesado directamente.",
+      "C": "El personal administrativo de la unidad.",
+      "D": "El jefe de la unidad que resolvió en primera instancia."
+    }
+  },
+  {
+    "pregunta": "¿El Real Decreto que regula iniciativas y quejas tiene por objeto principal establecer cómo los militares pueden ejercer su derecho a plantearlas en relación a:",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Las operaciones militares y la disciplina.",
+      "B": "Su régimen de personal y las condiciones de vida.",
+      "C": "Los procesos de ascensos y destinos.",
+      "D": "La defensa nacional y la seguridad colectiva."
+    }
+  }
+]

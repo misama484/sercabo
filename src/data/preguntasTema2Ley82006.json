@@ -1,0 +1,502 @@
+[
+  {
+    "pregunta": "¿Cuál es el objeto de las Reales Ordenanzas de las Fuerzas Armadas según el Artículo 1?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Establecer el código de disciplina militar exclusivamente.",
+      "B": "Constituir el código de conducta, definir los principios rectores y las normas de comportamiento de acuerdo con la Constitución.",
+      "C": "Regular la estructura orgánica de las Fuerzas Armadas.",
+      "D": "Determinar los procedimientos de ascenso."
+    }
+  },
+  {
+    "pregunta": "¿Qué inspira el exacto cumplimiento del deber para todos los militares, según las Reales Ordenanzas?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "El amor a España, el honor, la disciplina y el valor.",
+      "B": "El espíritu de sacrificio y la abnegación.",
+      "C": "La cohesión de la unidad y la lealtad al superior.",
+      "D": "La preparación profesional y la competencia técnica."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el objeto de la Ley 8/2006, de 24 de abril, de Tropa y Marinería?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Consolidar la plena profesionalización de la tropa y marinería de las Fuerzas Armadas.",
+      "B": "Establecer las bases de la organización militar.",
+      "C": "Regular el Régimen Disciplinario de las Fuerzas Armadas.",
+      "D": "Definir los derechos fundamentales del personal militar."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la duración máxima del compromiso inicial para el personal de tropa y marinería?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Hasta un máximo de diez años.",
+      "B": "Hasta los 45 años de edad.",
+      "C": "Hasta un máximo de seis años.",
+      "D": "Hasta que se produzca el ascenso a Cabo."
+    }
+  },
+  {
+    "pregunta": "¿Hasta qué edad se puede alcanzar el compromiso de larga duración para el personal de tropa y marinería?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Hasta los 40 años.",
+      "B": "Hasta los 42 años.",
+      "C": "Hasta los 50 años.",
+      "D": "Hasta los 45 años de edad."
+    }
+  },
+  {
+    "pregunta": "¿Quién establece los procedimientos para la adquisición del compromiso de larga duración para el personal de tropa y marinería?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "El Ministro de Defensa.",
+      "B": "El Jefe de Estado Mayor del Ejército.",
+      "C": "La Dirección General de Personal.",
+      "D": "Mediante Real Decreto."
+    }
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes opciones *no* es una causa de finalización del compromiso de larga duración según el artículo 10 de la Ley 8/2006?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Resolución del compromiso.",
+      "B": "Pérdida de la nacionalidad española.",
+      "C": "Insuficiencia de condiciones psicofísicas.",
+      "D": "Ascenso a la escala de Suboficiales."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la edad máxima para el acceso a militar de tropa y marinería, según las condiciones establecidas?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "25 años.",
+      "B": "29 años.",
+      "C": "35 años.",
+      "D": "40 años."
+    }
+  },
+  {
+    "pregunta": "¿Cuántos años de servicio se requiere como mínimo para que el personal de tropa y marinería acceda a un puesto de trabajo en las Administraciones Públicas civiles, en el marco de las medidas de incorporación?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "5 años.",
+      "B": "8 años.",
+      "C": "10 años.",
+      "D": "12 años."
+    }
+  },
+  {
+    "pregunta": "¿Qué porcentaje mínimo de plazas de la escala básica del Cuerpo de la Guardia Civil se reservan para el acceso del personal de tropa y marinería?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "20 por ciento.",
+      "B": "40 por ciento.",
+      "C": "50 por ciento.",
+      "D": "60 por ciento."
+    }
+  },
+  {
+    "pregunta": "¿Qué porcentaje mínimo de plazas de la escala básica del Cuerpo Nacional de Policía se reservan para el acceso del personal de tropa y marinería?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "20 por ciento.",
+      "B": "30 por ciento.",
+      "C": "40 por ciento.",
+      "D": "50 por ciento."
+    }
+  },
+  {
+    "pregunta": "¿Qué tipo de apoyo buscan las medidas de incorporación laboral para el personal de tropa y marinería?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Apoyo económico exclusivo.",
+      "B": "Apoyo psicológico y social.",
+      "C": "Apoyo para su plena integración profesional en el mundo laboral.",
+      "D": "Apoyo para continuar en la Administración Militar."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el objeto de la Ley 39/2007, de 19 de noviembre, de la carrera militar?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Regular el régimen del personal militar profesional y aquellos aspectos que lo conforman.",
+      "B": "Establecer el código de disciplina militar.",
+      "C": "Regular el servicio militar obligatorio.",
+      "D": "Definir la estructura orgánica de las Fuerzas Armadas."
+    }
+  },
+  {
+    "pregunta": "¿Qué carácter tiene la relación de servicios de los militares de tropa y marinería según la Ley de Carrera Militar?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Indefinido.",
+      "B": "Temporal.",
+      "C": "De carrera.",
+      "D": "Eventual."
+    }
+  },
+  {
+    "pregunta": "¿En qué momento debe prestar juramento o promesa ante la Bandera el español que adquiera la condición de militar?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "En el momento de adquirir la condición de militar.",
+      "B": "Antes de finalizar el período de formación.",
+      "C": "Al ascender a Cabo.",
+      "D": "Al obtener el compromiso de larga duración."
+    }
+  },
+  {
+    "pregunta": "¿Cuáles son las categorías de militares profesionales según la Ley de Carrera Militar?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Generales, Oficiales y Suboficiales.",
+      "B": "Oficiales y Suboficiales.",
+      "C": "Suboficiales y Tropa y Marinería.",
+      "D": "Oficiales, Suboficiales y Tropa y Marinería."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el propósito principal de los Escalafones en la carrera militar?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Clasificar al personal por méritos deportivos.",
+      "B": "Agrupar al personal militar por escalas y cuerpos específicos.",
+      "C": "Determinar la antigüedad en el servicio exclusivamente.",
+      "D": "Establecer los destinos del personal."
+    }
+  },
+  {
+    "pregunta": "¿A través de qué vía principal pueden acceder los militares de tropa y marinería a las escalas de Suboficiales?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Promoción interna.",
+      "B": "Acceso directo sin requisitos adicionales.",
+      "C": "Mediante sorteo anual.",
+      "D": "Por designación del Ministro de Defensa."
+    }
+  },
+  {
+    "pregunta": "¿A través de qué vía principal pueden acceder los militares de tropa y marinería a las escalas de Oficiales?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Promoción interna.",
+      "B": "Acceso directo mediante oposición libre.",
+      "C": "Únicamente por designación real.",
+      "D": "Tras cumplir 25 años de servicio."
+    }
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes es una causa de pérdida de la condición de militar profesional?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Obtener el compromiso de larga duración.",
+      "B": "Realizar un curso de perfeccionamiento.",
+      "C": "Pérdida de la nacionalidad española.",
+      "D": "Ser destinado a otra unidad."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el objeto del Régimen Disciplinario de las Fuerzas Armadas?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Garantizar la observancia de las reglas de comportamiento del militar en particular la disciplina, la jerarquía y la unidad.",
+      "B": "Establecer las recompensas por méritos sobresalientes.",
+      "C": "Definir las normas para el uso de la fuerza.",
+      "D": "Regular el acceso a la carrera militar."
+    }
+  },
+  {
+    "pregunta": "¿Quiénes están sujetos al Régimen Disciplinario de las Fuerzas Armadas?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Solo los Oficiales y Suboficiales.",
+      "B": "Únicamente el personal de Tropa y Marinería.",
+      "C": "Los militares de carrera y los reservistas.",
+      "D": "Todos los miembros de las Fuerzas Armadas que adquieran la condición militar, así como los reservistas y los aspirantes a tal condición en determinados casos."
+    }
+  },
+  {
+    "pregunta": "¿Cómo se clasifican las faltas disciplinarias en el Régimen Disciplinario de las Fuerzas Armadas?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Leves, Graves y Muy Graves.",
+      "B": "Faltas leves, faltas graves y faltas muy graves.",
+      "C": "Faltas menores y faltas mayores.",
+      "D": "Deméritos y sanciones."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la sanción máxima de arresto por la comisión de una falta leve?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Arresto de hasta catorce días.",
+      "B": "Arresto de quince días a un mes.",
+      "C": "Arresto de un mes y un día a sesenta días.",
+      "D": "Suspensión de empleo."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la sanción mínima de arresto por la comisión de una falta grave?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Arresto de hasta catorce días.",
+      "C": "Arresto de quince días a un mes.",
+      "B": "Arresto de un día.",
+      "D": "Arresto de más de sesenta días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la sanción mínima de arresto por la comisión de una falta muy grave?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Arresto de quince días.",
+      "B": "Arresto de un mes y un día a sesenta días.",
+      "C": "Arresto de más de sesenta días.",
+      "D": "Suspensión de empleo por seis meses."
+    }
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes acciones es un ejemplo de falta leve, según las fuentes?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "La inexactitud en el cumplimiento de los horarios.",
+      "B": "Emitir expresiones contra la Constitución.",
+      "C": "El maltrato a un subordinado.",
+      "D": "La deslealtad."
+    }
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes acciones es un ejemplo de falta grave, según las fuentes?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Una ligera demora en el parte.",
+      "B": "La embriaguez fuera de servicio.",
+      "C": "Emitir expresiones o manifestaciones contrarias a la disciplina, la jerarquía o la unidad, o hacer inobservancia de las órdenes.",
+      "D": "La deserción."
+    }
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes acciones es un ejemplo de falta muy grave, según las fuentes?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Faltar levemente a la disciplina.",
+      "B": "Emitir expresiones o manifestaciones contrarias a la Constitución.",
+      "C": "La inexactitud en el cumplimiento de una orden.",
+      "D": "No presentarse a un acto de servicio justificado."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el plazo máximo para resolver un recurso de alzada en materia disciplinaria?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Un mes.",
+      "B": "Un mes y medio.",
+      "C": "Dos meses.",
+      "D": "Tres meses."
+    }
+  },
+  {
+    "pregunta": "¿Cómo se estructuran las Fuerzas Armadas españolas, según su organización básica?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "En Ejército de Tierra, Armada y Ejército del Aire.",
+      "B": "En Unidades, Centros y Organismos.",
+      "C": "En Cuartel General y Fuerza.",
+      "D": "En Mandos, Jefaturas y Unidades."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la organización básica del Ejército de Tierra?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Estado Mayor y Fuerza.",
+      "B": "Cuartel General, Fuerza y Apoyo a la Fuerza.",
+      "C": "Unidades, Centros y Organismos.",
+      "D": "División, Brigada y Regimiento."
+    }
+  },
+  {
+    "pregunta": "¿Quién ejerce la jefatura de la organización del Ejército de Tierra?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "El Ministro de Defensa.",
+      "B": "El Jefe del Estado Mayor de la Defensa (JEMAD).",
+      "C": "El Subsecretario de Defensa.",
+      "D": "El Jefe de Estado Mayor del Ejército (JEME)."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la función principal del Cuartel General del Ejército de Tierra?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Apoyar al JEME y dirigir/gestionar recursos.",
+      "B": "Preparar y generar fuerzas.",
+      "C": "Proporcionar apoyo logístico.",
+      "D": "Ejecutar las operaciones militares."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la misión principal de la Fuerza Terrestre?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Gestionar los recursos humanos y materiales.",
+      "B": "Preparar y generar fuerzas para la ejecución de operaciones.",
+      "C": "Proporcionar apoyo sanitario.",
+      "D": "Realizar labores de inteligencia."
+    }
+  },
+  {
+    "pregunta": "¿Qué tipo de apoyo proporciona principalmente el Apoyo a la Fuerza Terrestre?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Apoyo al combate y logístico en operaciones.",
+      "B": "Apoyo exclusivo de personal.",
+      "C": "Apoyo en personal, material, económico-financiero, sanitario, logística, infraestructuras, telecomunicaciones e informática, y enseñanza.",
+      "D": "Apoyo táctico en primera línea."
+    }
+  },
+  {
+    "pregunta": "¿A qué se refiere el término \"régimen interior\" en el contexto de las instalaciones y unidades militares?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Al conjunto de normas y procedimientos que regulan la vida y funcionamiento de las unidades.",
+      "B": "Exclusivamente a las normas de disciplina y sanciones.",
+      "C": "A las normas para el uso de armamento.",
+      "D": "A la organización de los comedores."
+    }
+  },
+  {
+    "pregunta": "¿Quién debe promover las medidas necesarias para garantizar la igualdad real y efectiva en el ámbito de las Fuerzas Armadas?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Los Jefes de Unidad.",
+      "B": "Las autoridades competentes.",
+      "C": "El personal femenino exclusivamente.",
+      "D": "Los órganos de justicia militar."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la primera y más fundamental disposición para la defensa de España para el militar?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "La obediencia al superior.",
+      "B": "El espíritu de sacrificio.",
+      "C": "La disposición permanente para defender a España.",
+      "D": "El exacto cumplimiento de los deberes."
+    }
+  },
+  {
+    "pregunta": "¿Qué principio rector del comportamiento militar implica actuar con respeto a la dignidad de las personas y a los derechos humanos?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Conducta con respeto a la dignidad de las personas y los derechos humanos inviolables.",
+      "B": "Adecuado comportamiento profesional.",
+      "C": "Disciplina, jerarquía y unidad.",
+      "D": "Lealtad y compañerismo."
+    }
+  },
+  {
+    "pregunta": "¿Qué exige el principio de disciplina, jerarquía y unidad en el comportamiento militar?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Libre interpretación de las órdenes recibidas.",
+      "B": "Factor de cohesión que obliga a mandar con responsabilidad y a obedecer lo mandado, y practicará la exigencia en las Fuerzas Armadas.",
+      "C": "Actuar siempre por iniciativa propia.",
+      "D": "La flexibilidad en el cumplimiento de órdenes."
+    }
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes es un valor o virtud militar según las fuentes?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "La ambición personal.",
+      "B": "El afán de lucro.",
+      "C": "La pasividad.",
+      "D": "El honor."
+    }
+  },
+  {
+    "pregunta": "¿Pueden los militares ejercer el derecho de sindicación?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Sí, libremente.",
+      "B": "No, no podrán ejercer el derecho de sindicación.",
+      "C": "Sí, pero solo en sindicatos militares.",
+      "D": "Sí, con autorización previa."
+    }
+  },
+  {
+    "pregunta": "¿Pueden los militares afiliarse a partidos políticos?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Sí, sin restricciones.",
+      "B": "No, no podrán afiliarse a partidos políticos y mantendrán una estricta neutralidad política.",
+      "C": "Sí, pero solo a partidos no mayoritarios.",
+      "D": "Sí, siempre que no ejerzan cargos en ellos."
+    }
+  },
+  {
+    "pregunta": "¿Qué implica el principio de neutralidad política y sindical para el militar?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "No podrán afiliarse a partidos políticos o sindicatos, salvo excepciones legales, y mantendrán estricta neutralidad.",
+      "B": "Deben afiliarse a un sindicato profesional militar.",
+      "C": "Pueden participar en actividades políticas siempre que no vistan uniforme.",
+      "D": "Deben mostrar lealtad al gobierno de turno."
+    }
+  },
+  {
+    "pregunta": "¿Cómo se garantiza la libertad de expresión e información de los militares?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Es ilimitada y no tiene restricciones.",
+      "B": "Solo se garantiza dentro de los cuarteles.",
+      "C": "Está establecida en la Constitución, sin perjuicio de los límites derivados de la salvaguarda de la seguridad y defensa nacional y el deber de reserva.",
+      "D": "Está sujeta a la aprobación del mando."
+    }
+  },
+  {
+    "pregunta": "¿Qué establece el artículo 13 de las Reales Ordenanzas sobre el derecho de reunión y manifestación?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "El militar podrá ejercer el derecho de reunión de acuerdo con la Constitución y las leyes, pero no organizar ni participar en manifestaciones o reuniones de carácter político o sindical vistiendo uniforme o en actos de servicio.",
+      "B": "Los militares tienen prohibido cualquier tipo de reunión.",
+      "C": "Los militares pueden manifestarse libremente sobre cualquier asunto.",
+      "D": "Solo se permiten reuniones informativas internas."
+    }
+  },
+  {
+    "pregunta": "¿En qué ámbito pueden ejercer los militares el derecho de asociación?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "En cualquier tipo de asociación, política o sindical.",
+      "B": "Pueden constituir y asociarse a asociaciones profesionales de las Fuerzas Armadas con fines profesionales y los derechos establecidos en la Ley Orgánica.",
+      "C": "Solo pueden asociarse con otros militares en su misma unidad.",
+      "D": "Está totalmente prohibida la asociación."
+    }
+  },
+  {
+    "pregunta": "¿Qué establece el artículo 16 de las Reales Ordenanzas sobre el derecho de petición?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "El militar podrá ejercer el derecho de petición singularmente, en los supuestos y formalidades que señale la Ley Orgánica 4/2001.",
+      "B": "Los militares no tienen derecho de petición.",
+      "C": "Pueden presentar peticiones colectivas sobre cualquier asunto.",
+      "D": "Solo se permiten peticiones a través de un abogado."
+    }
+  },
+  {
+    "pregunta": "¿Qué constituye el código de conducta, define los principios rectores y las normas de comportamiento de acuerdo con la Constitución en las Fuerzas Armadas?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La Ley de Régimen Disciplinario.",
+      "B": "Las Reales Ordenanzas para las Fuerzas Armadas.",
+      "C": "El Código Penal Militar.",
+      "D": "La Ley de la Carrera Militar."
+    }
+  }
+]

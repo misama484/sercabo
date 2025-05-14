@@ -1,0 +1,522 @@
+[
+  {
+    "pregunta": "¿Cuál es el objeto principal de la estructura orgánica del Ejército de Tierra?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Gestionar los recursos financieros.",
+      "B": "Planificar las operaciones logísticas.",
+      "C": "Preparar la defensa nacional.",
+      "D": "Preparar a la Fuerza para la acción conjunta y combinada, y emplear la fuerza en las misiones que se le asignen."
+    }
+  },
+  {
+    "pregunta": "¿Qué Órgano del Ejército de Tierra es el responsable del asesoramiento jurídico?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "La Secretaría General del Estado Mayor.",
+      "B": "La Dirección de Planes.",
+      "C": "La Asesoría Jurídica del Ejército de Tierra.",
+      "D": "El Gabinete del Jefe de Estado Mayor del Ejército de Tierra."
+    }
+  },
+  {
+    "pregunta": "¿Quién nombra al Jefe del Cuartel General Terrestre de Alta Disponibilidad?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "El Jefe de Estado Mayor de la Defensa.",
+      "B": "El Ministerio de Defensa.",
+      "C": "El Jefe de Estado Mayor del Ejército de Tierra.",
+      "D": "La Secretaría General del Estado Mayor del Ejército de Tierra."
+    }
+  },
+  {
+    "pregunta": "¿Qué se entiende por \"Unidad orgánica básica\" en la estructura del Ejército de Tierra?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La compañía o unidad similar.",
+      "B": "El Cuartel General Terrestre de Alta Disponibilidad.",
+      "C": "La Brigada.",
+      "D": "El Regimiento."
+    }
+  },
+  {
+    "pregunta": "¿Quién está al frente de la Secretaría General del Estado Mayor del Ejército de Tierra?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "El Segundo Jefe del Estado Mayor del Ejército de Tierra (SEJEME).",
+      "B": "El Jefe de Estado Mayor del Ejército de Tierra (JEME).",
+      "C": "El Jefe de Estado Mayor de la Defensa (JEMAD).",
+      "D": "El Ministro de Defensa."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el órgano responsable de la organización y planeamiento global del Ejército de Tierra a medio y largo plazo?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "El Gabinete del JEME.",
+      "B": "La Dirección de Planes.",
+      "C": "La Secretaría General del Estado Mayor.",
+      "D": "La Jefatura de los Sistemas de Información, Telecomunicaciones y Asistencia Técnica (JCISAT)."
+    }
+  },
+  {
+    "pregunta": "¿Qué tipo de apoyo proporciona el Gabinete del JEME?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Apoyo inmediato y asesoramiento.",
+      "B": "Apoyo logístico y financiero.",
+      "C": "Apoyo en personal y material.",
+      "D": "Apoyo operativo y de inteligencia."
+    }
+  },
+  {
+    "pregunta": "¿Quién depende orgánicamente de la Asesoría Jurídica General de la Defensa, según el documento?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "El Gabinete del JEME.",
+      "B": "La Secretaría General del Estado Mayor del Ejército de Tierra.",
+      "C": "La Asesoría Jurídica del Ejército de Tierra.",
+      "D": "La Dirección de Planes."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo principal del Cuartel General Terrestre de Alta Disponibilidad (CGTAD)?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Gestionar los recursos humanos.",
+      "B": "Realizar tareas de inteligencia.",
+      "C": "Coordinar el apoyo logístico.",
+      "D": "Preparar para liderar operaciones multinacionales terrestres y, en su caso, el componente terrestre de una organización conjunta."
+    }
+  },
+  {
+    "pregunta": "¿Qué órgano del CGTAD es responsable del asesoramiento jurídico?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "El Cuartel General.",
+      "B": "La Fuerza Terrestre.",
+      "C": "La Asesoría Jurídica.",
+      "D": "La División de Operaciones."
+    }
+  },
+  {
+    "pregunta": "¿Qué se entiende por \"estructura operativa\" en la Fuerza Terrestre?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "El Cuartel General del Ejército de Tierra.",
+      "B": "El conjunto de unidades que tienen cometido principal prepararse para constituir, de forma rápida y eficaz, estructuras operativas terrestres para la realización de operaciones militares.",
+      "C": "La Dirección de Planes.",
+      "D": "La Fuerza de Apoyo a la Maniobra."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el cometido principal de la División \"Castillejos\"?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Constituir unidades puestas bajo un mando único, organizadas, equipadas y preparadas para constituir organizaciones operativas capaces de integrarse en estructuras fundamentalmente conjuntas y combinadas.",
+      "B": "Proporcionar apoyo logístico.",
+      "C": "Liderar operaciones aéreas.",
+      "D": "Gestionar el personal."
+    }
+  },
+  {
+    "pregunta": "¿Qué tipo de apoyo proporciona el Mando de Apoyo a la Maniobra?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Apoyo financiero.",
+      "B": "Apoyo al Combate y Apoyo Logístico al Combate.",
+      "C": "Apoyo aéreo.",
+      "D": "Apoyo de personal."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la misión principal del Mando de Artillería de Campaña (MACA)?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Realizar operaciones anfibias.",
+      "B": "Gestionar el material y el abastecimiento.",
+      "C": "Proporcionar apoyo de ingenieros.",
+      "D": "Constituir un conjunto de unidades de campaña y de costa puestas bajo un mando único."
+    }
+  },
+  {
+    "pregunta": "¿De qué tipo de unidades se compone el Mando de Ingenieros (MING)?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Unidades de artillería.",
+      "B": "Unidades de transmisiones.",
+      "C": "Unidades de ingenieros.",
+      "D": "Unidades logísticas."
+    }
+  },
+  {
+    "pregunta": "¿Qué tipo de apoyo proporciona la Dirección de Asuntos Económicos en el Ejército de Tierra?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Apoyo de personal.",
+      "B": "Recursos financieros y en el ámbito económico.",
+      "C": "Apoyo logístico.",
+      "D": "Apoyo de ingenieros."
+    }
+  },
+  {
+    "pregunta": "¿Quién es el responsable de la dirección, gestión, administración y control de los recursos humanos en el Ejército de Tierra?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "El Mando de Personal.",
+      "B": "La Dirección de Asuntos Económicos.",
+      "C": "El Mando de Apoyo Logístico.",
+      "D": "La Inspección General del Ejército de Tierra."
+    }
+  },
+  {
+    "pregunta": "¿Qué aspecto incluye la Inspección General del Ejército de Tierra?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "La Dirección de Personal.",
+      "B": "La Dirección de Asuntos Económicos.",
+      "C": "La Dirección de Adiestramiento y Doctrina.",
+      "D": "La Dirección de Infraestructura."
+    }
+  },
+  {
+    "pregunta": "¿Qué órgano se encarga de la dirección y gestión de los recursos financieros y en el ámbito económico?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "La Dirección de Adquisiciones.",
+      "B": "La Subdirección de Contabilidad y Presupuesto.",
+      "C": "La Dirección de Asuntos Económicos.",
+      "D": "La Inspección General del Ejército de Tierra."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo de la estructura orgánica del Ejército de Tierra?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Aumentar el personal.",
+      "B": "Preparar a la Fuerza para la acción conjunta y combinada y emplear la fuerza.",
+      "C": "Reducir costes operativos.",
+      "D": "Gestionar el parque móvil."
+    }
+  },
+  {
+    "pregunta": "¿Qué órgano del Estado Mayor del Ejército de Tierra se encarga de la planificación y el seguimiento de las operaciones?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "El Gabinete del JEME.",
+      "B": "La Secretaría General del Estado Mayor.",
+      "C": "La Dirección de Planes.",
+      "D": "La Dirección de Logística."
+    }
+  },
+  {
+    "pregunta": "¿Dónde se encuentra el Gabinete del Jefe de Estado Mayor del Ejército de Tierra?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "En el Ministerio de Defensa.",
+      "B": "En el mismo edificio que el JEME.",
+      "C": "En el Cuartel General del Ejército de Tierra.",
+      "D": "Depende orgánicamente de la Secretaría General."
+    }
+  },
+  {
+    "pregunta": "¿Qué materia específica abarca la Jefatura de los Sistemas de Información, Telecomunicaciones y Asistencia Técnica (JCISAT)?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Ciberdefensa.",
+      "B": "Transporte.",
+      "C": "Infraestructuras.",
+      "D": "Material."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el cometido principal de la Fuerza Terrestre?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prepararse para constituir, de forma rápida y eficaz, estructuras operativas terrestres para la realización de operaciones militares.",
+      "B": "Gestionar el personal del Ejército de Tierra.",
+      "C": "Coordinar las actividades financieras.",
+      "D": "Supervisar la instrucción y adiestramiento."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el nivel jerárquico del Cuartel General Terrestre de Alta Disponibilidad (CGTAD) en la estructura del Ejército de Tierra?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Unidad de Apoyo.",
+      "B": "Dirección.",
+      "C": "Mando.",
+      "D": "Órgano de nivel Cuerpo de Ejército."
+    }
+  },
+  {
+    "pregunta": "¿Qué tipo de apoyo se encarga de la dirección, gestión, administración y control del material y del abastecimiento?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Apoyo de Personal.",
+      "B": "Apoyo Financiero.",
+      "C": "Apoyo Logístico.",
+      "D": "Apoyo de Combate."
+    }
+  },
+  {
+    "pregunta": "¿De qué órgano depende la Dirección de Sanidad en el Mando de Personal?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "La Jefatura de Personal.",
+      "B": "La Dirección de Adiestramiento y Doctrina.",
+      "C": "La Dirección de Asistencia al Personal.",
+      "D": "La Jefatura del Mando de Personal."
+    }
+  },
+  {
+    "pregunta": "¿Qué tipo de actividades abarca el Mando de Adiestramiento y Doctrina?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Adquisiciones y Contratación.",
+      "B": "Infraestructuras y Medioambiente.",
+      "C": "Sanidad y Asistencia al Personal.",
+      "D": "Instrucción, adiestramiento y evaluación."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el cometido de la Inspección General del Ejército de Tierra en materia de infraestructura?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Se encarga de la dirección, gestión, administración y control de las infraestructuras.",
+      "B": "Planifica nuevas construcciones.",
+      "C": "Gestiona los recursos financieros para infraestructuras.",
+      "D": "Supervisa la ejecución de proyectos de infraestructura."
+    }
+  },
+  {
+    "pregunta": "¿Qué se entiende por \"estructura de mando\" en el Ejército de Tierra?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "El conjunto de todas las unidades operativas.",
+      "B": "Las unidades bajo un mando único, organizadas, equipadas y preparadas para conseguir los efectos definidos en los conceptos y la tradición del Ejército de Tierra.",
+      "C": "La cadena de mando del personal.",
+      "D": "Los órganos de apoyo logístico."
+    }
+  },
+  {
+    "pregunta": "¿Quién es el responsable de dirigir, inspeccionar y coordinar los órganos bajo su mando?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "El Jefe de Estado Mayor de la Defensa.",
+      "B": "El Subsecretario de Defensa.",
+      "C": "El Ministro de Defensa.",
+      "D": "El Jefe de Estado Mayor del Ejército de Tierra (JEME)."
+    }
+  },
+  {
+    "pregunta": "¿Qué dirección de la Secretaría General del Estado Mayor se ocupa de los asuntos económicos?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "La Dirección de Planes.",
+      "B": "La Dirección de Logística.",
+      "C": "La Dirección de Asuntos Económicos.",
+      "D": "La Dirección de Operaciones."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la dependencia orgánica del Gabinete del JEME?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Depende orgánicamente del JEME.",
+      "B": "Depende orgánicamente de la Secretaría General.",
+      "C": "Depende orgánicamente del Ministerio de Defensa.",
+      "D": "Depende orgánicamente de la Inspección General."
+    }
+  },
+  {
+    "pregunta": "¿Qué órgano del Ejército de Tierra se encarga de la formación, perfeccionamiento y altos estudios de la defensa nacional?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "El Mando de Personal.",
+      "B": "El Mando de Apoyo Logístico.",
+      "C": "La Inspección General del Ejército de Tierra.",
+      "D": "La Dirección de Planes."
+    }
+  },
+  {
+    "pregunta": "¿Qué Órgano del Mando de Personal gestiona los recursos humanos?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "La Jefatura de Personal.",
+      "B": "La Dirección de Adiestramiento y Doctrina.",
+      "C": "La Dirección de Sanidad.",
+      "D": "La Dirección de Asistencia al Personal."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el cometido de la Dirección de Sanidad en el Mando de Personal?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Gestionar las infraestructuras médicas.",
+      "B": "Encargarse de la dirección, gestión, administración y control en materia de sanidad y asistencia sanitaria.",
+      "C": "Planificar las operaciones sanitarias.",
+      "D": "Adquirir material médico."
+    }
+  },
+  {
+    "pregunta": "¿Qué órgano se encarga de la investigación, doctrina orgánica y materiales en el Mando de Adiestramiento y Doctrina?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La Jefatura de Adiestramiento y Doctrina.",
+      "B": "La Dirección de Investigación, Doctrina Orgánica y Materiales.",
+      "C": "La Dirección de Enseñanza, Instrucción, Adiestramiento y Evaluación.",
+      "D": "La Jefatura de la Inspección General del Ejército de Tierra."
+    }
+  },
+  {
+    "pregunta": "¿De qué dependen las Direcciones de Adquisiciones, Contabilidad y Presupuesto, y Gestión Económica y Contratación?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "De la Dirección de Asuntos Económicos.",
+      "B": "Del Mando de Apoyo Logístico.",
+      "C": "De la Inspección General del Ejército de Tierra.",
+      "D": "De la Secretaría General del Estado Mayor."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el principio fundamental de la estructura organizativa del Ejército de Tierra?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Centralización de decisiones.",
+      "B": "Flexibilidad y adaptabilidad.",
+      "C": "Orientación a la misión.",
+      "D": "Jerarquía estricta."
+    }
+  },
+  {
+    "pregunta": "¿Qué se entiende por \"estructura de apoyo\" en el Ejército de Tierra?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "El conjunto de órganos responsables de la dirección, gestión, administración y control de los recursos necesarios para que la Fuerza pueda cumplir sus misiones.",
+      "B": "Las unidades operativas.",
+      "C": "El Cuartel General.",
+      "D": "Los mandos operativos."
+    }
+  },
+  {
+    "pregunta": "¿Qué dirección del Mando de Apoyo Logístico se encarga del abastecimiento, mantenimiento y transporte?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La Jefatura del Mando de Apoyo Logístico.",
+      "B": "La Dirección de Abastecimiento, Mantenimiento y Transporte.",
+      "C": "La Dirección de Adquisiciones.",
+      "D": "La Dirección de Integración de Funciones Logísticas."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el cometido de la Dirección de Integración de Funciones Logísticas?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Dirigir el abastecimiento.",
+      "B": "Controlar el transporte.",
+      "C": "Gestionar las adquisiciones.",
+      "D": "Integrar los procesos relacionados con la vida y funcionamiento de las unidades."
+    }
+  },
+  {
+    "pregunta": "¿Qué dirección de la Inspección General del Ejército de Tierra se ocupa del acuartelamiento?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La Dirección de Infraestructura.",
+      "B": "La Dirección de Acuartelamiento.",
+      "C": "La Dirección de Sanidad.",
+      "D": "La Dirección de Investigación."
+    }
+  },
+  {
+    "pregunta": "¿Quién aprueba el presupuesto del Ejército de Tierra?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "El Jefe de Estado Mayor del Ejército de Tierra.",
+      "B": "La Dirección de Asuntos Económicos.",
+      "C": "La Subdirección de Contabilidad y Presupuesto.",
+      "D": "La Subdirección de Gestión Económica y Contratación."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el órgano del Ejército de Tierra que depende orgánicamente del Ministro de Defensa?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La Secretaría General del Estado Mayor.",
+      "B": "El Jefe de Estado Mayor del Ejército de Tierra.",
+      "C": "La Inspección General del Ejército de Tierra.",
+      "D": "El Cuartel General."
+    }
+  },
+  {
+    "pregunta": "¿Qué documento establece la organización básica del Ejército de Tierra?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "La Orden DEF/708/2020, de 27 de julio.",
+      "B": "La Ley de la Carrera Militar.",
+      "C": "Las Reales Ordenanzas.",
+      "D": "El Código Penal Militar."
+    }
+  },
+  {
+    "pregunta": "¿Quién es el responsable de proponer los elementos clave para orientar la organización del Ejército de Tierra?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "El Ministerio de Defensa.",
+      "B": "El Jefe de Estado Mayor del Ejército de Tierra.",
+      "C": "La Secretaría General del Estado Mayor.",
+      "D": "La Dirección de Planes."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la finalidad de la Dirección de Logística?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Gestionar el personal.",
+      "B": "Planificar las operaciones.",
+      "C": "Organizar, planear, coordinar y controlar los procesos logísticos y humanos para alcanzar los objetivos del Ejército de Tierra.",
+      "D": "Supervisar las infraestructuras."
+    }
+  },
+  {
+    "pregunta": "¿Qué órgano del Cuartel General del Ejército de Tierra está encargado de la dirección, coordinación y control en el ámbito de la Defensa?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "La Jefatura.",
+      "B": "La Secretaría General del Estado Mayor.",
+      "C": "La División de Planes.",
+      "D": "La Asesoría Jurídica."
+    }
+  },
+  {
+    "pregunta": "¿Qué Brigadas pertenecen a la División \"San Marcial\"?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Brigadas de Operaciones Especiales y Tropas de Montaña.",
+      "B": "Brigadas de Infantería Ligera.",
+      "C": "Brigadas de Caballería.",
+      "D": "Brigadas de Artillería."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es el cometidos de las unidades del Mando de Operaciones Especiales?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Apoyo al combate.",
+      "B": "Apoyo logístico.",
+      "C": "Unidades puestas bajo un mando único, organizadas, equipadas y adiestradas para realizar operaciones especiales que exijan disponer de dicha capacidad.",
+      "D": "Operaciones de reconocimiento."
+    }
+  },
+  {
+    "pregunta": "¿De qué tipo de unidades se compone el Mando de Transmisiones (MITR)?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Unidades de infantería.",
+      "B": "Unidades de transmisiones.",
+      "C": "Unidades de caballería.",
+      "D": "Unidades de artillería."
+    }
+  }
+]

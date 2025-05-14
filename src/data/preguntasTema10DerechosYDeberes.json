@@ -1,0 +1,502 @@
+[
+  {
+    "pregunta": "¿Cuál es el objeto principal de la ley según el Artículo 1?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Regular la estructura orgánica de las Fuerzas Armadas.",
+      "B": "Establecer el régimen disciplinario militar.",
+      "C": "Regular el ejercicio de los derechos fundamentales y libertades públicas del militar.",
+      "D": "Definir las misiones operativas de las Fuerzas Armadas."
+    }
+  },
+  {
+    "pregunta": "¿A quiénes se aplica la Ley según el Artículo 2?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Solamente al personal militar de carrera.",
+      "B": "A todos los miembros de las Fuerzas Armadas que adquieren la condición militar, incluyendo reservistas y aspirantes.",
+      "C": "Únicamente a los oficiales y suboficiales.",
+      "D": "Solo al personal militar en misiones internacionales."
+    }
+  },
+  {
+    "pregunta": "¿En qué se basa el principio de Igualdad según el Artículo 4?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "En la antigüedad y el rango militar.",
+      "B": "En la no discriminación por razón de nacimiento, origen racial o étnico, sexo, orientación sexual, religión o convicciones.",
+      "C": "En el mérito y la capacidad profesional.",
+      "D": "En la disponibilidad permanente del militar."
+    }
+  },
+  {
+    "pregunta": "¿Qué deben promover las autoridades competentes en relación con la Igualdad?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "El ascenso preferente de ciertos colectivos.",
+      "B": "Las medidas necesarias para garantizar la igualdad real y efectiva entre hombres y mujeres.",
+      "C": "La adaptación del uniforme según el género.",
+      "D": "La creación de unidades militares separadas por género."
+    }
+  },
+  {
+    "pregunta": "¿Qué norma fundamental rige la actuación del militar según el Artículo 5?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "El Código Penal Militar.",
+      "B": "La Ley de Procedimiento Administrativo Común.",
+      "C": "La Constitución.",
+      "D": "El Reglamento de Recompensas Militares."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 6, ¿cuál es una de las reglas esenciales que definen el comportamiento del militar?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La participación activa en política.",
+      "B": "La disposición permanente para defender a España.",
+      "C": "El derecho a la huelga.",
+      "D": "La objeción de conciencia."
+    }
+  },
+  {
+    "pregunta": "¿Cómo debe actuar el militar en misiones para contribuir al mantenimiento de la paz, estabilidad y seguridad según el Artículo 6?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "De forma unilateral y sin cooperación internacional.",
+      "B": "Apoyando la ayuda humanitaria en estrecha colaboración con ejércitos de países aliados.",
+      "C": "Exclusivamente en operaciones de combate.",
+      "D": "Negándose a colaborar con fuerzas extranjeras."
+    }
+  },
+  {
+    "pregunta": "En situaciones de grave riesgo, catástrofe, calamidad u otras necesidades públicas, ¿qué debe hacer el militar según el Artículo 6?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Mantenerse a la espera de órdenes específicas.",
+      "B": "Estar preparado para afrontar, con valor, abnegación y espíritu de servicio.",
+      "C": "Delegar la responsabilidad en las autoridades civiles.",
+      "D": "Buscar refugio seguro."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 6, ¿cómo debe ser la obediencia al superior jerárquico?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Opcional, según las circunstancias.",
+      "B": "En forma y sustancia, dentro de las atribuciones correspondientes.",
+      "C": "Solo en actos de servicio.",
+      "D": "Condicionada a la aprobación de los subordinados."
+    }
+  },
+  {
+    "pregunta": "¿Qué debe mantener el militar según el Artículo 6 en cuanto a la disciplina, jerarquía, unidad y obediencia?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Flexibilidad en su aplicación.",
+      "B": "Una actitud de constante cuestionamiento.",
+      "C": "Son factores indispensables para conseguir la máxima eficacia en su acción.",
+      "D": "Dependen del humor del superior."
+    }
+  },
+  {
+    "pregunta": "¿Qué exige el principio de cohesión en la acción colectiva según el Artículo 6?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La deliberación y votación de las decisiones.",
+      "B": "La práctica y acatamiento a la Constitución y su manifestación individual en el cumplimiento de las órdenes recibidas.",
+      "C": "El desacuerdo público para fomentar el debate.",
+      "D": "La insubordinación para mostrar carácter."
+    }
+  },
+  {
+    "pregunta": "¿Qué no puede hacer el militar con los subordinados según el Artículo 6 en relación con la obediencia?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Dar órdenes.",
+      "B": "Exigir obediencia.",
+      "C": "No podrá ordenar actos contrarios a las leyes o que constituyan delito.",
+      "D": "Delegar responsabilidades."
+    }
+  },
+  {
+    "pregunta": "¿A quién debe comunicar un militar un peligro o daño grave inmediatamente según el Artículo 6?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "A la autoridad civil más cercana.",
+      "B": "A su inmediato superior.",
+      "C": "Directamente al Ministerio de Defensa.",
+      "D": "A la prensa."
+    }
+  },
+  {
+    "pregunta": "¿Qué debe procurar mejorar el militar con liderazgo según el Artículo 6?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Su propio beneficio personal.",
+      "B": "El compañerismo y capacidad de decisión.",
+      "C": "Su capacidad de eludir responsabilidades.",
+      "D": "El conocimiento de información clasificada."
+    }
+  },
+  {
+    "pregunta": "¿A qué está sujeto el militar según el Artículo 7 en relación con la neutralidad?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Neutralidad económica.",
+      "B": "Neutralidad religiosa.",
+      "C": "Estricta neutralidad política.",
+      "D": "Neutralidad social."
+    }
+  },
+  {
+    "pregunta": "¿Puede un militar afiliarse a partidos políticos según el Artículo 7?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Sí, sin restricciones.",
+      "B": "Sí, si obtiene permiso de sus superiores.",
+      "C": "No podrá afiliarse a partidos políticos.",
+      "D": "Sí, pero no puede ejercer cargos directivos."
+    }
+  },
+  {
+    "pregunta": "¿Puede un militar ejercer el derecho de sindicación según el Artículo 7?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Sí, en las mismas condiciones que cualquier trabajador.",
+      "B": "Sí, solo si está en la reserva.",
+      "C": "No podrá ejercer el derecho de sindicación.",
+      "D": "Sí, si la asociación sindical es apolítica."
+    }
+  },
+  {
+    "pregunta": "¿Qué tipo de asociaciones sindicales no pueden formarse ni integrar los militares según el Artículo 7?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Las que defienden sus derechos laborales.",
+      "B": "Las que traten sobre materias propias de la acción sindical.",
+      "C": "Las culturales y deportivas.",
+      "D": "Las profesionales."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 8, ¿cómo pueden ejercerse los derechos fundamentales y libertades públicas en las Fuerzas Armadas?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Sin limitaciones.",
+      "B": "En la forma establecida por la ley.",
+      "C": "Libremente, siempre que no afecten la disciplina.",
+      "D": "Solo fuera del servicio."
+    }
+  },
+  {
+    "pregunta": "¿Qué Ley Orgánica se menciona en el Artículo 9 como base para el respeto de la libertad religiosa?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Ley Orgánica 5/2005.",
+      "B": "Ley Orgánica 7/1980.",
+      "C": "Ley Orgánica 4/2001.",
+      "D": "Ley Orgánica 1/2002."
+    }
+  },
+  {
+    "pregunta": "¿En qué ámbito se garantiza especialmente el derecho al honor, la intimidad personal y la propia imagen según el Artículo 10?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "En la vida privada fuera del servicio.",
+      "B": "Durante el ejercicio y salvaguarda de este derecho en las circunstancias en que tengan lugar las operaciones.",
+      "C": "En el ámbito familiar del militar.",
+      "D": "En las redes sociales."
+    }
+  },
+  {
+    "pregunta": "¿Qué deben respetar los militares según el Artículo 10 en relación con los datos personales?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "La confidencialidad de las misiones.",
+      "B": "La privacidad de la correspondencia.",
+      "C": "La reserva de la información registrada en el registro de personal militar.",
+      "D": "Las opiniones políticas de los compañeros."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 10, ¿quién debe promover las medidas necesarias para garantizar la protección de datos de carácter personal y la seguridad?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Los propios militares individualmente.",
+      "B": "Las autoridades competentes.",
+      "C": "El Observatorio de la Vida Militar.",
+      "D": "Las asociaciones profesionales."
+    }
+  },
+  {
+    "pregunta": "¿Puede un militar desplazarse libremente por el territorio nacional según el Artículo 11?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "No, siempre requiere autorización.",
+      "B": "Sí, sin perjuicio de las limitaciones derivadas de las exigencias del deber de disponibilidad permanente.",
+      "C": "Solo si está de permiso.",
+      "D": "Únicamente si se traslada por motivos familiares."
+    }
+  },
+  {
+    "pregunta": "¿Qué requisito se exige para que un militar participe en operaciones militares en el exterior según el Artículo 11?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Consentimiento expreso del militar.",
+      "B": "Autorización previa del Ministerio de Defensa.",
+      "C": "Aprobación de su unidad.",
+      "D": "Haber completado un curso de formación específico."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 12, ¿dónde encuentran los militares el derecho a la libertad de expresión e información?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "En el Código Penal Militar.",
+      "B": "En la Constitución y en otros límites derivados de la salvaguarda de la seguridad y defensa nacional.",
+      "C": "En los reglamentos internos de cada unidad.",
+      "D": "En la Ley de Régimen Disciplinario."
+    }
+  },
+  {
+    "pregunta": "¿Qué deben mantener los militares al expresar opiniones según el Artículo 12?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Una postura crítica hacia la institución.",
+      "B": "Neutralidad política y sindical.",
+      "C": "Total libertad de expresión.",
+      "D": "Fidelidad a un partido político."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 13, ¿qué se debe respetar al ejercer el derecho de reunión?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Los horarios de servicio.",
+      "B": "La Constitución, la Ley Orgánica del Derecho de Reunión y la dignidad militar.",
+      "C": "Las opiniones de la mayoría.",
+      "D": "Las tradiciones militares."
+    }
+  },
+  {
+    "pregunta": "¿Qué tipo de asambleas o manifestaciones tienen prohibido organizar o participar los militares según el Artículo 13?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Las de carácter cultural o deportivo.",
+      "B": "Las de carácter político, sindical o de alteración del orden público.",
+      "C": "Las profesionales.",
+      "D": "Las relacionadas con actos benéficos."
+    }
+  },
+  {
+    "pregunta": "Si se realiza una reunión en unidades o establecimientos militares, ¿qué requisito previo es necesario según el Artículo 13?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Ser convocada por personal civil.",
+      "B": "Contar con la previa autorización del Jefe.",
+      "C": "Realizarse en horario fuera de servicio.",
+      "D": "Tener fines exclusivamente profesionales."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 14, ¿con qué fin pueden constituir o asociarse los miembros de las Fuerzas Armadas?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Fines sindicales.",
+      "B": "Fines lucrativos.",
+      "C": "Fines políticos.",
+      "D": "Fines profesionales, de intereses económicos y actividades."
+    }
+  },
+  {
+    "pregunta": "¿Qué tipo de asociaciones no pueden formar los miembros de las Fuerzas Armadas según el Artículo 14?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Profesionales.",
+      "B": "Culturales.",
+      "C": "Deportivas.",
+      "D": "Sindicales."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 15, ¿qué derecho pueden ejercer los miembros de las Fuerzas Armadas que tengan la condición de sufragio activo?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Solo sufragio pasivo.",
+      "B": "Sufragio activo, pudiendo ejercerlo.",
+      "C": "Abstención obligatoria.",
+      "D": "Voto delegado únicamente."
+    }
+  },
+  {
+    "pregunta": "Si los militares se encuentran en servicio o misión que coincide con días electorales según el Artículo 15, ¿dónde ejercen su derecho de sufragio?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Deben solicitar un permiso para votar en su domicilio habitual.",
+      "B": "Ejercerán su derecho de sufragio donde estén asignados.",
+      "C": "No pueden votar en esa situación.",
+      "D": "Solo pueden votar por correo."
+    }
+  },
+  {
+    "pregunta": "¿Qué naturaleza tiene el derecho de petición según el Artículo 16?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Es un derecho colectivo.",
+      "B": "Es un derecho limitado al personal de carrera.",
+      "C": "Es un derecho exclusivamente individual.",
+      "D": "Es un derecho que solo puede ejercerse ante tribunales."
+    }
+  },
+  {
+    "pregunta": "¿Qué Ley Orgánica regula el derecho de petición individual según el Artículo 16?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Ley Orgánica 5/2005.",
+      "B": "Ley Orgánica 4/2001.",
+      "C": "Ley Orgánica 3/1981.",
+      "D": "Ley Orgánica 7/1980."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 16, ¿las peticiones, quejas o sugerencias presentadas conforme al procedimiento establecido son objeto del régimen disciplinario?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Sí, siempre.",
+      "B": "No son objeto del régimen disciplinario si se hacen conforme a la ley.",
+      "C": "Solo si son anónimas.",
+      "D": "Depende del contenido de la petición."
+    }
+  },
+  {
+    "pregunta": "¿Qué Ley Orgánica regula el derecho de defensa según el Artículo 17?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Ley Orgánica 4/2001.",
+      "B": "Ley Orgánica 7/1980.",
+      "C": "Ley Orgánica 3/1981.",
+      "D": "Ley Orgánica 5/2005."
+    }
+  },
+  {
+    "pregunta": "¿En qué se basa el desarrollo de la carrera militar según el Artículo 18?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "En la antigüedad y el destino.",
+      "B": "En criterios de desarrollo profesional y promoción: conocimientos, aptitudes, mérito, capacidad y competencia.",
+      "C": "En la preferencia personal del militar.",
+      "D": "En la disponibilidad para misiones internacionales."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 19, ¿tienen los militares derecho a participar en actividades para su formación y perfeccionamiento?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "No, la formación es obligatoria.",
+      "B": "Sí, para alcanzar el más alto nivel de competencia profesional.",
+      "C": "Solo si financian la formación ellos mismos.",
+      "D": "Únicamente en estudios universitarios."
+    }
+  },
+  {
+    "pregunta": "¿Qué se les debe informar a los militares al ingresar según el Artículo 20?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Solo sobre sus obligaciones.",
+      "B": "Sobre sus deberes y compromisos que asume así como de los derechos reconocidos en el ordenamiento jurídico.",
+      "C": "Sobre su salario y vacaciones.",
+      "D": "Únicamente sobre su destino inicial."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 20, ¿por qué la seguridad y salud en las Fuerzas Armadas son objeto de especial protección?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Por el elevado número de accidentes.",
+      "B": "En razón de los riesgos específicos a los que están expuestos.",
+      "C": "Porque así lo exigen las normas internacionales.",
+      "D": "Para reducir los costes sanitarios."
+    }
+  },
+  {
+    "pregunta": "¿A qué legislación está sujeto el militar en materia de secretos oficiales y materias clasificadas según el Artículo 21?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Al Código Penal Militar.",
+      "B": "A la legislación sobre secretos oficiales y materias clasificadas.",
+      "C": "Al Reglamento de Régimen Interior.",
+      "D": "A las Reales Ordenanzas."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 21, ¿qué debe guardar en secreto un militar?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Cualquier información sobre sus compañeros.",
+      "B": "La información clasificada obtenida con motivo de su puesto o función.",
+      "C": "Los detalles de las misiones pasadas.",
+      "D": "Las opiniones políticas de sus superiores."
+    }
+  },
+  {
+    "pregunta": "¿Cómo se define la disponibilidad del militar según el Artículo 22?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Limitada a los horarios de oficina.",
+      "B": "Permanente, adaptándose a las circunstancias propias del destino.",
+      "C": "Sujeta a la aprobación del Jefe de Unidad.",
+      "D": "Dependiente de las necesidades familiares."
+    }
+  },
+  {
+    "pregunta": "¿Qué obligación tiene el militar en relación con su residencia y domicilio según el Artículo 23?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Puede residir donde desee.",
+      "B": "Debe residir cerca de su unidad/destino y comunicar su domicilio.",
+      "C": "Solo debe comunicar su domicilio al ingresar.",
+      "D": "La unidad se encarga de buscarle residencia."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 24, ¿pueden los militares vestir de uniforme en actos de representación política?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Sí, en cualquier circunstancia.",
+      "B": "Sí, si representan a la institución.",
+      "C": "No pueden vestir de uniforme para actos de representación política.",
+      "D": "Solo con autorización expresa."
+    }
+  },
+  {
+    "pregunta": "¿En qué se basan principalmente las retribuciones de los militares según el Artículo 25?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "En la antigüedad exclusivamente.",
+      "B": "En lo establecido en la Ley de Presupuestos Generales del Estado.",
+      "C": "En el rango militar.",
+      "D": "En el tipo de misión realizada."
+    }
+  },
+  {
+    "pregunta": "Según el Artículo 26, ¿a qué régimen general de incompatibilidades están sometidos los militares?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "A ningún régimen de incompatibilidades.",
+      "B": "Al régimen establecido en la Ley 53/1984.",
+      "C": "A un régimen de incompatibilidades propio de las Fuerzas Armadas.",
+      "D": "Solo se aplica a los oficiales."
+    }
+  },
+  {
+    "pregunta": "¿Qué deben garantizar las autoridades competentes en relación con la seguridad y salud según el Artículo 27?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Solo la formación en prevención de riesgos laborales.",
+      "B": "Las medidas de prevención, seguridad y salud en el desempeño del servicio.",
+      "C": "El acceso a tratamiento médico fuera de las instalaciones militares.",
+      "D": "La compensación económica por riesgos asumidos."
+    }
+  }
+]

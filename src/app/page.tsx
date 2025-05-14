@@ -3,7 +3,7 @@ import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen p-8 sm:p-20 gap-8 font-[family-name:var(--font-geist-sans)]">
+    <div className="flex flex-col min-h-screen p-8 sm:p-20 gap-8 font-[family-name:var(--font-geist-sans)] bg-background text-white">
       {/* Navbar fijo en la parte superior */}
       <div className="w-full top-0 items-center shadow-md z-10">
         <Navbar />
@@ -14,7 +14,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center gap-4">
         <Image
-          src="/img/ascenso-logo-principal.svg"
+          src="/img/sercabologo.png"
           alt="Logo SerCabo"
           width={300}
           height={300}

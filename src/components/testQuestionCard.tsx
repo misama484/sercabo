@@ -34,9 +34,9 @@ const TestQuestionCard: React.FC<TestQuestionCardProps> = ({
   };
 
   return (
-    <div className="w-2/5 p-6 bg-white shadow-lg rounded-lg border border-gray-200">
-      <h2 className="text-xl font-semibold text-gray-800 mb-4">Pregunta</h2>
-      <p className="text-gray-700 mb-6">{pregunta}</p>
+    <div className="w-2/5 p-6 bg-gray-600 shadow-lg rounded-lg border border-gray-200">
+      <h2 className="text-xl font-semibold text-white mb-4">Pregunta</h2>
+      <p className="text-white mb-6">{pregunta}</p>
       <div className="flex flex-col gap-4">
         {Object.entries(opciones).map(([key, value]) => (
           <TestQuestionOption

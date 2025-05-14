@@ -3,10 +3,10 @@ import Link from 'next/link';
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="flex items-center justify-between px-6 py-4 bg-gray-800 text-white">
+    <nav className="flex items-center justify-between px-6 py-4 bg-background text-white">
       {/* Logo a la izquierda */}
       <div className="flex items-center mr-3">
-        <img src="/img/EjercitoTierraLogo.jpg" alt="Logo" className="h-10" />
+        <img src="/img/sercabologo.png" alt="Logo" className="h-20" />
         <h1 className="mx-3">Ser Cabo</h1>
       </div>
 

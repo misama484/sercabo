@@ -1,0 +1,612 @@
+[
+  {
+    "pregunta": "¿Cuál es el objeto del Código Penal Militar?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Establecer las normas de régimen disciplinario de las Fuerzas Armadas.",
+      "B": "Regular las infracciones que constituyen delitos militares.",
+      "C": "Definir los derechos y deberes del personal militar.",
+      "D": "Establecer la organización de los tribunales militares."
+    }
+  },
+  {
+    "pregunta": "¿Quiénes están sujetos a las disposiciones del Código Penal Militar?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Solo los miembros de las Fuerzas Armadas en servicio activo.",
+      "B": "Únicamente los oficiales y suboficiales.",
+      "C": "Los reservistas y los aspirantes a la formación, pero solo en tiempo de conflicto armado.",
+      "D": "Los miembros de las Fuerzas Armadas, los reservistas activados y los alumnos de los centros docentes militares de formación."
+    }
+  },
+  {
+    "pregunta": "¿Dónde se aplican las disposiciones del Código Penal Militar relativas a las omisiones constitutivas de delito previstas en el Título II, Libro Segundo del Código?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Solo en territorio nacional.",
+      "B": "En el cumplimiento de las misiones que se encomienden en Unidades de las Fuerzas Armadas.",
+      "C": "Únicamente en operaciones internacionales.",
+      "D": "Solo en tiempo de guerra declarada."
+    }
+  },
+  {
+    "pregunta": "Según el Código Penal Militar, ¿quién ostenta, sin perjuicio del empleo jerárquicamente más elevado, el mando o la jurisdicción en virtud del cargo o función que desempeñe como titular o por sucesión reglamentaria?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "El superior militar.",
+      "B": "El Oficial de Estado Mayor.",
+      "C": "El Jefe de Estado Mayor de la Defensa.",
+      "D": "El Ministro de Defensa."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el delito de traición contemplado en el Artículo 24 del Código Penal Militar?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Prisión de seis meses a seis años.",
+      "B": "Prisión de uno a cinco años.",
+      "C": "Prisión de quince a veinticinco años.",
+      "D": "Prisión de diez a veinte años."
+    }
+  },
+  {
+    "pregunta": "¿Qué delito comete el extranjero en situación de conflicto armado que procure, difunda, falsee, o inutilice información clasificada como reservada o secreta o de interés militar susceptible de perjudicar a la seguridad o a la defensa nacionales?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Traición.",
+      "B": "Deslealtad.",
+      "C": "Revelación de secretos.",
+      "D": "Espionaje."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena máxima para el delito de espionaje cometido por un militar español según el Artículo 25?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Prisión de diez a quince años.",
+      "B": "Prisión de diez a veinte años.",
+      "C": "Prisión de cinco a diez años.",
+      "D": "Prisión de veinte a veinticinco años."
+    }
+  },
+  {
+    "pregunta": "¿En situación de conflicto armado o estado de sitio, la pena para el delito del Artículo 26 (contra la seguridad y defensa nacionales) se impondrá en su límite...?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Máximo.",
+      "B": "Mínimo.",
+      "C": "Medio.",
+      "D": "No se especifica, depende del tribunal."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que cometa el delito del Artículo 27 (contra la seguridad y defensa nacionales) en situación de conflicto armado o estado de sitio?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Prisión de seis meses a seis años.",
+      "B": "La misma pena se impondrá, al que cometiere el delito tipificado en el artículo 346 del Código Penal.",
+      "C": "Prisión de quince a veinticinco años.",
+      "D": "Prisión de diez a veinte años."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que ataque o vulnere las medidas relacionadas con la seguridad y defensa de puestos militares, aeronaves o instalaciones en situación de conflicto armado o estado de sitio?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Prisión de tres meses y un día a dos años.",
+      "B": "Prisión de seis meses a seis años.",
+      "C": "Prisión de uno a cinco años.",
+      "D": "Prisión superior en grado a la de seis meses a seis años."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que penetre o permanezca en un centro, dependencia o establecimiento militar sin autorización, si se realiza para la protección de aquellos?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de tres meses y un día a cuatro años.",
+      "B": "Prisión de seis meses a seis años.",
+      "C": "Arresto de siete a catorce días.",
+      "D": "Pérdida de destino."
+    }
+  },
+  {
+    "pregunta": "¿Qué pena se impone al militar que, con conocimiento de que se trata de cometer alguno de los delitos de traición o espionaje, no empleare los medios a su alcance para evitarlo?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Se impondrá la pena en su mitad inferior.",
+      "B": "Se impondrá la misma pena que para el autor del delito.",
+      "C": "Se le aplicará el régimen disciplinario.",
+      "D": "Se impondrá la pena en su mitad superior."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el delito de sedición cometido por un militar según el Artículo 40?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Se castigarán con la pena en grado superior o en dos grados al de los delitos previstos en el Capítulo IV del Título I.",
+      "B": "Prisión de quince a veinticinco años.",
+      "C": "Prisión de uno a cinco años.",
+      "D": "Pérdida de empleo."
+    }
+  },
+  {
+    "pregunta": "¿Qué pena se impone al militar que no adoptase las medidas necesarias o no empleare los medios a su alcance para contener la sedición en las Fuerzas Armadas?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Será castigado con la pena de prisión de seis meses a seis años.",
+      "B": "Pérdida de empleo.",
+      "C": "Arresto de siete a catorce días.",
+      "D": "Suspensión de empleo."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que maltratare de obra a un superior?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Prisión de seis meses a seis años.",
+      "B": "Prisión de seis meses a cinco años.",
+      "C": "Prisión de uno a cinco años.",
+      "D": "Prisión de seis meses a seis años, y si se tratare de ofensas relativas al servicio o a las relaciones de servicio, la pena de tres meses y un día a dos años."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que amenazare, calumniare o injuriare gravemente a un superior en su presencia o ante una concurrencia de personas, por escrito o con publicidad?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Será castigado con la pena de seis meses a seis años de prisión.",
+      "B": "Prisión de tres meses y un día a dos años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que se negare a obedecer o no cumpliere las órdenes legítimas de sus superiores relativas al servicio, con grave perjuicio para el servicio?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de tres meses y un día a dos años.",
+      "B": "Prisión de seis meses a seis años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el superior que maltratare de obra a un subordinado?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Será castigado con la pena de seis meses a seis años de prisión.",
+      "B": "Prisión de tres meses y un día a dos años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el superior que abusare de sus facultades de mando o de su posición en el servicio, irrogando un perjuicio grave a un subordinado?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de tres meses y un día a dos años.",
+      "B": "Prisión de seis meses a seis años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que, por temor a un riesgo personal rehusare permanecer o situarse en su puesto, lo abandonare, incumpliere la misión encomendada o realizare actos susceptibles de infundir pánico o producir grave desorden?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de seis meses a veinte años.",
+      "B": "Prisión de tres meses y un día a dos años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que, en situación de conflicto armado, estado de sitio o circunstancias críticas y por temor a un riesgo personal, excusare o emplease cualquier engaño con el mismo fin?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de tres meses y un día a diez años de prisión.",
+      "B": "Prisión de seis meses a veinte años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que, por temor al enemigo, rebeldes o sediciosos, establecimientos, o instalaciones militares, puestos, buque, aeronave, fuerza u otros recursos humanos o materiales que estuviesen bajo su mando, sin haber agotado todos los medios de defensa que exijan sus deberes y obligaciones militares o las órdenes recibidas?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de tres a diez años de prisión.",
+      "B": "Prisión de seis meses a veinte años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que, por temor al enemigo, rebeldes o sediciosos, entregare, rindiere o abandonare alguno de los elementos mencionados en el Artículo 53?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Seis meses a veinte años de prisión.",
+      "B": "Tres a diez años de prisión.",
+      "C": "Quince a veinticinco años de prisión.",
+      "D": "Pérdida de empleo."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que, por temor al enemigo, rebeldes o sediciosos, violare de hecho una orden establecida en la Ley Orgánica 9/2011, de 27 de julio, o en la Ley Orgánica 5/2005, de 17 de noviembre, o en el Código Penal?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de cuatro meses y un día a seis años de prisión.",
+      "B": "Prisión de seis meses a veinte años.",
+      "C": "Prisión de tres a diez años.",
+      "D": "Pérdida de empleo."
+    }
+  },
+  {
+    "pregunta": "¿Qué pena se impone al militar que sobre servicios o sabidas faltas o expedientes certificados en sentido distinto al que le constare?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de cuatro meses y un día a seis años.",
+      "B": "Prisión de tres meses y un día a dos años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que se ausentare de su Unidad, destino o lugar de residencia por más de tres días y no se presentare, pudiendo hacerlo?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de tres meses y un día a dos años.",
+      "B": "Prisión de seis meses a seis años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar en situación de conflicto armado o estado de sitio que se ausentare de su Unidad o destino?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de seis meses a seis años.",
+      "B": "Prisión de tres meses y un día a dos años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Qué delito comete el militar con ánimo de sustraerse permanentemente al cumplimiento de sus obligaciones, que se ausentare de su Unidad, destino o lugar de residencia, o no se presentare pudiendo hacerlo?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Desertión.",
+      "B": "Abandono de destino.",
+      "C": "Desobediencia.",
+      "D": "Infidelidad en la custodia de documentos."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para la desertión en situación de conflicto armado o estado de sitio?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de uno a cuatro años, y si fuera oficial, prisión de cinco a quince años.",
+      "B": "Prisión de seis meses a seis años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que quebrantare, voluntaria y tempranamente, cualesquiera fuera la duración de la circunstancia crítica, la normativa vigente, frente al enemigo, rebeldes o sediciosos?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de seis meses a tres años.",
+      "B": "Prisión de tres meses y un día a dos años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Qué pena se impone al militar que infringiere de palabra o por escrito el honor, la dignidad o la reputación de un superior?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Prisión de tres meses y un día a dos años.",
+      "B": "Prisión de seis meses a seis años.",
+      "C": "Pérdida de empleo.",
+      "D": "La pena de pérdida de empleo."
+    }
+  },
+  {
+    "pregunta": "¿Qué delito comete el militar que, en situación de conflicto armado o estado de sitio, ofendiere o ultrajare a España, su Bandera, Himno o alguno de sus símbolos, o a los emblemas de la Organización militar?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Ultrajes a España e injurias a la Organización militar.",
+      "B": "Traición.",
+      "C": "Sedición.",
+      "D": "Deslealtad."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el delito de ultrajes a España e injurias a la Organización militar en situación de conflicto armado o estado de sitio, según el Artículo 36?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de tres meses y un día a tres años.",
+      "B": "Prisión de seis meses a seis años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el delito de injurias a las Fuerzas Armadas o a la Guardia Civil, Instituciones o Cuerpos determinados en el Artículo 37?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de tres meses y un día a un año.",
+      "B": "Prisión de seis meses a seis años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que cometiere o concurriere a la comisión de reclamaciones o peticiones colectivas en tumulto o portando armas?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de seis meses a seis años.",
+      "B": "Prisión de tres meses y un día a dos años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Qué pena se impone al militar que cometiere el delito de sedición por la primera intimación o antes de ella?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "La pena en grado inferior en grado.",
+      "B": "La pena en su límite máximo.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que no adoptase las medidas necesarias o no empleare los medios a su alcance para contener la sedición según el Artículo 41?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de seis meses a seis años.",
+      "B": "La pena en su límite máximo.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que maltratare de obra a un centinela, puesto o imaginaria de guardia, o a la fuerza de la misma?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de seis meses a seis años.",
+      "B": "Prisión de tres meses y un día a dos años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que cometiere el delito de ultrajes a un centinela, puesto o imaginaria de guardia, o a la fuerza de la misma?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de tres meses y un día a dos años.",
+      "B": "Prisión de seis meses a seis años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que, estando encargado de un servicio de vigilancia de los espacios aéreos, control de tránsito, conducción de aeronave o ayudas a la navegación marítima o aérea, incumpliere sus cometidos?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de seis meses a seis años.",
+      "B": "Prisión de tres meses y un día a dos años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que, por temor a un riesgo personal, incumpliere el deber de socorro respecto a otro militar, buque o aeronave enemigos, rebeldes o sediciosos, que se hallaren en peligro, cuando pudieren prestarlo sin grave riesgo propio?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de seis meses a seis años.",
+      "B": "Prisión de tres meses y un día a dos años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que, por imprudencia grave y durante la ejecución de un acto de servicio o con ocasión de éste, causare la muerte o lesiones constitutivas de delito?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Será castigado con las penas privativas de libertad respectivamente señaladas en el Código Penal para el homicidio o lesiones imprudentes, incrementadas en un quinto, en sus límites mínimo y máximo.",
+      "B": "Prisión de seis meses a seis años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Qué pena se impone si la imprudencia fuera grave y del acto de servicio?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Se impondrá la pena de tres meses y un día a seis meses.",
+      "B": "Prisión de seis meses a seis años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que usare pública e intencionadamente uniforme, divisas, distintivos o insignias militares, medallas o condecoraciones que no tenga derecho a usar?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de tres meses y un día a un año.",
+      "B": "Prisión de seis meses a seis años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que, obligado a ello, dejase de promover la persecución de delitos de la jurisdicción militar que tuviere conocimiento?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de tres meses y un día a un año.",
+      "B": "Prisión de seis meses a seis años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que solicitare la asignación de crédito presupuestario para atención supuesta?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de tres meses y un día a dos años.",
+      "B": "Prisión de seis meses a seis años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Qué pena se impone si las cantidades obtenidas se aplicaren en beneficio propio, según el Artículo 81?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Se impondrá la pena de dos a diez años de prisión.",
+      "B": "Prisión de tres meses y un día a dos años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que cometiere delitos de hurto, robo, apropiación indebida o daños previstos en el Código Penal en relación con el equipo reglamentario, materiales o efectos que tenga bajo su custodia o responsabilidad por razón de su cargo o destino?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión incrementada en su mitad superior.",
+      "B": "Prisión de seis meses a seis años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Qué pena se impone si se tratare de material de guerra o armamento, cualquiera que fueren su valor y el autor, incluso cuando éste no tenga la condición de militar, se impondrá la pena incrementada en un quinto de su límite máximo, según el Artículo 82?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Prisión incrementada en su mitad superior.",
+      "B": "La pena incrementada en un quinto de su límite máximo.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que, prevaliéndose de su condición militar, cometiere cualquier delito previsto en el artículo 441 del Código Penal (apropiación indebida impropia)?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de tres meses y un día a tres años, pudiendo imponerse, además, la pena de pérdida de empleo.",
+      "B": "Prisión de seis meses a seis años.",
+      "C": "Pérdida de empleo solamente.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Qué pena se impone al particular o empresario que, en situación de conflicto armado o estado de sitio, habiendo contratado con la Administración Militar, incumpliere su integridad o las obligaciones contraídas o las cumpliere en condiciones defectuosas que desvirtúen o impidan la finalidad del contrato?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de uno a ocho años de prisión.",
+      "B": "Prisión de tres meses y un día a tres años.",
+      "C": "Pérdida de empleo (si es militar).",
+      "D": "Multa."
+    }
+  },
+  {
+    "pregunta": "¿Según el Código Penal Militar, ¿cuántos delitos pueden cometerse por los alumnos de los centros docentes militares de formación?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Todos los delitos previstos en el código.",
+      "B": "Solo los delitos expresamente tipificados para ellos.",
+      "C": "Las infracciones de carácter académico en la enseñanza de formación, que no constituyan delitos militares, y las infracciones reglamentarias.",
+      "D": "Ninguno, solo están sujetos al régimen disciplinario."
+    }
+  },
+  {
+    "pregunta": "¿Los delitos militares definidos en el Código Penal Militar se aplican a los delitos militares como...?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Supletorias en lo no previsto expresamente por el Código Penal común.",
+      "B": "Alternativas al Código Penal común.",
+      "C": "Excluyentes del Código Penal común.",
+      "D": "Complementarias al Código Penal común."
+    }
+  },
+  {
+    "pregunta": "¿En qué situaciones se aplicará el Código Penal Militar a los reservistas?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Cuando se encuentren activados en las Fuerzas Armadas.",
+      "B": "Siempre, independientemente de su situación.",
+      "C": "Solo en tiempo de guerra.",
+      "D": "Únicamente si cometen delitos relacionados con su anterior servicio."
+    }
+  },
+  {
+    "pregunta": "¿Los actos cometidos por los miembros de las Fuerzas Armadas que sean constitutivos de delito según el Código Penal Militar son sancionados por...?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "La jurisdicción militar.",
+      "B": "La jurisdicción ordinaria.",
+      "C": "Ambas jurisdicciones, dependiendo de la gravedad.",
+      "D": "El régimen disciplinario militar."
+    }
+  },
+  {
+    "pregunta": "¿Qué autoridades están mencionadas en el Artículo 3 del Código Penal Militar como aquellas que, en el ejercicio de las atribuciones constitucionales o legales inherentes a sus prerrogativas o funciones, tienen sustento?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Solo el Jefe de Estado Mayor de la Defensa.",
+      "B": "Únicamente el Ministro de Defensa.",
+      "C": "Los Oficiales generales con mando, jefatura o dirección sobre fuerza, unidad, centro u organismo.",
+      "D": "El Rey, el Presidente del Gobierno y el Ministro de Defensa."
+    }
+  },
+  {
+    "pregunta": "¿En qué situaciones tienen aplicación las disposiciones del Código Penal Militar relativas a los delitos de centinela, puesto o imaginaria?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "En cualquier lugar donde se encuentre el militar, siempre que la infracción se cometa durante el servicio.",
+      "B": "Solo dentro de acuartelamientos militares.",
+      "C": "Únicamente en zona de operaciones.",
+      "D": "Exclusivamente en tiempo de guerra."
+    }
+  },
+  {
+    "pregunta": "¿Qué delito comete el militar que embriagado o bajo los efectos de drogas tóxicas, estupefacientes o sustancias psicotrópicas prestare servicio de armas o portándolo realizare actos susceptibles de infundir pánico o producir grave desorden?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Embriaguez e intoxicación por drogas tóxicas en acto de servicio.",
+      "B": "Abandono de servicio.",
+      "C": "Desobediencia.",
+      "D": "Puesta en peligro del servicio."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que, embriagado o intoxicado por drogas en acto de servicio, causare grave daño al servicio o a las personas, o pusiere en grave riesgo su vida o la de terceros?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de seis meses a dos años.",
+      "B": "Prisión de tres meses y un día a un año.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Qué pena se impone al militar que, por negligencia, causare daño o perjuicio grave a material de guerra o armamento?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Prisión de tres meses y un día a dos años.",
+      "B": "Prisión de seis meses a seis años.",
+      "C": "Pérdida de empleo.",
+      "D": "Arresto de siete a catorce días."
+    }
+  },
+  {
+    "pregunta": "¿Cuál es la pena para el militar que cometiere delito o falta grave contra la disciplina, el deber o el servicio, y tuviera antecedentes penales por delitos dolosos según el Artículo 14?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Se aplicará la pena en su límite mínimo.",
+      "B": "El Tribunal podrá apreciar un agravante de reincidencia y elevar la pena dentro de sus límites.",
+      "C": "Se le impondrá la pena máxima.",
+      "D": "Se le remitirá al régimen disciplinario ordinario."
+    }
+  }
+]
