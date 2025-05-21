@@ -1,0 +1,717 @@
+[
+  {
+    "pregunta": "¿Cuál es el objeto de las Reales Ordenanzas de las Fuerzas Armadas según el Artículo 1?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Establecer el código de disciplina militar exclusivamente.",
+      "B": "Constituir el código de conducta, definir los principios rectores y las normas de comportamiento de acuerdo con la Constitución.",
+      "C": "Regular la estructura orgánica de las Fuerzas Armadas.",
+      "D": "Determinar los procedimientos de ascenso."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 1, ¿qué buscan fomentar las Reales Ordenanzas, además de definir el código de conducta?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "La eficiencia y la profesionalidad en el combate.",
+      "B": "El espíritu de equipo y la camaradería exclusivamente.",
+      "C": "El amor a España, en el honor, disciplina y valor.",
+      "D": "La colaboración con ejércitos extranjeros."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "¿A quiénes se aplican las Reales Ordenanzas según el Artículo 2?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Exclusivamente a los militares profesionales.",
+      "B": "A todos los miembros de las Fuerzas Armadas.",
+      "C": "Solo a los reservistas y aspirantes.",
+      "D": "Únicamente al personal de carrera."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "¿Cuándo se aplicarán las Reales Ordenanzas a los reservistas y aspirantes según el Artículo 2?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Cuando sean incorporados a las Fuerzas Armadas.",
+      "B": "En todo momento desde que inician su formación.",
+      "C": "Solo durante el tiempo de servicio activo.",
+      "D": "Nunca, ya que tienen su propia normativa."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 3, ¿cuál es el primer deber del militar?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Servir con honor y lealtad a sus superiores.",
+      "B": "La disposición permanente para defender a España.",
+      "C": "Mantener un alto nivel de competencia profesional.",
+      "D": "Cumplir estrictamente las órdenes recibidas."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El deber de defender a España, mencionado en el Artículo 3, ¿exige del militar alguna disposición?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Disposición geográfica.",
+      "B": "Disposición económica.",
+      "C": "Disposición permanente.",
+      "D": "Disposición temporal."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "¿Sobre qué documentos fundamentales se basa el deber del militar de defender a España según el Artículo 3?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La Ley de Defensa Nacional y el Código Penal Militar.",
+      "B": "La Constitución y la Ley Orgánica 5/2005, de la Defensa Nacional.",
+      "C": "Las Directivas de la Unión Europea y la Ley 39/2007.",
+      "D": "Las Reales Ordenanzas y el Reglamento de Disciplina."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "¿Qué debe tener el militar en su diaria expresión y en el exacto cumplimiento de los preceptos contenidos en la Constitución, la Ley Orgánica de la Defensa Nacional y esta ley, según el Artículo 3?",
+    "respuesta_correcta": "D",
+    "opciones": {
+      "A": "Gran habilidad y eficiencia.",
+      "B": "Gran destreza e ingenio.",
+      "C": "Gran mesura y prudencia.",
+      "D": "Gran desidia e ineptitud."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 4, ¿cuál es el deber principal del militar?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Proteger a los ciudadanos.",
+      "B": "Cumplir las obligaciones derivadas de las misiones.",
+      "C": "Mantener la disciplina en todo momento.",
+      "D": "Asistir a las autoridades civiles."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 5, ¿bajo qué principio debe actuar el militar como servidor público?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Jerarquía y subordinación.",
+      "B": "Eficacia y economía.",
+      "C": "Objetividad, integridad, neutralidad, responsabilidad, imparcialidad, confidencialidad, dedicación al servicio, transparencia, ejemplaridad, austeridad, accesibilidad, eficacia, honradez y promoción del entorno cultural y medioambiental.",
+      "D": "Celeridad y contundencia."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 12 establece el deber del militar de respetar y hacer respetar los derechos fundamentales y libertades públicas. ¿En base a qué documento se reconocen estos derechos y libertades?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "El Código Penal Militar.",
+      "B": "La Ley de Régimen Disciplinario.",
+      "C": "La Constitución.",
+      "D": "Los Tratados Internacionales."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 13, ¿qué aspecto específico deben valorar las autoridades competentes en la aplicación de los criterios y normas de comportamiento?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La promoción de la excelencia académica.",
+      "B": "La igualdad efectiva de mujeres y hombres y la prevención de la violencia de género.",
+      "C": "La eficiencia en el uso de recursos.",
+      "D": "La obediencia a las órdenes superiores."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "¿Qué debe tener el militar, más allá del valor y espíritu de sacrificio, según el Artículo 14?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Un alto grado de iniciativa.",
+      "B": "Un profundo respeto por la tradición militar.",
+      "C": "Honor y espíritu, siendo su máximo galardón el cumplimiento del deber.",
+      "D": "Excelentes habilidades de liderazgo."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 14, ¿cuál es el máximo galardón para un militar?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Las condecoraciones y ascensos.",
+      "B": "El reconocimiento de sus superiores.",
+      "C": "El cumplimiento del deber.",
+      "D": "La satisfacción personal del trabajo bien hecho."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "¿Qué implica la disponibilidad permanente del militar según el Artículo 20?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Estar listo para el combate en cualquier momento.",
+      "B": "Dedicar todo su tiempo al servicio y cumplimiento de sus cometidos, incluso en días festivos.",
+      "C": "Participar en misiones internacionales.",
+      "D": "Estar a disposición de las autoridades civiles en emergencias."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 22, ¿qué valor se asocia al prestigio de las Fuerzas Armadas?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Su capacidad de disuasión.",
+      "B": "La eficacia de sus operaciones.",
+      "C": "El que les otorgan sus miembros y el apoyo de la sociedad.",
+      "D": "Su historia y tradiciones."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 22 menciona que el prestigio de las Fuerzas Armadas se asienta en el de sus miembros. ¿Qué deben hacer estos miembros para mantener dicho prestigio?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Obedecer sin objeciones.",
+      "B": "Ser orgullosos, mantener los mayores niveles de preparación, eficacia, eficiencia y cohesión.",
+      "C": "Destacar en operaciones complejas.",
+      "D": "Seguir estrictamente el reglamento."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 44, ¿qué constituye una parte esencial del orden militar?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La jerarquía.",
+      "B": "La disciplina.",
+      "C": "El valor.",
+      "D": "La obediencia."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 44 define la disciplina como parte esencial del orden militar. ¿Qué exige la disciplina?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Subordinación voluntaria y obediencia reflexiva.",
+      "B": "El exacto cumplimiento de las leyes y reglamentos.",
+      "C": "La observancia de las leyes y reglamentos, y el exacto acatamiento a las órdenes.",
+      "D": "Iniciativa y proactividad."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 44, la disciplina exige, entre otras cosas, el exacto acatamiento a las órdenes. ¿Quiénes deben cumplir estas órdenes?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Solo los subordinados.",
+      "B": "Solo los oficiales.",
+      "C": "Todos los militares, cualquiera que sea su empleo.",
+      "D": "Únicamente el personal de tropa y marinería."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "¿Qué implica la obediencia para el militar según el Artículo 45?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Acatar las órdenes siempre y cuando sean legales.",
+      "B": "Cumplir las órdenes con prontitud, exactitud y sin objeciones.",
+      "C": "Evaluar la conveniencia de las órdenes antes de ejecutarlas.",
+      "D": "Seguir las directrices generales, no necesariamente cada orden específica."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 45, ¿cuál es el límite de la obediencia?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Las órdenes que sean contrarias a la Constitución.",
+      "B": "Las órdenes que impliquen un riesgo para la propia vida.",
+      "C": "Las órdenes que sean manifiestamente contrarias a las leyes o constituyan delito.",
+      "D": "Las órdenes que contradigan las tradiciones militares."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 45 establece que el militar debe obedecer con prontitud y exactitud. ¿Qué más se exige en la ejecución de las órdenes?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Creatividad e innovación.",
+      "B": "Iniciativa y proactividad.",
+      "C": "Prontitud, exactitud y sin objeciones.",
+      "D": "Flexibilidad y adaptación."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 47, ¿qué debe hacer el militar al recibir una orden que considere dudosa?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Consultar con un compañero.",
+      "B": "Ejecutarla sin cuestionar.",
+      "C": "Pedir que se le dé por escrito y comunicarlo a un superior inmediato.",
+      "D": "Ignorarla si cree que es incorrecta."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Si un militar recibe una orden que, a su entender, es manifiestamente contraria a las leyes o constitutiva de delito, ¿qué debe hacer según el Artículo 47?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Obedecerla pero dejar constancia de su objeción.",
+      "B": "Abstenerse de obedecerla y comunicarlo a un superior.",
+      "C": "Cumplirla y posteriormente presentar una queja.",
+      "D": "Discutirla con quien la ha impartido."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 49, al dar parte de una novedad, ¿qué debe incluir el militar?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Solo los hechos principales.",
+      "B": "Únicamente las consecuencias de la novedad.",
+      "C": "Todos los hechos que conozca con la mayor fidelidad.",
+      "D": "Una opinión personal sobre la novedad."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 49 indica que el militar que dé parte de una novedad debe hacerlo con fidelidad. ¿Qué debe evitar?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Omitir detalles relevantes.",
+      "B": "Emitir juicios o conclusiones personales.",
+      "C": "Comentar la novedad con otros militares.",
+      "D": "Presentar el parte por escrito."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 50, ¿cómo debe ser la actitud del militar hacia el personal a sus órdenes?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Exigente y rigurosa.",
+      "B": "Imparcial y objetiva, atendiendo a sus necesidades, preocupaciones e iniciativas.",
+      "C": "Cercana pero distante.",
+      "D": "Estricta y disciplinada."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 50 menciona que el militar debe atender las necesidades y preocupaciones del personal a sus órdenes. ¿Qué más debe valorar?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Su disciplina y obediencia.",
+      "B": "Sus capacidades individuales.",
+      "C": "Sus iniciativas.",
+      "D": "Su lealtad a los superiores."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 51, si un militar comete un error, ¿qué debe hacer?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Intentar ocultarlo para evitar consecuencias.",
+      "B": "Reconocerlo y proponer las soluciones que considere adecuadas.",
+      "C": "Esperar a que un superior lo detecte.",
+      "D": "Justificar su error."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 51 establece que el militar debe reconocer sus errores. ¿Qué más implica esta actitud?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "Aceptar las consecuencias de su error.",
+      "B": "Buscar excusas para su error.",
+      "C": "Culpar a otros por su error.",
+      "D": "Minimizar la importancia de su error."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 52, ¿qué debe cuidar el militar en su presentación personal y vestimenta?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Estar siempre a la moda.",
+      "B": "Adecuarse a las circunstancias del servicio.",
+      "C": "Proyectar una imagen de fuerza.",
+      "D": "Ser discreto en todo momento."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 52 se refiere a los signos externos de disciplina, cortesía militar y policía. ¿Qué reflejan estos signos?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "El nivel de entrenamiento del militar.",
+      "B": "El estado de ánimo del militar.",
+      "C": "El esmero en el servicio y el respeto a otras personas, sean militares o civiles.",
+      "D": "La preparación para el combate."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "¿Qué deben constituir el saludo militar, la cortesía y la disciplina según el Artículo 52?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "La base de la jerarquía.",
+      "B": "Una imagen de profesionalidad.",
+      "C": "Expresión de respeto mutuo, disciplina y unión entre todos los miembros de las Fuerzas Armadas.",
+      "D": "Un mero formalismo."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 62, ¿qué debe tener en cuenta la autoridad al tomar decisiones?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Las opiniones de sus subordinados.",
+      "B": "La valoración de la información disponible.",
+      "C": "Su propia intuición.",
+      "D": "Las presiones externas."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 62 describe el proceso de toma de decisiones por parte de la autoridad. ¿Qué implica este proceso?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Ser impulsivo y rápido.",
+      "B": "Ser prudente, valorar la información, dirigir, coordinar, controlar e intervenir.",
+      "C": "Ser autoritario y dictatorial.",
+      "D": "Delegar la responsabilidad."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "¿Qué debe fomentar la autoridad según el Artículo 72?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "La competencia individual.",
+      "B": "El espíritu de equipo, la cohesión de su unidad y la convergencia de esfuerzos.",
+      "C": "La rivalidad sana entre miembros.",
+      "D": "La independencia de pensamiento."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 72, ¿cuál es la finalidad de fomentar el espíritu de equipo, la cohesión y la convergencia de esfuerzos?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Lograr objetivos personales.",
+      "B": "Mejorar el ambiente de trabajo.",
+      "C": "Alcanzar el máximo rendimiento individual y de conjunto.",
+      "D": "Reducir el estrés."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "¿Qué fomenta la Convivencia en unidad según el Artículo 73?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "La competitividad sana.",
+      "B": "La jerarquía estricta.",
+      "C": "Sin discriminación alguna por razón de nacimiento, origen racial o étnico, género, sexo, orientación sexual, religión o convicciones, opinión o cualquier otra condición o circunstancia personal o social.",
+      "D": "La obediencia ciega."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 73 se refiere a la convivencia en unidad. ¿Qué más fomenta esta convivencia además de la ausencia de discriminación?",
+    "respuesta_correcta": "A",
+    "opciones": {
+      "A": "La camaradería y la integración intercultural.",
+      "B": "El aislamiento de opiniones disidentes.",
+      "C": "El respeto a la autoridad únicamente.",
+      "D": "La uniformidad de pensamiento."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "¿Cómo deben ejecutar los militares la misión encomendada según el Artículo 101?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Con el mínimo esfuerzo necesario.",
+      "B": "Con la máxima eficacia, basada en su competencia profesional.",
+      "C": "Delegando responsabilidades en los subordinados.",
+      "D": "Siguiendo únicamente las órdenes escritas."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 101, al ejecutar la misión encomendada con la máxima eficacia, ¿qué deben proteger los militares?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Los recursos materiales.",
+      "B": "La vida e integridad de todos los afectados y evitar riesgos innecesarios.",
+      "C": "Su propia reputación.",
+      "D": "Los intereses nacionales exclusivamente."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "¿Qué deben hacer las Fuerzas Armadas y los Cuerpos de Seguridad al apoyar a los ciudadanos según el Artículo 103?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Actuar solo bajo órdenes directas de las autoridades civiles.",
+      "B": "Limitar su actuación a las emergencias.",
+      "C": "Poner el máximo empeño en el cumplimiento de las tareas asignadas para garantizar su seguridad ciudadana.",
+      "D": "Evitar el contacto directo con la población."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 103 se refiere al apoyo a Fuerzas y Cuerpos de Seguridad. ¿Con qué fin se presta este apoyo?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Para aumentar la visibilidad de las Fuerzas Armadas.",
+      "B": "Para garantizar la seguridad ciudadana.",
+      "C": "Para adquirir experiencia en operaciones conjuntas.",
+      "D": "Para suplir la falta de efectivos policiales."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 44, ¿qué implica la disciplina militar?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Cumplir órdenes cuando se está de servicio.",
+      "B": "Un principio que rige la vida militar en todo momento.",
+      "C": "Seguir la cadena de mando.",
+      "D": "Mantener el respeto a los superiores."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 45 describe la obediencia. ¿Qué virtudes se asocian a ella?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Valentía y determinación.",
+      "B": "Prontitud y exactitud.",
+      "C": "Discreción y silencio.",
+      "D": "Iniciativa y flexibilidad."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 14, ¿qué significa la 'Disponibilidad' para un militar?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Estar localizable en todo momento.",
+      "B": "Estar dispuesto a asumir nuevas responsabilidades.",
+      "C": "Estar permanentemente preparado para el servicio y el cumplimiento de sus cometidos.",
+      "D": "Tener tiempo libre para la formación continua."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 17 menciona las virtudes y aptitudes del militar. ¿Cuáles son algunas de estas virtudes?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Paciencia y humildad.",
+      "B": "Disciplina, prontitud y obediencia.",
+      "C": "Creatividad y originalidad.",
+      "D": "Negociación y diplomacia."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "¿Qué se entiende por 'Honor' en el contexto militar según las Reales Ordenanzas (mencionado en varios artículos, como el 1 y 14)?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Recibir condecoraciones.",
+      "B": "Un valor fundamental que guía la conducta del militar.",
+      "C": "Ascender de rango rápidamente.",
+      "D": "Ser reconocido por la sociedad."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 1 describe el objeto de las Reales Ordenanzas. ¿Qué más definen aparte del código de conducta?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Los procedimientos operativos.",
+      "B": "Los principios rectores y las normas de comportamiento.",
+      "C": "La logística y el abastecimiento.",
+      "D": "Las relaciones con ejércitos extranjeros."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 13, ¿qué tipo de igualdad deben valorar las autoridades competentes?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Igualdad salarial.",
+      "B": "Igualdad de género.",
+      "C": "Igualdad de oportunidades en el ascenso.",
+      "D": "Igualdad ante la ley."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 5 describe la actuación del militar como servidor público. ¿Qué principio se destaca en relación con la responsabilidad?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Responsabilidad limitada.",
+      "B": "Responsabilidad compartida.",
+      "C": "Responsabilidad individual.",
+      "D": "Responsabilidad colectiva."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "¿Qué deben evitar los militares en su conducta según el Artículo 52?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Hablar en público.",
+      "B": "Proyectar una imagen inadecuada o descuidada.",
+      "C": "Utilizar uniformes.",
+      "D": "Relacionarse con civiles."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 72, ¿qué se logra fomentando el espíritu de equipo y la cohesión?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "Aumentar la moral.",
+      "B": "Mejorar la comunicación.",
+      "C": "Alcanzar el máximo rendimiento.",
+      "D": "Reducir los conflictos."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 73 aborda la convivencia en unidad. ¿Qué aspecto de la diversidad se menciona específicamente?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Diversidad de opiniones políticas.",
+      "B": "Diversidad de orígenes y creencias.",
+      "C": "Diversidad de habilidades.",
+      "D": "Diversidad geográfica."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 101, ¿cómo deben ejecutar la misión encomendada en relación con la competencia profesional?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Basándose en la experiencia.",
+      "B": "Utilizando su competencia profesional para lograr la máxima eficacia.",
+      "C": "Siguiendo las instrucciones al pie de la letra.",
+      "D": "Adaptando la misión a sus capacidades."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 103 trata sobre el apoyo a las Fuerzas y Cuerpos de Seguridad. ¿Quiénes prestan este apoyo?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "El Ejército de Tierra exclusivamente.",
+      "B": "Todos los miembros de las Fuerzas Armadas.",
+      "C": "Unidades especializadas de las Fuerzas Armadas.",
+      "D": "El personal en situación de reserva."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "¿Qué principio rector guía la actuación de los miembros de las Fuerzas Armadas según el Artículo 1?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "El principio de eficiencia.",
+      "B": "El principio de jerarquía.",
+      "C": "Los principios rectores definidos en las Reales Ordenanzas.",
+      "D": "El principio de adaptabilidad."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 3, la disposición permanente para defender a España incluye la entrega de la vida. ¿Dónde se establece esta obligación?",
+    "respuesta_correcta": "C",
+    "opciones": {
+      "A": "En el Código Penal Militar.",
+      "B": "En la Ley 39/2007.",
+      "C": "En las Reales Ordenanzas.",
+      "D": "En la Constitución."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 4 menciona los deberes de carácter general. ¿Qué deberá guardar y hará guardar el militar?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "El secreto profesional.",
+      "B": "La Constitución y la ley como norma fundamental del Estado.",
+      "C": "Las tradiciones militares.",
+      "D": "El honor de la profesión."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 5, ¿qué debe garantizar el militar en su actuación como servidor público en relación con la imparcialidad?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Tratar a todos por igual, independientemente de su rango.",
+      "B": "Actuar sin favoritismos ni discriminaciones.",
+      "C": "Priorizar los intereses de la institución.",
+      "D": "Tomar decisiones basadas en datos objetivos."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 12 se refiere a los derechos fundamentales y libertades públicas. ¿Qué debe hacer el militar en su actuación?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Limitar el ejercicio de estos derechos en el servicio.",
+      "B": "Respetar y hará respetar estos derechos y libertades.",
+      "C": "Priorizar el cumplimiento del deber sobre los derechos individuales.",
+      "D": "Denunciar cualquier violación de estos derechos."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 13, ¿qué deben valorar las autoridades competentes para que la igualdad efectiva de mujeres y hombres sea real?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Las políticas de personal.",
+      "B": "La aplicación de los criterios y normas de comportamiento.",
+      "C": "La formación en igualdad de género.",
+      "D": "Los resultados de las misiones."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "El Artículo 14 destaca la dedicación a la profesión militar. ¿Qué debe sentir el militar al servir a España?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Orgullo y ambición.",
+      "B": "Honor y la íntima satisfacción del deber cumplido.",
+      "C": "Competitividad y superación.",
+      "D": "Compromiso y sacrificio."
+    },
+    "tema": 1
+  },
+  {
+    "pregunta": "Según el Artículo 20, la disponibilidad permanente implica estar listo para el servicio. ¿Qué más implica?",
+    "respuesta_correcta": "B",
+    "opciones": {
+      "A": "Estar dispuesto a viajar en cualquier momento.",
+      "B": "Cumplir sus cometidos, incluso en días festivos.",
+      "C": "Trabajar horas extras sin compensación.",
+      "D": "Abandonar su vida personal."
+    },
+    "tema": 1
+  }
+]
