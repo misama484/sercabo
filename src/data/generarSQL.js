@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const inputPath = path.join(__dirname, '../data/preguntasTema2Ley82006_con_tema.json');
+const inputPath = path.join(__dirname, '../data/preguntasTema3OrdenMinisterial32011_con_tema.json');
 const preguntas = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
 
 let sql = `INSERT INTO preguntas (pregunta, respuesta_correcta, opciones, tema)\nVALUES\n`;
@@ -22,5 +22,5 @@ sql += preguntas.map(p => {
 
 sql += ';\n';
 
-fs.writeFileSync(path.join(__dirname, '../data/insert_preguntasT2.sql'), sql, 'utf8');
-console.log('Script SQL generado en data/insert_preguntasT2.sql');
+fs.writeFileSync(path.join(__dirname, '../data/insert_preguntasT3.sql'), sql, 'utf8');
+console.log('Script SQL generado en data/insert_preguntasT3.sql');

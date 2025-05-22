@@ -9,6 +9,7 @@ import TestQuestionCard from "@/components/testQuestionCard";
 const temas = [
   { id: 1, nombre: "Tema 1 - RROO" },
   { id: 2, nombre: "Tema 2 - Ley 8/2006" },
+  { id: 3, nombre: "Tema 3 - Orden ministerial 3/2011" },
   // Añade más temas según tu API
 ];
 
