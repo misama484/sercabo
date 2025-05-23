@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
           </Link>
         </li>
         <li>
-          <a href="#services" className="hover:underline">
+          <a href="/temario" className="hover:underline">
             Temario
           </a>
         </li>
