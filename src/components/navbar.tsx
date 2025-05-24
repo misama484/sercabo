@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="flex items-center justify-between px-6 py-4 bg-background text-white">
+    <nav className="flex items-center justify-between px-6 py-1 bg-background text-white">
       {/* Logo a la izquierda */}
       <div className="flex items-center mr-3">
         <img src="/img/sercabologo.png" alt="Logo" className="h-20" />
@@ -13,22 +13,22 @@ const Navbar: React.FC = () => {
       {/* Items en el centro */}
       <ul className="flex space-x-8">
         <li>
-          <a href="#home" className="hover:underline">
+          <a href="#home" className="hover:underline hover:text-teal-400">
             Inicio
           </a>
         </li>
         <li>
-          <Link href="/test" className="hover:underline">
+          <Link href="/test" className="hover:underline hover:text-teal-400">
             Test
           </Link>
         </li>
         <li>
-          <a href="/temario" className="hover:underline">
+          <a href="/temario" className="hover:underline hover:text-teal-400">
             Temario
           </a>
         </li>
         <li>
-          <a href="#contact" className="hover:underline">
+          <a href="#contact" className="hover:underline hover:text-teal-400">
             Contacto
           </a>
         </li>
@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
         <button className="px-4 py-2 bg-gray-700 rounded hover:bg-gray-600">
           Login
         </button>
-        <button className="px-4 py-2 bg-blue-600 rounded hover:bg-blue-500">
+        <button className="px-4 py-2 bg-teal-400 hover:bg-teal-700 text-black rounded">
           Registrarse
         </button>
       </div>

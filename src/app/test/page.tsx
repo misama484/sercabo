@@ -10,6 +10,7 @@ const temas = [
   { id: 1, nombre: "Tema 1 - RROO" },
   { id: 2, nombre: "Tema 2 - Ley 8/2006" },
   { id: 3, nombre: "Tema 3 - Orden ministerial 3/2011" },
+  { id: 4, nombre: "Tema 4 - Carrera Militar" },
   // Añade más temas según tu API
 ];
 
@@ -104,7 +105,7 @@ const TestPage: React.FC = () => {
       <div className="flex flex-col items-center justify-center flex-grow p-4">
         {!temaSeleccionado ? (
           // Selección de tema y cantidad
-          <div className="text-center">
+          <div className="text-center ">
             <Image
               src="/img/soldado.png"
               alt="soldado"
@@ -113,33 +114,7 @@ const TestPage: React.FC = () => {
               className="w-64 h-auto mx-auto mb-6 filter"
             />
             <h1 className="text-2xl font-bold mb-4 text-white">Selecciona Tema</h1>
-            <div className="flex flex-wrap gap-4 justify-center mb-6">
-              {temas.map((tema) => (
-                <button
-                  key={tema.id}
-                  onClick={() => handleSelectTema(tema.id)}
-                  className="w-1/3 px-4 py-2 bg-blue-600 text-white rounded hover:bg-primary"
-                >
-                  {tema.nombre}
-                </button>
-              ))}
-            </div>
-            <h2 className="text-xl font-semibold mb-2 text-white">Cantidad de Preguntas</h2>
-            <div className="flex flex-wrap gap-4 justify-center">
-              {[10, 20, 30, 50].map((cantidad) => (
-                <button
-                  key={cantidad}
-                  onClick={() => handleSelectCantidad(cantidad)}
-                  className={`px-4 py-2 rounded ${
-                    cantidadPreguntas === cantidad
-                      ? "bg-green-600 text-white"
-                      : "bg-blue-600 text-white hover:bg-blue-500"
-                  }`}
-                >
-                  {cantidad}
-                </button>
-              ))}
-            </div>
+            <h2 className="text-lg mb-4 text-white">Elige un tema para comenzar el test</h2>            
           </div>
         ) : preguntas.length > 0 ? (
           // Mostrar TestQuestionCard con las preguntas
@@ -170,14 +145,14 @@ const TestPage: React.FC = () => {
             <div className="flex gap-4 mt-6">
               <button
                 onClick={handlePreviousQuestion}
-                className="px-4 py-2 bg-gray-700 text-white rounded hover:bg-gray-600"
+                className="px-4 py-2 bg-teal-400 text-black rounded hover:bg-teal-700"
                 disabled={currentQuestionIndex === 0}
               >
                 Anterior
               </button>
               <button
                 onClick={handleNextQuestion}
-                className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-500"
+                className="px-4 py-2 bg-teal-400 text-black rounded hover:bg-teal-700"
                 disabled={currentQuestionIndex === preguntas.length - 1}
               >
                 Siguiente
@@ -185,7 +160,7 @@ const TestPage: React.FC = () => {
             </div>
             <button
               onClick={handleVolverSeleccionTema}
-              className="mt-6 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-500"
+              className="mt-6 px-4 py-2 bg-teal-400 text-black rounded hover:bg-teal-700"
             >
               Volver a Selección de Tema
             </button>
@@ -195,7 +170,7 @@ const TestPage: React.FC = () => {
             <p className="text-red-400">{error || "Cargando preguntas..."}</p>
             <button
               onClick={handleVolverSeleccionTema}
-              className="mt-6 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-500"
+              className="mt-6 px-4 py-2 bg-red-600 text-black rounded hover:bg-red-500"
             >
               Volver a Selección de Tema
             </button>
@@ -204,9 +179,8 @@ const TestPage: React.FC = () => {
       </div>
 
       {/* Menú lateral derecho */}
-      <div className="w-1/8 bg-gray-700 shadow-lg p-4 flex flex-col justify-between">
-        <div>
-          <h2 className="text-xl text-white font-bold mb-4">Opciones</h2>
+      <div className="w-1/8 bg-teal-900 shadow-lg p-4 flex flex-col justify-between">
+        <div className="pt-8 border-2 border-red-500">          
           <h3 className="text-lg font-semibold text-white mb-2">Cantidad de Preguntas</h3>
           <ul className="space-y-2 mb-6">
             {[10, 20, 30, 50].map((cantidad) => (
@@ -215,8 +189,8 @@ const TestPage: React.FC = () => {
                   onClick={() => handleSelectCantidad(cantidad)}
                   className={`w-full px-4 py-2 rounded ${
                     cantidadPreguntas === cantidad
-                      ? "bg-green-600 text-white"
-                      : "bg-blue-600 text-white rounded hover:bg-blue-500"
+                      ? "bg-teal-700 text-black"
+                      : "bg-teal-400 text-black rounded hover:bg-teal-700"
                   }`}
                 >
                   {cantidad} Preguntas
@@ -232,8 +206,8 @@ const TestPage: React.FC = () => {
                   onClick={() => handleSelectTema(tema.id)}
                   className={`w-full px-2 py-2 text-center rounded ${
                     temaSeleccionado === tema.id
-                      ? "bg-green-600 text-white"
-                      : "bg-blue-600 text-white rounded hover:bg-blue-500"
+                      ? "bg-teal-700 text-black"
+                      : "bg-teal-400 text-black rounded hover:bg-teal-700"
                   }`}
                 >
                   {tema.nombre}
@@ -243,7 +217,7 @@ const TestPage: React.FC = () => {
           </ul>
           <button
             onClick={handleVolverHome}
-            className="mt-6 w-full px-4 py-2 bg-red-600 text-white rounded hover:bg-red-500"
+            className="mt-6 w-full px-4 py-2 bg-teal-400 text-black text-bold text-xl rounded hover:bg-teal-700"
           >Inicio</button>
         </div>
         {/* Mostrar la imagen en la parte inferior si hay un tema seleccionado */}

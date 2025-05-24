@@ -44,13 +44,14 @@ const TemarioPage: React.FC = () => {
     setTemaSeleccionado(temaId);
   };
 
-  const idpdf = 1; // Cambia esto según el tema seleccionado
+ 
 
   return (
     <div className="flex min-h-screen bg-background text-white">
       {/* Menú lateral izquierdo */}
       <div className="w-64 bg-gray-700 shadow-lg p-4 flex flex-col justify-between min-h-screen">
         <div>
+          <h1 className="text-2xl text-white font-bold mb-4">Temario</h1>
           <h2 className="text-xl text-white font-bold mb-4">Opciones</h2>
           <h3 className="text-lg font-semibold text-white mb-2">Temas</h3>
           <ul className="flex flex-col gap-2 mb-6">
@@ -60,8 +61,8 @@ const TemarioPage: React.FC = () => {
                   onClick={() => handleSelectTema(tema.id)}
                   className={`w-full px-2 py-2 text-center rounded ${
                     temaSeleccionado === tema.id
-                      ? "bg-green-600 text-white"
-                      : "bg-blue-600 text-white rounded hover:bg-blue-500"
+                      ? "bg-teal-700 text-black"
+                      : "bg-teal-400 text-black rounded hover:bg-teal-700"
                   }`}
                 >
                   {tema.nombre}
@@ -71,13 +72,11 @@ const TemarioPage: React.FC = () => {
           </ul>
           <button
             onClick={handleVolverHome}
-            className="mt-6 w-full px-4 py-2 bg-red-600 text-white rounded hover:bg-red-500"
+            className="mt-6 w-full px-4 py-2 bg-teal-400 text-black text-bold text-xl rounded hover:bg-teal-700"
           >
             Inicio
           </button>
         </div>
-        {/* Mostrar la imagen en la parte inferior si hay un tema seleccionado */}
-        {temaSeleccionado && (
           <div className="mt-6">
             <Image
               src="/img/soldado.png"
@@ -86,34 +85,18 @@ const TemarioPage: React.FC = () => {
               height={128}
               className="mx-auto"
             />
-          </div>
-        )}
+          </div>        
       </div>
 
       {/* Contenido principal */}
       <div className="flex-1 flex flex-col p-8">
-        <h1 className="text-3xl font-bold mb-6">Temario PDF</h1>
-        <div className="flex gap-4 mb-8 flex-wrap">
-          {temas.map((tema) => (
-            <button
-              key={tema.id}
-              onClick={() => setTemaSeleccionado(tema.id)}
-              className={`px-4 py-2 rounded ${
-                temaSeleccionado === tema.id
-                  ? "bg-green-600 text-white"
-                  : "bg-blue-600 text-white hover:bg-blue-500"
-              }`}
-            >
-              {tema.nombre}
-            </button>
-          ))}
-        </div>
+        
         {temaSeleccionado && (
           <div className="flex flex-col items-center w-full">
             <h2 className="text-xl font-semibold mb-4">
               Visualizando: {temas.find((t) => t.id === temaSeleccionado)?.nombre}
             </h2>
-            <div className="w-full max-w-4xl h-[80vh] border-2 border-primary rounded overflow-hidden shadow-lg">
+            <div className="w-full max-w-4xl h-[90vh]  rounded overflow-hidden shadow-lg">
               <iframe
                 src={`http://localhost:8080/temario/${temaSeleccionado}`}
                 title="PDF Temario"
