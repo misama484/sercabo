@@ -11,6 +11,12 @@ const temas = [
   { id: 2, nombre: "Tema 2 - Ley 8/2006" },
   { id: 3, nombre: "Tema 3 - Orden ministerial 3/2011" },
   { id: 4, nombre: "Tema 4 - Carrera Militar" },
+  { id: 5, nombre: "Tema 5 - Regimen disciplinario" },
+  { id: 6, nombre: "Tema 6 - Seguridad en las FAS" },
+  { id: 7, nombre: "Tema 7 - " },
+  { id: 8, nombre: "Tema 8 - " },
+  { id: 9, nombre: "Tema 9 - " },
+  { id: 10, nombre: "Tema 10 - " },
   // Añade más temas según tu API
 ];
 
