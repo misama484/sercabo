@@ -142,6 +142,7 @@ const TestPage: React.FC = () => {
               Respuestas correctas: {correctAnswers} / {preguntas.length}
             </h2>
             <TestQuestionCard
+              id={currentQuestion.id}
               pregunta={currentQuestion.pregunta}
               opciones={currentQuestion.opciones}
               respuesta_correcta={currentQuestion.respuesta_correcta}
@@ -185,8 +186,8 @@ const TestPage: React.FC = () => {
       </div>
 
       {/* Menú lateral derecho */}
-      <div className="w-1/8 bg-teal-900 shadow-lg p-4 flex flex-col justify-between">
-        <div className="pt-8 border-2 border-red-500">          
+      <div className="w-1/8 bg-background shadow-lg p-4 flex flex-col justify-between">
+        <div className="pt-8">          
           <h3 className="text-lg font-semibold text-white mb-2">Cantidad de Preguntas</h3>
           <ul className="space-y-2 mb-6">
             {[10, 20, 30, 50].map((cantidad) => (

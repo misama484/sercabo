@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import TestQuestionOption from "@/components/testQuestionOption";
 
 interface TestQuestionCardProps {
+  id: number;
   pregunta: string;
   opciones: { [key: string]: string };
   respuesta_correcta: string;
@@ -10,6 +11,7 @@ interface TestQuestionCardProps {
 }
 
 const TestQuestionCard: React.FC<TestQuestionCardProps> = ({
+  id,
   pregunta,
   opciones,
   respuesta_correcta,
@@ -36,6 +38,7 @@ const TestQuestionCard: React.FC<TestQuestionCardProps> = ({
   return (
     <div className="w-2/5 p-6 bg-gray-600 shadow-lg rounded-lg border border-gray-200">
       <h2 className="text-xl font-semibold text-white mb-4">Pregunta</h2>
+      <p>{id}</p>
       <p className="text-white mb-6">{pregunta}</p>
       <div className="flex flex-col gap-4">
         {Object.entries(opciones).map(([key, value]) => (
