@@ -88,7 +88,7 @@ const TemarioPage: React.FC = () => {
   };
 
   return (
-    <div className="flex min-h-screen bg-background text-white">
+    <div className="flex min-h-screen bg-background text-white flex-row-reverse">
       {/* Menú lateral izquierdo */}
       <div className="w-64 bg-gray-700 shadow-lg p-4 flex flex-col justify-between min-h-screen">
         <div>
