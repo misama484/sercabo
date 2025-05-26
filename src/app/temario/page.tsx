@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import axios from "axios";
+import { getToken } from "@/lib/auth";
 
 const temas = [
   { id: 1, nombre: "Tema 1 - RROO" },
@@ -12,19 +14,19 @@ const temas = [
   { id: 6, nombre: "Tema 6 - Seguridad en las FAS" },
   { id: 7, nombre: "Tema 7 - Codigo penal" },
   { id: 8, nombre: "Tema 8 - Organización de las FAS" },
-
   // Añade más temas según tu API
 ];
 
 const TemarioPage: React.FC = () => {
   const [temaSeleccionado, setTemaSeleccionado] = useState<number | null>(null);
+  const [pdfUrl, setPdfUrl] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
   const router = useRouter();
 
   useEffect(() => {
     const bloquearContextMenu = (e: MouseEvent) => e.preventDefault();
     const bloquearShortcuts = (e: KeyboardEvent) => {
-      // Ctrl+S, Ctrl+P, Ctrl+U, Ctrl+Shift+I, F12
       if (
         (e.ctrlKey && ["s", "p", "u"].includes(e.key.toLowerCase())) ||
         (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") ||
@@ -42,15 +44,48 @@ const TemarioPage: React.FC = () => {
     };
   }, []);
 
-    const handleVolverHome = () => {
+  // Petición para obtener el PDF protegido con token
+  useEffect(() => {
+    const fetchPdf = async () => {
+      if (!temaSeleccionado) {
+        setPdfUrl(null);
+        setError(null);
+        return;
+      }
+      setError(null);
+      setPdfUrl(null);
+      try {
+        const token = getToken();
+        const response = await axios.get(
+          `http://localhost:8080/temario/${temaSeleccionado}`,
+          {
+            responseType: "blob",
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },
+          }
+        );
+        const url = URL.createObjectURL(response.data);
+        setPdfUrl(url);
+      } catch (err) {
+        setError("No se pudo cargar el PDF. Verifica tu sesión o permisos.");
+      }
+    };
+    fetchPdf();
+    // Liberar el objeto URL cuando cambie el tema o se desmonte
+    return () => {
+      if (pdfUrl) URL.revokeObjectURL(pdfUrl);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [temaSeleccionado]);
+
+  const handleVolverHome = () => {
     router.push("/");
   };
 
-    const handleSelectTema = (temaId: number) => {
+  const handleSelectTema = (temaId: number) => {
     setTemaSeleccionado(temaId);
   };
-
- 
 
   return (
     <div className="flex min-h-screen bg-background text-white">
@@ -83,38 +118,43 @@ const TemarioPage: React.FC = () => {
             Inicio
           </button>
         </div>
-          <div className="mt-6">
-            <Image
-              src="/img/soldado.png"
-              alt="soldado"
-              width={128}
-              height={128}
-              className="mx-auto"
-            />
-          </div>        
+        <div className="mt-6">
+          <Image
+            src="/img/soldado.png"
+            alt="soldado"
+            width={128}
+            height={128}
+            className="mx-auto"
+          />
+        </div>
       </div>
 
       {/* Contenido principal */}
       <div className="flex-1 flex flex-col p-8">
-        
         {temaSeleccionado && (
           <div className="flex flex-col items-center w-full">
             <h2 className="text-xl font-semibold mb-4">
               Visualizando: {temas.find((t) => t.id === temaSeleccionado)?.nombre}
             </h2>
-            <div className="w-full max-w-4xl h-[90vh]  rounded overflow-hidden shadow-lg">
-              <iframe
-                src={`http://localhost:8080/temario/${temaSeleccionado}`}
-                title="PDF Temario"
-                width="100%"
-                height="100%"
-                className="w-full h-full"
-                allowFullScreen={false}
-                style={{
-                  pointerEvents: "auto",
-                  userSelect: "none",
-                }}
-              />
+            <div className="w-full max-w-4xl h-[90vh] rounded overflow-hidden shadow-lg">
+              {pdfUrl ? (
+                <iframe
+                  src={pdfUrl}
+                  title="PDF Temario"
+                  width="100%"
+                  height="100%"
+                  className="w-full h-full"
+                  allowFullScreen={false}
+                  style={{
+                    pointerEvents: "auto",
+                    userSelect: "none",
+                  }}
+                />
+              ) : error ? (
+                <div className="text-red-400 p-8">{error}</div>
+              ) : (
+                <div className="text-gray-400 p-8">Cargando PDF...</div>
+              )}
             </div>
             <p className="mt-4 text-sm text-gray-400">
               La descarga y copia del documento está restringida.

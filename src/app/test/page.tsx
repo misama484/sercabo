@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import axios from "axios";
 import TestQuestionCard from "@/components/testQuestionCard";
+import { getToken } from "@/lib/auth"; // Asegúrate de tener una función para obtener el token
 
 // Lista de temas (solo para mostrar los botones)
 const temas = [
@@ -30,6 +31,7 @@ const TestPage: React.FC = () => {
   const [temaSeleccionado, setTemaSeleccionado] = useState<number | null>(null);
 
   const router = useRouter();
+  const token = getToken(); // Obtén el token de autenticación
 
   // Cargar preguntas de la API cuando se selecciona tema o cantidad
   useEffect(() => {
@@ -37,7 +39,12 @@ const TestPage: React.FC = () => {
       const fetchPreguntas = async () => {
         try {
           const preguntasRes = await axios.get(
-            `http://localhost:8080/getAllPreguntasTemaLimit?tema=${temaSeleccionado}&limit=${cantidadPreguntas}`
+            `http://localhost:8080/getAllPreguntasTemaLimit?tema=${temaSeleccionado}&limit=${cantidadPreguntas}`,
+            {
+              headers: {
+                Authorization: `Bearer ${token}`, // Incluye el token en la cabecera 
+            },
+            }
           );
           // Adaptar los datos al formato esperado por TestQuestionCard
           const preguntasAdaptadas = preguntasRes.data.map((p: any) => ({

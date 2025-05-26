@@ -1,7 +1,13 @@
+"use client";
 import React from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+
 
 const Navbar: React.FC = () => {
+
+  const router = useRouter();
+
   return (
     <nav className="flex items-center justify-between px-6 py-1 bg-background text-white">
       {/* Logo a la izquierda */}
@@ -36,7 +42,10 @@ const Navbar: React.FC = () => {
 
       {/* Botones a la derecha */}
       <div className="flex space-x-4 ml-3">
-        <button className="px-4 py-2 bg-gray-700 rounded hover:bg-gray-600">
+        <button 
+          className="px-4 py-2 bg-gray-700 rounded hover:bg-gray-600"
+          onClick={() => router.push('/login')}
+          >
           Login
         </button>
         <button className="px-4 py-2 bg-teal-400 hover:bg-teal-700 text-black rounded">

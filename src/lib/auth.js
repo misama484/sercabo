@@ -17,5 +17,5 @@ export const login = async (email, password) => {
     throw new Error(data.message || 'Login failed');
   }
 }
-export const getTokjen = () => Cookies.get('token');
+export const getToken = () => Cookies.get('token');
 export const logout = () => { Cookies.remove('token'); };
