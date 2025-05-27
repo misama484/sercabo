@@ -9,6 +9,8 @@ import {
 import { IconBook, IconUser, IconListCheck, IconClipboardList } from "@tabler/icons-react";
 import { SidebarProfile } from "@/components/ui/sidebarProfile";
 import logo from "@/public/img/sercabologo.png";
+import { getToken } from "@/lib/auth";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -53,23 +55,26 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  // Obtener el token de las cookies
+  const token = getToken();
+
   return (
     <html lang="es">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-white`}
       >
         <div className="flex min-h-screen">
-          {/* Sidebar lateral izquierdo */}
-          <Sidebar>
-            <SidebarBody 
-              profile={
-                <SidebarProfile avatar="usuarioimagen" name="Usuario"/>}
-              >
+          {/* Sidebar solo si hay token */}
+          {token && (
+            <Sidebar>
+              <SidebarBody>
                 {sidebarLinks.map((link) => (
                   <SidebarLink key={link.href} link={link} />
                 ))}
-            </SidebarBody>
-          </Sidebar>
+              </SidebarBody>
+            </Sidebar>
+          )}
           {/* Contenido principal */}
           <main className="flex-1">{children}</main>
         </div>

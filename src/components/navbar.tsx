@@ -34,6 +34,11 @@ const Navbar: React.FC = () => {
           </a>
         </li>
         <li>
+          <a href="/examenes" className="hover:underline hover:text-teal-400">
+            Examenes
+          </a>
+        </li>
+        <li>
           <a href="#contact" className="hover:underline hover:text-teal-400">
             Contacto
           </a>

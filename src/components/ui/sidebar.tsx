@@ -69,7 +69,7 @@ export const Sidebar = ({
   );
 };
 
-export const SidebarBody = (profile, props: React.ComponentProps<typeof motion.div>) => {
+export const SidebarBody = (/*profile,*/ props: React.ComponentProps<typeof motion.div>) => {
   return (
     <>
       <DesktopSidebar {...props} />
@@ -82,7 +82,7 @@ export const DesktopSidebar = ({
   className,
   children,
   //añadimos prop para el perfil
-  profile,
+  //profile,
   ...props
 }: React.ComponentProps<typeof motion.div>) => {
   const { open, setOpen, animate } = useSidebar();
