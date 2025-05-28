@@ -10,6 +10,7 @@ import { IconBook, IconUser, IconListCheck, IconClipboardList } from "@tabler/ic
 import { SidebarProfile } from "@/components/ui/sidebarProfile";
 import logo from "@/public/img/sercabologo.png";
 import { getToken } from "@/lib/auth";
+import { UserProvider } from "@/context/userContext";
 
 
 const geistSans = Geist({
@@ -64,20 +65,22 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-white`}
       >
-        <div className="flex min-h-screen">
-          {/* Sidebar solo si hay token */}
-          {token && (
-            <Sidebar>
-              <SidebarBody>
-                {sidebarLinks.map((link) => (
-                  <SidebarLink key={link.href} link={link} />
-                ))}
-              </SidebarBody>
-            </Sidebar>
-          )}
-          {/* Contenido principal */}
-          <main className="flex-1">{children}</main>
-        </div>
+        <UserProvider>
+          <div className="flex min-h-screen">
+            {/* Sidebar solo si hay token */}
+            {token && (
+              <Sidebar>
+                <SidebarBody>
+                  {sidebarLinks.map((link) => (
+                    <SidebarLink key={link.href} link={link} />
+                  ))}
+                </SidebarBody>
+              </Sidebar>
+            )}
+            {/* Contenido principal */}
+            <main className="flex-1">{children}</main>
+          </div>
+        </UserProvider>
       </body>
     </html>
   );

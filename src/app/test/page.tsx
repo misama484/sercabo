@@ -37,6 +37,7 @@ const TestPage: React.FC = () => {
   useEffect(() => {
     if (temaSeleccionado) {
       const fetchPreguntas = async () => {
+        console.log("Token: ", token);
         try {
           const preguntasRes = await axios.get(
             `http://localhost:8080/getAllPreguntasTemaLimit?tema=${temaSeleccionado}&limit=${cantidadPreguntas}`,
