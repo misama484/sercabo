@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { SidebarProfile } from "@/components/ui/sidebarProfile";
 import { useUser } from "@/context/userContext";
+import avatar0 from "@/public/data/avatarImages/0.png";
 
 interface Examen {
   id: number;
@@ -11,9 +12,9 @@ interface Examen {
 }
 
 const avatarImg = [
-  { avatarCode: 0, avatarUrl: "/data/avatarImages/0.png" },
-  { avatarCode: 1, avatarUrl: "/data/avatarImages/1.gif" },
-  { avatarCode: 2, avatarUrl: "/data/avatarImages/2.gif" },
+  { avatarCode: 0, avatarUrl: "/img/avatarImages/0.png" },
+  { avatarCode: 1, avatarUrl: "/img/avatarImages/1.gif" },
+  { avatarCode: 2, avatarUrl: "/img/avatarImages/2.gif" },
 ];
 
 const ProfilePage: React.FC = () => {
@@ -64,7 +65,7 @@ const ProfilePage: React.FC = () => {
   };
 
   console.log("Usuario en ProfilePage:", usuario);
-
+  console.log("imagen avatar: ", selectedAvatarUrl);
   if (!usuario) {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen text-white">
@@ -77,7 +78,7 @@ const ProfilePage: React.FC = () => {
     <div className="flex flex-col items-center min-h-screen bg-background text-white p-8">
       <div className="w-full max-w-2xl flex flex-col items-center gap-6">
         {/* Perfil */}
-        <div className="w-full flex flex-col items-center gap-2">
+        <div className="w-full flex flex-col items-left gap-2">
           <SidebarProfile
             avatar={selectedAvatarUrl}
             name={usuario.nombre}

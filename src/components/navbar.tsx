@@ -39,9 +39,9 @@ const Navbar: React.FC = () => {
           </a>
         </li>
         <li>
-          <a href="/examenes" className="hover:underline hover:text-teal-400">
+          <Link href="/examenes" className="hover:underline hover:text-teal-400">
             Examenes
-          </a>
+          </Link>
         </li>
         <li>
           <a href="/profile" className="hover:underline hover:text-teal-400">
