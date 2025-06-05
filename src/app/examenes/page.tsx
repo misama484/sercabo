@@ -1,15 +1,16 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import axios from "axios";
-import { getToken } from "@/lib/auth";
-import { useUser } from "@/context/userContext";
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import { getToken } from '@/lib/auth'; 
+import { useUser } from '@/context/userContext';
 
-interface Opcion {
+
+interface Opcion { 
   [key: string]: string;
 }
 
 interface Pregunta {
-  id: string;
+  id: number;
   pregunta: string;
   respuestaCorrecta: string;
   opciones: Opcion;
@@ -57,296 +58,125 @@ const ExamenesPage: React.FC = () => {
   const [temaSeleccionado, setTemaSeleccionado] = useState<number | null>(null);
   const [cantidadPreguntas, setCantidadPreguntas] = useState<number>(5);
   const [examen, setExamen] = useState<Examen | null>(null);
-  const [respuestas, setRespuestas] = useState<{ [preguntaId: number]: string }>({});
-  const [corrigiendo, setCorrigiendo] = useState(false);
-  const [resultado, setResultado] = useState<number | null>(null);
-  const [error, setError] = useState<string | null>(null);
-  const [guardando, setGuardando] = useState(false);
-  const [guardado, setGuardado] = useState(false);
-
-  const token = getToken();
+  const [ error, setError ] = useState<string | null>(null);
+  const [listaExamenes, setListaExamenes] = useState<Examen[]>([]);
 
   const handleSeleccionarTema = (temaId: number) => {
     setTemaSeleccionado(temaId);
-    console.log(temaId)
-    setExamen(null);
-    setRespuestas({});
-    setResultado(null);
-    setError(null);
-    setGuardado(false);
+    console.log(`Tema seleccionado: ${temaId}`);
   };
 
-  const handleSeleccionCantidad = (cantidad: number) => {
-    setCantidadPreguntas(cantidad);
-    setExamen(null);
-    setRespuestas({});
-    setResultado(null);
-    setError(null);
-    setGuardado(false);
-  };
+  const handleCantidadPreguntas = (cantidad: number) => {
+    setCantidadPreguntas(cantidadPreguntas);
+    console.log(`Cantidad de preguntas seleccionada: ${cantidadPreguntas}`); 
+    console.log('id usuario: ', usuario?.id);
+  }
 
   const handleGenerarExamen = async () => {
-    if (!usuario || !temaSeleccionado) return;
-    setExamen(null);
-    setRespuestas({});
-    setResultado(null);
-    setError(null);
-    setGuardado(false);
-    try {
-      console.log(usuario.id, temaSeleccionado, cantidadPreguntas); 
-      const res = await axios.get(
-        `http://localhost:8080/examenes/generar?usuarioId=${usuario.id}&tema=${temaSeleccionado}&cantidad=${cantidadPreguntas}`,
-        {
-          headers: { Authorization: `Bearer ${token}` },
-        }
-      );
-      
-      console.log("Examen generado:", res.data);
-      setExamen(res.data);
-    } catch (err) {
-      setError("No se pudo generar el examen.");
+    if (!temaSeleccionado || !cantidadPreguntas) {
+      setError("Por favor, selecciona un tema y una cantidad de preguntas.");
+      return;
     }
-  };
-
-  const handleSeleccionRespuesta = (preguntaId: number, opcion: string) => {
-    setRespuestas((prev) => ({
-      ...prev,
-      [preguntaId]: opcion,
-    }));
-  };
-
-  const handleCorregir = async () => {
-    if (!examen) return;
-    setCorrigiendo(true);
-
-    let correctas = 0;
-    const preguntasCorregidas = examen.preguntas.map((p) => {
-      const respuestaUsuario = respuestas[p.id] || null;
-      const esCorrecta = respuestaUsuario === p.pregunta.respuestaCorrecta;
-      if (esCorrecta) correctas++;
-      return {
-        ...p,
-        respuestaUsuario,
-        esCorrecta,
-      };
-    });
-
-    setExamen({
-      ...examen,
-      preguntas: preguntasCorregidas,
-      respuestasCorrectas: correctas,
-      completado: true,
-    });
-    setResultado(correctas);
-
-    // Enviar resultado al backend
-    try {
-      await axios.post(
-        `http://localhost:8080/examenes/corregir/${examen.id}`,
+    try{
+      const res = await axios.post(`http://localhost:8080/examenes/generar?usuarioId=${usuario?.id}&tema=${temaSeleccionado}&cantidad=${cantidadPreguntas}`,
         {
-          respuestasCorrectas: correctas,
-          completado: true,
-          preguntas: preguntasCorregidas.map((p) => ({
-            id: p.id,
-            respuestaUsuario: p.respuestaUsuario,
-            esCorrecta: p.esCorrecta,
-          })),
+        headers: {
+          Authorization: `Bearer ${getToken()}`,
         },
-        {
-          headers: { Authorization: `Bearer ${token}` },
-        }
-      );
+      });
+      setExamen(res.data);
+      console.log('Examen generado:', res.data);
+      setError(null);
     } catch (err) {
-      setError("No se pudo guardar el resultado del examen.");
+      setError("Error al generar el examen." + err);
     }
-    setCorrigiendo(false);
-  };
-
-  const handleGuardarExamen = async () => {
-    if (!examen) return;
-    setGuardando(true);
-    setError(null);
-    try {
-      // Aquí deberás implementar el endpoint en el backend para guardar el examen
-      // Por ejemplo:
-      // await axios.post("http://localhost:8080/examenes/guardar", examen, { headers: { Authorization: `Bearer ${token}` } });
-      setGuardado(true);
-    } catch (err) {
-      setError("No se pudo guardar el examen en la base de datos.");
-    }
-    setGuardando(false);
   };
 
   //RECUPERAR EXAMEN DESDE BBDD
   const recuperarExamen = async (usuarioId: number) => {
-    try {
-      const res = await axios.get(
-        `http://localhost:8080/examenes/all?${usuarioId}`,
-        {
-          headers: { Authorization: `Bearer ${token}` },
-        }
-      );
-      setExamen(res.data);
-    } catch (err) {
-      setError("No se pudo recuperar el examen.");
-    }
-  };
+  try {
+    const res = await axios.get(
+      `http://localhost:8080/examenes/all?usuarioId=${usuarioId}`,
+      {
+        headers: { Authorization: `Bearer ${getToken()}` },
+      }
+    );
+    setListaExamenes(res.data); // Guardamos la lista de exámenes
+    setExamen(null); // Opcional: limpia el examen actual
+    setError(null);
+    console.log("Examenes recuperados:", res.data);
+  } catch (err) {
+    setError("No se pudo recuperar el listado de exámenes.");
+  }
+};
 
-// Genera examen al pulsar el tema o cantidad si ya hay un usuario y tema seleccionado
-  useEffect(() => {
-    if(usuario && temaSeleccionado && cantidadPreguntas) {
-      handleGenerarExamen();
-    }
-  }, [usuario, temaSeleccionado, cantidadPreguntas]);
+
 
 
 
   return (
-    <div className="flex flex-col items-center min-h-screen bg-background text-white p-8">
-      <h1 className="text-3xl font-bold mb-6">Generar Examen</h1>
-      {!temaSeleccionado ? (
-        <div className="flex flex-col items-center gap-4">
-          <h2 className="text-xl mb-2">Selecciona un tema y la cantidad de preguntas:</h2>
-          <div className="flex gap-4 mb-4">
-            {cantidades.map((cantidad) => (
-              <button
-                key={cantidad}
-                className={`px-4 py-2 rounded font-semibold ${
-                  cantidadPreguntas === cantidad
-                    ? "bg-teal-700 text-black"
-                    : "bg-teal-400 text-black hover:bg-teal-700"
-                }`}
-                onClick={() => handleSeleccionCantidad(cantidad)}
-              >
-                {cantidad} preguntas
-              </button>
-            ))}
-          </div>
-          <div className="flex flex-wrap gap-4">
-            {temas.map((tema) => (
-              <button
-                key={tema.id}
-                className={`px-6 py-3 rounded font-semibold ${
-                  temaSeleccionado === tema.id
-                    ? "bg-teal-700 text-black"
-                    : "bg-teal-400 text-black hover:bg-teal-700"
-                }`}
-                onClick={() => handleSeleccionarTema(tema.id)}
-              >
-                {tema.nombre}
-              </button>
-            ))}
-          </div>
-          <button
-            className="mt-6 px-6 py-3 bg-teal-400 text-black font-bold rounded hover:bg-teal-700"
-            onClick={handleGenerarExamen}
-            disabled={!temaSeleccionado || !cantidadPreguntas || !usuario}
-          >
-            Generar Examen
-          </button>
-          <button
-            className="mt-6 px-6 py-3 bg-teal-400 text-black font-bold rounded hover:bg-teal-700"
-            
-            disabled={!temaSeleccionado || !cantidadPreguntas || !usuario}
-          >
-            Recuperar Examenes
-          </button>
-          {error && <div className="text-red-400 mt-4">{error}</div>}
-        </div>
-      ) : examen ? (
-        <div className="w-full max-w-2xl">
-          <div className="mb-6">
-            <h2 className="text-2xl font-bold mb-2">Examen Tema {examen.tema}</h2>
-            <p className="text-gray-300 mb-2">
-              Fecha: {new Date(examen.fechaCreacion).toLocaleString()}
-            </p>
-            <p className="text-gray-300 mb-2">
-              Alumno: {examen.usuario.nombre} ({examen.usuario.email})
-            </p>
-            <p className="text-gray-300 mb-2">
-              Preguntas: {examen.preguntas.length}
-            </p>
-          </div>
-          <form
-            onSubmit={(e) => {
-              e.preventDefault();
-              handleCorregir();
-            }}
-          >
-            {examen.preguntas.map((preguntaExamen, idx) => (
-              <div key={preguntaExamen.id} className="mb-6 p-4 rounded bg-gray-800">
-                <div className="mb-2 font-semibold">
-                  {idx + 1}. {preguntaExamen.pregunta.pregunta}
-                </div>
-                <div className="flex flex-col gap-2">
-                  {Object.entries(preguntaExamen.pregunta.opciones).map(([letra, texto]) => (
-                    <label key={letra} className="flex items-center gap-2">
-                      <input
-                        type="radio"
-                        name={`pregunta-${preguntaExamen.id}`}
-                        value={letra}
-                        disabled={!!preguntaExamen.esCorrecta || resultado !== null}
-                        checked={respuestas[preguntaExamen.id] === letra}
-                        onChange={() => handleSeleccionRespuesta(preguntaExamen.id, letra)}
-                        className="accent-teal-400"
-                      />
-                      <span>{letra}. {texto}</span>
-                    </label>
-                  ))}
-                </div>
-                {preguntaExamen.esCorrecta !== null && (
-                  <div className={`mt-2 font-bold ${preguntaExamen.esCorrecta ? "text-green-400" : "text-red-400"}`}>
-                    {preguntaExamen.esCorrecta
-                      ? "¡Respuesta correcta!"
-                      : `Incorrecto. Respuesta correcta: ${preguntaExamen.pregunta.respuestaCorrecta}`}
-                  </div>
-                )}
-              </div>
-            ))}
-            {resultado === null && (
-              <button
-                type="submit"
-                className="w-full px-4 py-3 bg-teal-400 text-black font-bold rounded hover:bg-teal-700 transition-colors mt-4"
-                disabled={corrigiendo}
-              >
-                {corrigiendo ? "Corrigiendo..." : "Corregir Examen"}
-              </button>
-            )}
-            {resultado !== null && (
-              <div className="mt-6 text-xl font-bold text-center text-teal-400">
-                Has acertado {resultado} de {examen.preguntas.length} preguntas.
-              </div>
-            )}
-          </form>
-          <div className="flex gap-4 mt-6">
-            <button
-              className="px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700"
-              onClick={() => {
-                setTemaSeleccionado(null);
-                setExamen(null);
-                setRespuestas({});
-                setResultado(null);
-                setError(null);
-                setGuardado(false);
-              }}
-            >
-              Volver a selección de tema
-            </button>
-            <button
-              className="px-4 py-2 bg-teal-400 text-black rounded hover:bg-teal-700"
-              onClick={handleGuardarExamen}
-              disabled={guardando || guardado}
-            >
-              {guardando ? "Guardando..." : guardado ? "Examen guardado" : "Guardar Examen"}
-            </button>
-          </div>
-          {error && <div className="text-red-400 mt-4">{error}</div>}
-        </div>
-      ) : (
-        <div className="text-center mt-10">Cargando examen...</div>
-      )}
-    </div>
-  );
-};
+    <div className="container mx-auto p-4"> 
+      <h1 className="text-2xl font-bold text-white mb-4">Exámenes</h1>
+      <button 
+        className="bg-blue-500 text-white px-4 py-2 rounded mb-4"
+        onClick={() => handleSeleccionarTema(1)}
+      >
+        Seleccionar Tema 1
+      </button>
+
+      <button 
+        className="bg-blue-500 text-white px-4 py-2 rounded mb-4"
+        onClick={() => handleCantidadPreguntas(5)}
+      >
+        Seleccionar 5 Preguntas
+      </button>
+      <button 
+        className="bg-green-500 text-white px-4 py-2 rounded mb-4"
+        onClick={handleGenerarExamen}
+      >
+        Generar Examen
+      </button>
+      <button
+        className="bg-purple-500 text-white px-4 py-2 rounded mb-4"
+        onClick={() => usuario && recuperarExamen(usuario.id)}
+      >
+        Recuperar Exámenes
+      </button>
+    
+    {listaExamenes.length > 0 && (
+  <div className="mt-8 w-full overflow-x-auto">
+    <h2 className="text-xl font-bold mb-4 text-white">Tus exámenes</h2>
+    <table className="min-w-full bg-gray-800 rounded text-white">
+      <thead>
+        <tr>
+          <th className="px-4 py-2">ID</th>
+          <th className="px-4 py-2">Tema</th>
+          <th className="px-4 py-2">Fecha</th>
+          <th className="px-4 py-2">Correctas</th>
+          <th className="px-4 py-2">Completado</th>
+        </tr>
+      </thead>
+      <tbody>
+        {listaExamenes.map((ex) => (
+          <tr key={ex.id} className="text-center border-b border-gray-700">
+            <td className="px-4 py-2">{ex.id}</td>
+            <td className="px-4 py-2">{ex.tema}</td>
+            <td className="px-4 py-2">{new Date(ex.fechaCreacion).toLocaleString()}</td>
+            <td className="px-4 py-2">{ex.respuestasCorrectas}</td>
+            <td className="px-4 py-2">
+              {ex.completado ? (
+                <span className="text-green-400 font-bold">Sí</span>
+              ) : (
+                <span className="text-red-400 font-bold">No</span>
+              )}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  )}
+  </div>
+  );}
 
 export default ExamenesPage;
