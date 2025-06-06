@@ -3,14 +3,15 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { getToken } from '@/lib/auth'; 
 import { useUser } from '@/context/userContext';
+import ExamenCard from '@/components/examenCard';
 
 
-interface Opcion { 
+interface Opcion {
   [key: string]: string;
 }
 
 interface Pregunta {
-  id: number;
+  id: string;
   pregunta: string;
   respuestaCorrecta: string;
   opciones: Opcion;
@@ -58,34 +59,45 @@ const ExamenesPage: React.FC = () => {
   const [temaSeleccionado, setTemaSeleccionado] = useState<number | null>(null);
   const [cantidadPreguntas, setCantidadPreguntas] = useState<number>(5);
   const [examen, setExamen] = useState<Examen | null>(null);
-  const [ error, setError ] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
   const [listaExamenes, setListaExamenes] = useState<Examen[]>([]);
+  const [examenSeleccionado, setExamenSeleccionado] = useState<Examen | null>(null);
+
+  // Recuperar exámenes al cargar la página si hay usuario
+  useEffect(() => {
+    if (usuario) {
+      recuperarExamen(usuario.id);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [usuario]);
 
   const handleSeleccionarTema = (temaId: number) => {
     setTemaSeleccionado(temaId);
-    console.log(`Tema seleccionado: ${temaId}`);
+    console.log("Tema seleccionado:", temaId);
   };
 
   const handleCantidadPreguntas = (cantidad: number) => {
-    setCantidadPreguntas(cantidadPreguntas);
-    console.log(`Cantidad de preguntas seleccionada: ${cantidadPreguntas}`); 
-    console.log('id usuario: ', usuario?.id);
-  }
+    setCantidadPreguntas(cantidad);
+    console.log("Cantidad de preguntas seleccionada:", cantidad);
+  };
 
   const handleGenerarExamen = async () => {
     if (!temaSeleccionado || !cantidadPreguntas) {
       setError("Por favor, selecciona un tema y una cantidad de preguntas.");
       return;
     }
-    try{
-      const res = await axios.post(`http://localhost:8080/examenes/generar?usuarioId=${usuario?.id}&tema=${temaSeleccionado}&cantidad=${cantidadPreguntas}`,
+    try {
+      const res = await axios.post(
+        `http://localhost:8080/examenes/generar?usuarioId=${usuario?.id}&tema=${temaSeleccionado}&cantidad=${cantidadPreguntas}`,
+        {},
         {
-        headers: {
-          Authorization: `Bearer ${getToken()}`,
-        },
-      });
+          headers: {
+            Authorization: `Bearer ${getToken()}`,
+          },
+        }
+      );
+      console.log("Examen generado:", res.data);
       setExamen(res.data);
-      console.log('Examen generado:', res.data);
       setError(null);
     } catch (err) {
       setError("Error al generar el examen." + err);
@@ -94,44 +106,39 @@ const ExamenesPage: React.FC = () => {
 
   //RECUPERAR EXAMEN DESDE BBDD
   const recuperarExamen = async (usuarioId: number) => {
-  try {
-    const res = await axios.get(
-      `http://localhost:8080/examenes/all?usuarioId=${usuarioId}`,
-      {
-        headers: { Authorization: `Bearer ${getToken()}` },
-      }
-    );
-    setListaExamenes(res.data); // Guardamos la lista de exámenes
-    setExamen(null); // Opcional: limpia el examen actual
-    setError(null);
-    console.log("Examenes recuperados:", res.data);
-  } catch (err) {
-    setError("No se pudo recuperar el listado de exámenes.");
-  }
-};
-
-
-
-
+    try {
+      const res = await axios.get(
+        `http://localhost:8080/examenes/all?usuarioId=${usuarioId}`,
+        {
+          headers: { Authorization: `Bearer ${getToken()}` },
+        }
+      );
+      setListaExamenes(res.data);
+      setExamen(null);
+      setExamenSeleccionado(null);
+      setError(null);
+    } catch (err) {
+      setError("No se pudo recuperar el listado de exámenes.");
+    }
+  };
 
   return (
-    <div className="container mx-auto p-4"> 
+    <div className="container mx-auto p-4">
       <h1 className="text-2xl font-bold text-white mb-4">Exámenes</h1>
-      <button 
+      <button
         className="bg-blue-500 text-white px-4 py-2 rounded mb-4"
         onClick={() => handleSeleccionarTema(1)}
       >
         Seleccionar Tema 1
       </button>
-
-      <button 
+      <button
         className="bg-blue-500 text-white px-4 py-2 rounded mb-4"
         onClick={() => handleCantidadPreguntas(5)}
       >
         Seleccionar 5 Preguntas
       </button>
-      <button 
-        className="bg-green-500 text-white px-4 py-2 rounded mb-4"
+      <button
+        className="bg-green-500 text-white px-4 py-2 rounded mb-4 hover:bg-green-800"
         onClick={handleGenerarExamen}
       >
         Generar Examen
@@ -142,41 +149,61 @@ const ExamenesPage: React.FC = () => {
       >
         Recuperar Exámenes
       </button>
-    
-    {listaExamenes.length > 0 && (
-  <div className="mt-8 w-full overflow-x-auto">
-    <h2 className="text-xl font-bold mb-4 text-white">Tus exámenes</h2>
-    <table className="min-w-full bg-gray-800 rounded text-white">
-      <thead>
-        <tr>
-          <th className="px-4 py-2">ID</th>
-          <th className="px-4 py-2">Tema</th>
-          <th className="px-4 py-2">Fecha</th>
-          <th className="px-4 py-2">Correctas</th>
-          <th className="px-4 py-2">Completado</th>
-        </tr>
-      </thead>
-      <tbody>
-        {listaExamenes.map((ex) => (
-          <tr key={ex.id} className="text-center border-b border-gray-700">
-            <td className="px-4 py-2">{ex.id}</td>
-            <td className="px-4 py-2">{ex.tema}</td>
-            <td className="px-4 py-2">{new Date(ex.fechaCreacion).toLocaleString()}</td>
-            <td className="px-4 py-2">{ex.respuestasCorrectas}</td>
-            <td className="px-4 py-2">
-              {ex.completado ? (
-                <span className="text-green-400 font-bold">Sí</span>
-              ) : (
-                <span className="text-red-400 font-bold">No</span>
-              )}
-            </td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  </div>
-  )}
-  </div>
-  );}
+
+      {listaExamenes.length > 0 && (
+        <div className="mt-8 w-full overflow-x-auto">
+          <h2 className="text-xl font-bold mb-4 text-white">Tus exámenes</h2>
+          <table className="min-w-full bg-gray-800 rounded text-white">
+            <thead>
+              <tr>
+                <th className="px-4 py-2">ID</th>
+                <th className="px-4 py-2">Tema</th>
+                <th className="px-4 py-2">Fecha</th>
+                <th className="px-4 py-2">Correctas</th>
+                <th className="px-4 py-2">Completado</th>
+                <th className="px-4 py-2">Ver</th>
+              </tr>
+            </thead>
+            <tbody>
+              {listaExamenes.map((ex) => (
+                <tr
+                  key={ex.id}
+                  className="text-center border-b border-gray-700 hover:bg-gray-700 cursor-pointer"
+                >
+                  <td className="px-4 py-2">{ex.id}</td>
+                  <td className="px-4 py-2">{ex.tema}</td>
+                  <td className="px-4 py-2">{new Date(ex.fechaCreacion).toLocaleString()}</td>
+                  <td className="px-4 py-2">{ex.respuestasCorrectas}</td>
+                  <td className="px-4 py-2">
+                    {ex.completado ? (
+                      <span className="text-green-400 font-bold">Sí</span>
+                    ) : (
+                      <span className="text-red-400 font-bold">No</span>
+                    )}
+                  </td>
+                  <td className="px-4 py-2">
+                    <button
+                      className="bg-teal-400 text-black px-3 py-1 rounded hover:bg-teal-600"
+                      onClick={() => setExamenSeleccionado(ex)}
+                    >
+                      Ver
+                    </button>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+
+      {/* Mostrar ExamenCard debajo de la tabla si hay examen seleccionado */}
+      {examenSeleccionado && (
+        <div className="mt-8 w-full flex justify-center">
+          <ExamenCard examen={examenSeleccionado} />
+        </div>
+      )}
+    </div>
+  );
+};
 
 export default ExamenesPage;
