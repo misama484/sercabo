@@ -4,6 +4,8 @@ import axios from 'axios';
 import { getToken } from '@/lib/auth'; 
 import { useUser } from '@/context/userContext';
 import ExamenCard from '@/components/examenCard';
+import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 
 interface Opcion {
@@ -46,11 +48,15 @@ const temas = [
   { id: 1, nombre: "Tema 1 - RROO" },
   { id: 2, nombre: "Tema 2 - Ley 8/2006" },
   { id: 3, nombre: "Tema 3 - Orden ministerial 3/2011" },
-  { id: 4, nombre: "Tema 4 - Carrera Militar" },
+  { id: 4, nombre: "Tema 4 - Ley 39-2007 Carrera Militar" },
   { id: 5, nombre: "Tema 5 - Regimen disciplinario" },
   { id: 6, nombre: "Tema 6 - Seguridad en las FAS" },
-  // Añade más temas si es necesario
+  { id: 7, nombre: "Tema 7 - Codigo penal" },
+  { id: 8, nombre: "Tema 8 - Organización de las FAS" },
+  // Añade más temas según tu API
 ];
+
+const EXAMENES_POR_PAGINA = 5; // Número de exámenes por página
 
 const cantidades = [5, 10, 20, 30, 50];
 
@@ -62,6 +68,9 @@ const ExamenesPage: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
   const [listaExamenes, setListaExamenes] = useState<Examen[]>([]);
   const [examenSeleccionado, setExamenSeleccionado] = useState<Examen | null>(null);
+  const [ paginaActual, setPaginaActual] = useState(1);
+
+  const router = useRouter();
 
   // Recuperar exámenes al cargar la página si hay usuario
   useEffect(() => {
@@ -71,6 +80,22 @@ const ExamenesPage: React.FC = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [usuario]);
 
+    // Si cambia la lista, vuelve a la página 1
+  useEffect(() => {
+    setPaginaActual(1);
+  }, [listaExamenes]);
+
+  // Calcular los exámenes a mostrar en la página actual
+  const totalPaginas = Math.ceil(listaExamenes.length / EXAMENES_POR_PAGINA);
+  const inicio = (paginaActual - 1) * EXAMENES_POR_PAGINA;
+  const fin = inicio + EXAMENES_POR_PAGINA;
+  const examenesPagina = listaExamenes.slice(inicio, fin);
+
+  // Funciones para navegar
+  const handleAnterior = () => setPaginaActual((p) => Math.max(1, p - 1));
+  const handleSiguiente = () => setPaginaActual((p) => Math.min(totalPaginas, p + 1));
+
+
   const handleSeleccionarTema = (temaId: number) => {
     setTemaSeleccionado(temaId);
     console.log("Tema seleccionado:", temaId);
@@ -79,6 +104,10 @@ const ExamenesPage: React.FC = () => {
   const handleCantidadPreguntas = (cantidad: number) => {
     setCantidadPreguntas(cantidad);
     console.log("Cantidad de preguntas seleccionada:", cantidad);
+  };
+
+  const handleSelectTema = (temaId: number) => {
+    setTemaSeleccionado(temaId);
   };
 
   const handleGenerarExamen = async () => {
@@ -122,33 +151,81 @@ const ExamenesPage: React.FC = () => {
     }
   };
 
+    const handleVolverHome = () => {
+    router.push("/");
+  };
+
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold text-white mb-4">Exámenes</h1>
-      <button
-        className="bg-blue-500 text-white px-4 py-2 rounded mb-4"
-        onClick={() => handleSeleccionarTema(1)}
-      >
-        Seleccionar Tema 1
-      </button>
-      <button
-        className="bg-blue-500 text-white px-4 py-2 rounded mb-4"
-        onClick={() => handleCantidadPreguntas(5)}
-      >
-        Seleccionar 5 Preguntas
-      </button>
-      <button
-        className="bg-green-500 text-white px-4 py-2 rounded mb-4 hover:bg-green-800"
-        onClick={handleGenerarExamen}
-      >
-        Generar Examen
-      </button>
-      <button
-        className="bg-purple-500 text-white px-4 py-2 rounded mb-4"
-        onClick={() => usuario && recuperarExamen(usuario.id)}
-      >
-        Recuperar Exámenes
-      </button>
+    <div className="flex min-h-screen bg-background text-white flex-row-reverse">      
+       {/* Menú lateral izquierdo */}
+        <div className="w-64 bg-gray-700 shadow-lg p-4 flex flex-col justify-between min-h-screen">
+              <div>
+                <h1 className="text-2xl text-white font-bold mb-4">Examenes</h1>
+                <h2 className="text-xl text-white font-bold mb-4">Preguntas examen</h2>
+                <ul className="space-y-2 mb-6">
+                  {[10, 20, 30, 50].map((cantidad) => (
+                    <li key={cantidad}>
+                      <button
+                        onClick={() => handleCantidadPreguntas(cantidad)}
+                        className={`w-full px-4 py-2 rounded ${
+                          cantidadPreguntas === cantidad
+                            ? "bg-teal-700 text-black"
+                            : "bg-teal-400 text-black rounded hover:bg-teal-700"
+                        }`}
+                      >
+                        {cantidad} Preguntas
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+                <h3 className="text-lg font-semibold text-white mb-2">Temas</h3>
+                <ul className="flex flex-col gap-2 mb-6">
+                  {temas.map((tema) => (
+                    <li key={tema.id} className="w-full flex">
+                      <button
+                        onClick={() => handleSelectTema(tema.id)}
+                        className={`w-full px-2 py-2 text-center rounded ${
+                          temaSeleccionado === tema.id
+                            ? "bg-teal-700 text-black"
+                            : "bg-teal-400 text-black rounded hover:bg-teal-700"
+                        }`}
+                      >
+                        {tema.nombre}
+                      </button>
+                    </li>
+                  ))}
+                </ul>                
+                
+                <button
+                  className="mt-6 w-full px-4 py-2 bg-teal-400 text-black text-bold text-xl rounded hover:bg-teal-700"
+                  onClick={handleGenerarExamen}
+                >
+                  Generar Examen
+                </button>
+                <button
+                  className="mt-6 w-full px-4 py-2 bg-teal-400 text-black text-bold text-xl rounded hover:bg-teal-700"
+                  onClick={() => usuario && recuperarExamen(usuario.id)}
+                >
+                  Recuperar Exámenes
+                </button>
+                <button
+                  onClick={handleVolverHome}
+                  className="mt-6 w-full px-4 py-2 bg-teal-400 text-black text-bold text-xl rounded hover:bg-teal-700"
+                >
+                  Inicio
+                </button>
+              </div>
+              <div className="mt-6">
+                <Image
+                  src="/img/soldado.png"
+                  alt="soldado"
+                  width={128}
+                  height={128}
+                  className="mx-auto"
+                />
+              </div>
+            </div>
+      
 
       {listaExamenes.length > 0 && (
         <div className="mt-8 w-full overflow-x-auto">
@@ -165,7 +242,7 @@ const ExamenesPage: React.FC = () => {
               </tr>
             </thead>
             <tbody>
-              {listaExamenes.map((ex) => (
+              {examenesPagina.map((ex) => (
                 <tr
                   key={ex.id}
                   className="text-center border-b border-gray-700 hover:bg-gray-700 cursor-pointer"
@@ -193,15 +270,35 @@ const ExamenesPage: React.FC = () => {
               ))}
             </tbody>
           </table>
-        </div>
-      )}
 
-      {/* Mostrar ExamenCard debajo de la tabla si hay examen seleccionado */}
-      {examenSeleccionado && (
-        <div className="mt-8 w-full flex justify-center">
-          <ExamenCard examen={examenSeleccionado} />
+          {/* Controles de paginación */}
+          <div className="flex justify-center items-center gap-4 mt-4">
+            <button
+              className="px-3 py-1 bg-gray-600 rounded disabled:opacity-50"
+              onClick={handleAnterior}
+              disabled={paginaActual === 1}
+            >
+              Anterior
+            </button>
+            <span>
+              Página {paginaActual} de {totalPaginas}
+            </span>
+            <button
+              className="px-3 py-1 bg-gray-600 rounded disabled:opacity-50"
+              onClick={handleSiguiente}
+              disabled={paginaActual === totalPaginas}
+            >
+              Siguiente
+            </button>
+          </div>
+          {/* Mostrar ExamenCard debajo de la tabla si hay examen seleccionado */}
+            {examenSeleccionado && (
+              <div className="mt-8 w-full flex justify-center">
+                <ExamenCard examen={examenSeleccionado} />
+              </div>
+            )}
         </div>
-      )}
+      )}      
     </div>
   );
 };
