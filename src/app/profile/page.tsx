@@ -7,6 +7,16 @@ import axios from "axios";
 import { getToken } from "@/lib/auth"; // Asegúrate de tener una función para obtener el token
 import { useRouter } from "next/navigation";
 import NavbarPerfil from "@/components/navbarPerfil";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 
 interface Opcion {
   [key: string]: string;
@@ -163,7 +173,7 @@ const ProfilePage: React.FC = () => {
     <div className="flex flex-col items-center min-h-screen bg-background text-white p-8">
       <NavbarPerfil
         active={""}
-        onChange={""}
+        onChange={() => {}}
         avatarUrl={selectedAvatarUrl}
         nombre={usuario.nombre}
       />
@@ -255,6 +265,26 @@ const ProfilePage: React.FC = () => {
           </div>
       </div>
     )}
+    <div className="mt-8 w-full">
+    <Card>
+      <CardHeader>
+        <CardTitle>{usuario.nombre}</CardTitle>
+        <CardDescription>{usuario.email}</CardDescription>
+        <CardAction>
+          <Avatar>
+            <AvatarImage src={selectedAvatarUrl} />
+            <AvatarFallback>MS</AvatarFallback>
+          </Avatar>
+        </CardAction>
+      </CardHeader>
+      <CardContent>
+        <p>Examenes generados: {listaExamenes.length}</p>
+      </CardContent>
+      <CardFooter>
+        <p>Card Footer</p>
+      </CardFooter>
+    </Card>
+    </div>
 
       {/* Modal para editar perfil */}
       {modalOpen && (

@@ -61,7 +61,7 @@ export default function RootLayout({
   const token = getToken();
 
   return (
-    <html lang="es">
+    <html lang="es" className="dark">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-white`}
       >
