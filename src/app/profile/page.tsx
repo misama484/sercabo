@@ -6,6 +6,7 @@ import avatar0 from "@/public/data/avatarImages/0.png";
 import axios from "axios";
 import { getToken } from "@/lib/auth"; // Asegúrate de tener una función para obtener el token
 import { useRouter } from "next/navigation";
+import NavbarPerfil from "@/components/navbarPerfil";
 
 interface Opcion {
   [key: string]: string;
@@ -41,6 +42,8 @@ interface Examen {
   completado: boolean;
   preguntas: PreguntaExamen[];
 }
+
+//TODO Colocar barra superior con menu de navegación y botón de inicio, avatar y nombre en un lateral
 
 const EXAMENES_POR_PAGINA = 5; // Número de exámenes por página
 const token = getToken(); // Obtén el token de autenticación
@@ -158,6 +161,12 @@ const ProfilePage: React.FC = () => {
   
   return (
     <div className="flex flex-col items-center min-h-screen bg-background text-white p-8">
+      <NavbarPerfil
+        active={""}
+        onChange={""}
+        avatarUrl={selectedAvatarUrl}
+        nombre={usuario.nombre}
+      />
       <div className="w-full max-w-2xl flex flex-col items-center gap-6">
         {/* Perfil */}
         <div className="w-full flex flex-col items-left gap-2">
@@ -245,7 +254,7 @@ const ProfilePage: React.FC = () => {
             </button>
           </div>
       </div>
-    )};
+    )}
 
       {/* Modal para editar perfil */}
       {modalOpen && (
