@@ -9,17 +9,18 @@ export default function Home() {
         <Navbar />
       </div>
       <div className="flex flex-col items-center gap-2">
-        <h1 className="text-4xl font-bold">SerCabo</h1>
-        <h2 className="text-2xl">Oposición Cabo Ejército Español</h2>
+        <h1 className="text-4xl font-bold mt-5">SerCabo</h1>
+        <h2 className="text-2xl m-5">Oposición Cabo Ejército Español</h2>
       </div>
       <div className="flex flex-col items-center gap-4">
         <Image
+          className="rounded-lg m-20"
           src="/img/sercabologo.png"
           alt="Logo SerCabo"
-          width={300}
-          height={300}
+          width={500}
+          height={500}
         />
-        <p className="text-lg text-center">
+        <p className="text-lg text-center mb-10">
           Plataforma de estudio para la oposición de Cabo del Ejército de Tierra.
         </p>
       </div>

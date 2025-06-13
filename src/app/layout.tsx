@@ -1,11 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import {
-  Sidebar,
-  SidebarBody,
-  SidebarLink,
-} from "@/components/ui/sidebar";
 import { IconBook, IconUser, IconListCheck, IconClipboardList } from "@tabler/icons-react";
 import { SidebarProfile } from "@/components/ui/sidebarProfile";
 import logo from "@/public/img/sercabologo.png";
@@ -67,16 +62,7 @@ export default function RootLayout({
       >
         <UserProvider>
           <div className="flex min-h-screen">
-            {/* Sidebar solo si hay token */}
-            {token && (
-              <Sidebar>
-                <SidebarBody>
-                  {sidebarLinks.map((link) => (
-                    <SidebarLink key={link.href} link={link} />
-                  ))}
-                </SidebarBody>
-              </Sidebar>
-            )}
+            
             {/* Contenido principal */}
             <main className="flex-1">{children}</main>
           </div>

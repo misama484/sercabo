@@ -6,6 +6,8 @@ import { useUser } from '@/context/userContext';
 import ExamenCard from '@/components/examenCard';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
+import {AppSidebar} from '@/components/app-sidebar';
+import { SidebarProvider } from '@/components/ui/sidebar';
 
 
 interface Opcion {
@@ -108,6 +110,7 @@ const ExamenesPage: React.FC = () => {
 
   const handleSelectTema = (temaId: number) => {
     setTemaSeleccionado(temaId);
+    console.log("Tema seleccionado:", temaId);
   };
 
   const handleGenerarExamen = async () => {
@@ -155,10 +158,22 @@ const ExamenesPage: React.FC = () => {
     router.push("/");
   };
 
-  return (
-    <div className="flex min-h-screen bg-background text-white flex-row-reverse">      
+  return (      
+    <div className="flex min-h-screen bg-background text-white flex-row"> 
+      <div className="w-64 flex-shrink-0">
+        <SidebarProvider>
+          <AppSidebar
+            onCantidadPreguntas={handleCantidadPreguntas}
+            cantidadPreguntasSeleccionada={cantidadPreguntas}
+            onSeleccionarTema={handleSelectTema}
+            onGenerarExamen={handleGenerarExamen}
+            onRecuperarExamenes={() => usuario && recuperarExamen(usuario.id)}
+            onInicio={handleVolverHome}
+        />
+        </SidebarProvider> 
+      </div>   
        {/* Menú lateral izquierdo */}
-        <div className="w-64 bg-gray-700 shadow-lg p-4 flex flex-col justify-between min-h-screen">
+       {/* <div className="w-64 bg-gray-700 shadow-lg p-4 flex flex-col justify-between min-h-screen">
               <div>
                 <h1 className="text-2xl text-white font-bold mb-4">Examenes</h1>
                 <h2 className="text-xl text-white font-bold mb-4">Preguntas examen</h2>
@@ -224,11 +239,13 @@ const ExamenesPage: React.FC = () => {
                   className="mx-auto"
                 />
               </div>
-            </div>
+            </div>*/}
+
+      
       
 
       {listaExamenes.length > 0 && (
-        <div className="mt-8 w-full overflow-x-auto">
+        <div className="mt-8 mx-10 w-full overflow-x-auto">
           <h2 className="text-xl font-bold mb-4 text-white">Tus exámenes</h2>
           <table className="min-w-full bg-gray-800 rounded text-white">
             <thead>
@@ -300,6 +317,7 @@ const ExamenesPage: React.FC = () => {
         </div>
       )}      
     </div>
+    
   );
 };
 
