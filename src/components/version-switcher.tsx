@@ -14,6 +14,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
+import Link from "next/link"
 
 export function VersionSwitcher({
   versions,
@@ -37,8 +38,8 @@ export function VersionSwitcher({
                 <GalleryVerticalEnd className="size-4" />
               </div>
               <div className="flex flex-col gap-0.5 leading-none">
-                <span className="font-medium">Documentation</span>
-                <span className="">v{selectedVersion}</span>
+                <span className="font-medium">Examenes</span>
+                <Link className="" href={""}>{selectedVersion}</Link>
               </div>
               <ChevronsUpDown className="ml-auto" />
             </SidebarMenuButton>

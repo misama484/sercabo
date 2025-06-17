@@ -6,6 +6,7 @@ import { SidebarProfile } from "@/components/ui/sidebarProfile";
 import logo from "@/public/img/sercabologo.png";
 import { getToken } from "@/lib/auth";
 import { UserProvider } from "@/context/userContext";
+import Navbar from "@/components/navbar";
 
 
 const geistSans = Geist({
@@ -46,26 +47,17 @@ const sidebarLinks = [
   },
 ];
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
 
-  // Obtener el token de las cookies
-  const token = getToken();
-
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" className="dark">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-white`}
-      >
+      <body className="min-h-screen flex flex-col bg-background text-white">
         <UserProvider>
-          <div className="flex min-h-screen">
-            
-            {/* Contenido principal */}
-            <main className="flex-1">{children}</main>
-          </div>
+          <Navbar />
+          {/* El contenido principal de cada página irá aquí */}
+          <main className="flex-1 flex flex-col">
+            {children}
+          </main>
         </UserProvider>
       </body>
     </html>

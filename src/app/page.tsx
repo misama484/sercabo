@@ -4,10 +4,7 @@ import Navbar from "@/components/navbar";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen font-[family-name:var(--font-geist-sans)] bg-background text-white">
-      {/* Navbar fijo en la parte superior */}
-      <div className="w-full top-0 items-center shadow-md z-10">
-        <Navbar />
-      </div>
+      
       <div className="flex flex-col items-center gap-2">
         <h1 className="text-4xl font-bold mt-5">SerCabo</h1>
         <h2 className="text-2xl m-5">Oposición Cabo Ejército Español</h2>
@@ -15,7 +12,7 @@ export default function Home() {
       <div className="flex flex-col items-center gap-4">
         <Image
           className="rounded-lg m-20"
-          src="/img/sercabologo.png"
+          src="/img/sercabologo.png" 
           alt="Logo SerCabo"
           width={500}
           height={500}

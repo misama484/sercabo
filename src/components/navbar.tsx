@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
       {/* Items en el centro */}
       <ul className="flex space-x-8">
         <li>
-          <a href="#home" className="hover:underline hover:text-teal-400">
+          <a href="/" className="hover:underline hover:text-teal-400">
             Inicio
           </a>
         </li>

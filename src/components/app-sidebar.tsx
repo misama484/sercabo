@@ -24,7 +24,7 @@ import { Button } from "./ui/button"
 
 // This is sample data.
 const data = {
-  versions: ["1.0.1", "1.1.0-alpha", "2.0.0-beta1"],
+  versions: ["Examenes", "Test", "Perfil"],
   navMain: [
     {
       title: "Getting Started",
@@ -253,9 +253,9 @@ export function AppSidebar({
                           <Button
                             className={
                               parent.title === "Cantidad Preguntas" && cantidadPreguntasSeleccionada === Number(item.title)
-                                ? "bg-teal-900 text-white shadow-lg"
+                                ? "bg-teal-600 text-white shadow-lg"
                                 : parent.title === "Temas" && temaSeleccionado === item.id
-                                ? "bg-teal-900 text-white shadow-lg"
+                                ? "bg-teal-600 text-white shadow-lg"
                                 : ""
                             }
                             onClick={() => {

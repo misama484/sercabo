@@ -65,7 +65,7 @@ const cantidades = [5, 10, 20, 30, 50];
 const ExamenesPage: React.FC = () => {
   const { usuario } = useUser();
   const [temaSeleccionado, setTemaSeleccionado] = useState<number | null>(null);
-  const [cantidadPreguntas, setCantidadPreguntas] = useState<number>(5);
+  const [cantidadPreguntas, setCantidadPreguntas] = useState<number | undefined>(undefined);
   const [examen, setExamen] = useState<Examen | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [listaExamenes, setListaExamenes] = useState<Examen[]>([]);
@@ -116,6 +116,7 @@ const ExamenesPage: React.FC = () => {
   const handleGenerarExamen = async () => {
     if (!temaSeleccionado || !cantidadPreguntas) {
       setError("Por favor, selecciona un tema y una cantidad de preguntas.");
+      alert("Por favor, selecciona un tema y una cantidad de preguntas." + {temaSeleccionado, cantidadPreguntas});
       return;
     }
     try {
@@ -159,16 +160,18 @@ const ExamenesPage: React.FC = () => {
   };
 
   return (      
-    <div className="flex min-h-screen bg-background text-white flex-row"> 
-      <div className="w-64 flex-shrink-0">
+    <div className="flex bg-background  text-white flex-1 w-full"> 
+      <div className="w-64 ">
         <SidebarProvider>
           <AppSidebar
             onCantidadPreguntas={handleCantidadPreguntas}
             cantidadPreguntasSeleccionada={cantidadPreguntas}
+            temaSeleccionado={temaSeleccionado ?? undefined}
             onSeleccionarTema={handleSelectTema}
             onGenerarExamen={handleGenerarExamen}
             onRecuperarExamenes={() => usuario && recuperarExamen(usuario.id)}
             onInicio={handleVolverHome}
+            className='bg-background text-white rounded-2xl'
         />
         </SidebarProvider> 
       </div>   
@@ -243,9 +246,9 @@ const ExamenesPage: React.FC = () => {
 
       
       
-
+      <div className="flex-1 p-6">
       {listaExamenes.length > 0 && (
-        <div className="mt-8 mx-10 w-full overflow-x-auto">
+        <div className="mt-8 w-full overflow-x-auto">
           <h2 className="text-xl font-bold mb-4 text-white">Tus exámenes</h2>
           <table className="min-w-full bg-gray-800 rounded text-white">
             <thead>
@@ -315,7 +318,9 @@ const ExamenesPage: React.FC = () => {
               </div>
             )}
         </div>
-      )}      
+       
+      )}
+      </div>    
     </div>
     
   );
