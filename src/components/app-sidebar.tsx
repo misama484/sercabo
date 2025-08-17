@@ -219,10 +219,7 @@ export function AppSidebar({
   return (
     <Sidebar {...props}>
       <SidebarHeader>
-        <VersionSwitcher
-          versions={data.versions}
-          defaultVersion={data.versions[0]}
-        />
+       
         
       </SidebarHeader>
       <SidebarContent className="gap-0">
